@@ -1,1 +1,2049 @@
-var logoA="/upload/",logoB="/upload/c_limit,q_auto:eco,w_300,h_100/",imgA="/upload/",imgB="/upload/c_limit,q_auto:eco,w_2000/",loader='<div class="loading_wrap"><div class="spinner"></div></div>',environment=environment,licenseKey=licenseKey,pageTitle=pageTitle||"";function loadjscssfile(t,e){if("js"==e)(a=document.createElement("script")).setAttribute("type","text/javascript"),a.setAttribute("src",t);else if("css"==e){var a;(a=document.createElement("link")).setAttribute("rel","stylesheet"),a.setAttribute("type","text/css"),a.setAttribute("href",t)}void 0!==a&&document.getElementsByTagName("head")[0].appendChild(a)}var config={apiKey:"AIzaSyC-FgFJGFfqOAUQm7V2VAiLAXK8ygmY8KA",authDomain:"capsule-theme-bigcartel.firebaseapp.com",databaseURL:"https://capsule-theme-bigcartel.firebaseio.com",projectId:"capsule-theme-bigcartel",storageBucket:"capsule-theme-bigcartel.appspot.com",messagingSenderId:"110118486824"};firebase.initializeApp(config),loadjscssfile("https://themefiend.com/_Capsule/"+(void 0!==environment?environment:"staging/")+"admin/theme-controls.js","js");var presets={};function _preset(t){loadjscssfile("https://themefiend.com/_Capsule/"+(void 0!==environment?environment:"staging/")+"theme-presets/"+t+"/default-settings.js","js")}if(presets._userInfo={},presets={_userInfo:{"License Key":licenseKey,"Store Name":storeName,"Registration Date":"","Contact Address":"123 Theme Street #3\nAnytown, NJ 12345\nUnited States","Contact Email":"email@example.com","Contact Intro Text":"For questions, comments or concerns, contact us using the form. ","Contact Page":"","Contact Phone Number":"555-555-5555","Contact Success Heading":"Message Received","Contact Success Message":"We'll be in touch with you shortly!"},ruby:{},fab:{},street:{},legend:{}},_preset("ruby"),_preset("fab"),_preset("street"),_preset("legend"),console.log(presets),"undefined"!=typeof trialID){var currDate=new Date,currentDate=currDate.toLocaleString();firebase.database().ref().orderByChild("License Key").equalTo(licenseKey).once("value",function(t){var e=storeURL.replace(".bigcartel.com","").replace("http://","").replace("https://","").replace(/\./g,"-").replace("www","");t.forEach(function(e){$.getScript("https://s3.amazonaws.com/themefiend/js/mousewheel.js"),$.getScript("https://s3.amazonaws.com/themefiend/js/flexslider/jquery.flexslider-min.js");var a=licenseKey;console.log(a+" is the users license key!");var o=t.child(e.key),i=function(t){return o.child(t).val()||""};if(window.location.href.indexOf("about:blank")>-1&&null==i("Big Cartel Domain")||window.location.href.indexOf("https://secure.bigcartel.com/admin")>-1&&null==i("Big Cartel Domain")||window.location.href.indexOf("about:blank")>-1&&""==i("Big Cartel Domain")||window.location.href.indexOf("https://secure.bigcartel.com/admin")>-1&&""==i("Big Cartel Domain")||window.location.href.indexOf("about:blank")>-1&&void 0===i("Big Cartel Domain")||window.location.href.indexOf("https://secure.bigcartel.com/admin")>-1&&void 0===i("Big Cartel Domain"))firebase.database().ref("/"+e.key).update({"Big Cartel Domain":storeURL}).then(function(){setTimeout(function(){window.top.onbeforeunload=null,window.top.location.reload()},500)});else function d(){if(-1==window.location.href.indexOf("about:blank")||window.location.href.indexOf("https://secure.bigcartel.com/admin")>-1){var t=$("#TFConfigPanel");t.hide(),t.remove()}(window.location.href.indexOf("about:blank")>-1||window.location.href.indexOf("https://secure.bigcartel.com/admin")>-1)&&(document.querySelector("body").innerHTML+='<div class="mode-toggle">\t\t\t\t\t\t\t      <button type="button" class="preview-mode btn"><i class="material-icons">remove_red_eye</i> View Changes</button>\t\t\t\t\t\t\t      <button type="button" class="customize-mode customize-mode--bouncy btn"><i class="material-icons">build</i> Customize Theme</button>\t\t\t\t\t\t\t      <button type="button" title="View live store" class="btn rounded-circle live-store"><i class="material-icons" style="margin: 0">open_in_new</i></button>\t\t\t\t\t\t\t</div>',$(document).ready(function(){$(".mode-toggle").animate({bottom:"+=1019"},1e3)}));var e,a,o,d,s,r=i("Favicon Image URL")?i("Favicon Image URL"):"https://res.cloudinary.com/theme-fiend/image/upload/v1532797112/shop-favicon.png",n=i("First Product Option Group Style"),c=i("First Product Option Group Name"),l=(i("Second Product Option Group Style"),i("Second Product Option Group Name"));e="https://themefiend.com/_Capsule/"+(void 0!==environment?environment:"master/")+"theme-apps/apps_capsule-theme.js",(a=document.createElement("script")).src=e,document.head.appendChild(a),document.head||(document.head=document.getElementsByTagName("head")[0]),o=r,d=document.createElement("link"),s=document.getElementById("dynamic-favicon"),d.id="dynamic-favicon",d.rel="shortcut icon",d.href=o,s&&document.head.removeChild(s),document.head.appendChild(d);var p,u,m,g,v,b=i("'Featured Products' Text")?i("'Featured Products' Text"):"New Products",h=i("MailChimp Form Action URL")?i("MailChimp Form Action URL"):"https://themefiend.us2.list-manage.com/subscribe/post?u=27b7d5cbfb45164d58769c000&amp;id=a2cb5cedb8",f=i("Mailing List Sign Up Heading")?i("Mailing List Sign Up Heading"):"Sign Up for Updates",x=i("Mailing List Sign Up Info")?i("Mailing List Sign Up Info"):"",y=i("Body Background Color")?i("Body Background Color"):"#FFF",w=i("Body Text Color")?i("Body Text Color"):"#000",D=i("Headings Text Color")?i("Headings Text Color"):"#000",C=i("Header Background Color")?i("Header Background Color"):"#FFF",k=i("Top Header Bar Background Color")?i("Top Header Bar Background Color"):"#000",_=i("Header Navigation Link Color")?i("Header Navigation Link Color"):"#000",T=i("Header Navigation Link Hover Color")?i("Header Navigation Link Hover Color"):"#999",S=i("Top Header Bar Link Color")?i("Top Header Bar Link Color"):"#fff",O=i("Accent Color")?i("Accent Color"):"gold",L=i("Inline Link Color")?i("Inline Link Color"):"#666",H=i("Primary Button Background Color")?i("Primary Button Background Color"):"#111",I=i("Primary Button Text Color")?i("Primary Button Text Color"):"#FFF",B=i("Secondary Button Background Color")?i("Secondary Button Background Color"):"#efefef",N=i("Secondary Button Text Color")?i("Secondary Button Text Color"):"#666",M=i("Hero Heading Color")?i("Hero Heading Color"):"#ffffff",P=i("Footer Navigation Link Color")?i("Footer Navigation Link Color"):"#666",A=i("Navigation Font Family")?i("Navigation Font Family"):"Barlow",F=i("Headings Font Family")?i("Headings Font Family"):"Barlow Semi Condensed",E=i("Body Font Family")?i("Body Font Family"):"Barlow";p={setting:i("Body Font Size")?i("Body Font Size"):"Medium",small:"body {font-size: 14px}",medium:"",large:"body {font-size: 18px}"},u={setting:i("Headings Font Size")?i("Headings Font Size"):"Medium",small:"h1, .h1 {font-size: 2rem} h2, .h2 {font-size: 1.5rem} h3, .h3 {font-size: 1.25rem} h4, .h4 {font-size: 1rem} h5, .h5 {font-size: .75rem} h6, .h6 {font-size: .5rem}.hero-text h2 {font-size: 2.5rem}@media screen and (max-width: 767px) {\t\t\t\t\t      }",medium:"",large:"h1, .h1 {font-size: 3rem} h2, .h2 {font-size: 2.5rem} h3, .h3 {font-size: 2.25rem} h4, .h4 {font-size: 2rem} h5, .h5 {font-size: 1.75rem} h6, .h6 {font-size: 1.5rem}.hero-text h2 {font-size: 7.5rem}@media screen and (max-width: 767px) {\t\t\t\t\t      }"},m={setting:i("Navigation Font Size")?i("Navigation Font Size"):"Medium",small:"header nav .nav-link {font-size: .8rem} header .navbar .material-icons {font-size: 1rem; line-height: 1;}",medium:"",large:"header nav .nav-link {font-size: 1.3rem} header .navbar .material-icons {font-size: 1.5rem; line-height: 1;}"},g={setting:i("Button Font Size")?i("BUtton Font Size"):"Medium",small:".btn-lg {font-size: .75rem}",medium:"",large:".btn-lg {font-size: 1.75rem}"},(v={handle:i("Choose a Preset").toLowerCase()||"street"}).styles='<link data-stylesheet="preset-css" href="https://themefiend.com/_Capsule/'+(void 0!==environment?environment:"staging/")+"theme-presets/"+v.handle+'/styles.css" rel="stylesheet">';var G,z,q,R,U,j='<style data-stylesheet="custom-css" type="text/css">body:not(.bc-admin) {background-color:'+y+"; font-family: "+E+"}.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {font-family: "+F+"; color: "+D+"}.cb-text-inner h3 {color: "+D+"}p, .cb-text-inner .cb-text-info, .product-title a, div, li {color: "+w+"}a.navbar-brand { font-family: "+F+"; color:"+_+"}a {color:"+L+"}a:hover, a:active, a:focus {text-decoration: none; opacity:.7; color: "+L+"}header nav, header .dropdown-menu {background-color:"+C+"}.top-header {background-color:"+k+"}body.header-overlay--translucent header nav, body.header-overlay--translucent header .dropdown-menu {background-color:"+(G=C,z=.75,q=parseInt(G.slice(1,3),16),R=parseInt(G.slice(3,5),16),U=parseInt(G.slice(5,7),16),z?"rgba("+q+", "+R+", "+U+", "+z+")":"rgb("+q+", "+R+", "+U+")")+"}header nav .nav-link, header nav .btn-link, button.search-btn {color:"+_+"}header nav .nav-link:hover, header nav .btn-link:hover, button.search-btn:hover {color:"+T+"}.top-header .nav-link, .top-header .btn-link, .top-header button.search-btn, .top-header_promo-text {color:"+S+"}.top-header .nav-link:hover, .top-header .btn-link:hover, .top-header button.search-btn:hover {opacity:.7; color:"+S+"}header nav .nav-link.active {border-bottom-color:"+O+"}body .swiper-pagination-bullet-active, div.product .badge {background: "+O+"}.slick-dots li.slick-active {background-color: "+O+" !important}.dropdown-item.active, .dropdown-item:active {color: #fff; background-color: "+O+"}.cb-text:before {background-color: "+O+"}.btn-link {color:"+L+"}.primary-btn {background-color: "+H+"; color: "+I+"}.primary-btn:hover {color: "+I+"}.page-link, .secondary-btn {background-color: "+B+"; color: "+N+"}.cover-text h1, .cover-text h2, .hero-text *, .cover-text p, .lb-caption, .lb-caption *, [data-media-card-style*=Overlay] .cb-text * {color:"+M+"}body.header-overlay:not([class*=translucent]) a.navbar-brand, body.header-overlay:not([class*=translucent]) header nav .nav-link, body.header-overlay:not([class*=translucent]) header nav .btn-link, body.header-overlay:not([class*=translucent]) button.search-btn {color:"+M+"}footer a {color: "+P+"}"+p[p.setting.toLowerCase()]+u[u.setting.toLowerCase()]+m[m.setting.toLowerCase()]+g[g.setting.toLowerCase()]+unescape(i("Custom CSS"))+"</style>"+v.styles+'<link href="https://fonts.googleapis.com/css?family='+A.replace(/ /g,"+")+':100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">\t\t\t\t\t\t<link href="https://fonts.googleapis.com/css?family='+F.replace(/ /g,"+")+':100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">\t\t\t\t\t\t<link href="https://fonts.googleapis.com/css?family='+E.replace(/ /g,"+")+':100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">';if("undefined"!=typeof trialID)var V="",K="",W="",Y="";if("undefined"==typeof categoriesData);else for(var J=0;J<categoriesData.category.length;J++){var Q='<div class="dropdown-menu rounded-0 p-0 border-top-0 m-0" aria-labelledby="'+categoriesData.category[J].url+'dropdownMenuButton"><ul class="navbar-nav flex-column">',X=[];if(X[J]+='<li class="nav-link w-100 p-0"><a class="dropdown-item px-3 py-2" href="/category/'+categoriesData.category[J].url+'">View All</a></li>',void 0===categoriesData.category[J].sub_category||0==categoriesData.category[J].sub_category.length);else for(var Z=0;Z<categoriesData.category[J].sub_category.length;Z++)X[J]+='<li class="nav-link w-100 p-0"><a class="dropdown-item px-3 py-2" href="/category/'+categoriesData.category[J].sub_category[Z].url+'">'+categoriesData.category[J].sub_category[Z].name+"</a></li>";var tt=Q+X[J]+"</ul></div>";Y+='<li class="nav-item px-0 position-relative"><a class="'+(void 0===categoriesData.category[J].sub_category||0==categoriesData.category[J].sub_category.length?"":" dropdown-toggle ")+"nav-link px-3 py-4 "+(window.location.href.indexOf("/"+categoriesData.category[J].url)>-1?"active":"")+'"'+(void 0===categoriesData.category[J].sub_category||0==categoriesData.category[J].sub_category.length?"":' id="'+categoriesData.category[J].url+'dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ')+' href="/category/'+categoriesData.category[J].url+'">'+categoriesData.category[J].name+"</a>"+tt.replace("undefined","")+"</li>"}for(J=0;J<pagesData.page.length;J++){var et='<div class="dropdown-menu rounded-0 p-0 border-top-0 m-0" aria-labelledby="'+pagesData.page[J].url+'dropdownMenuButton"><ul class="navbar-nav flex-column">',at=[];if(at[J]+='<li class="nav-link w-100 p-0"><a class="dropdown-item px-3 py-2" href="/'+pagesData.page[J].url+'">'+pagesData.page[J].name+"</a></li>",void 0===pagesData.page[J].sub_page||0==pagesData.page[J].sub_page.length);else for(Z=0;Z<pagesData.page[J].sub_page.length;Z++)at[J]+='<li class="nav-link w-100 p-0"><a class="dropdown-item px-3 py-2" href="/'+pagesData.page[J].sub_page[Z].url+'">'+pagesData.page[J].sub_page[Z].name+"</a></li>";var ot=et+at[J]+"</ul></div>";-1==i("Hidden Links").indexOf(pagesData.page[J].url)&&(-1==i("Footer Links").indexOf(pagesData.page[J].url)&&-1==pagesData.page[J].name.indexOf("(&)")&&-1==pagesData.page[J].name.indexOf("(#)")&&(V+='<li class="nav-item px-0 position-relative"><a class="'+(void 0===pagesData.page[J].sub_page||0==pagesData.page[J].sub_page.length?"":" dropdown-toggle ")+"nav-link px-3 py-4 "+(window.location.href.indexOf("/"+pagesData.page[J].url)>-1?"active":"")+'"'+(void 0===pagesData.page[J].sub_page||0==pagesData.page[J].sub_page.length?"":' id="'+pagesData.page[J].url+'dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ')+' href="/'+pagesData.page[J].url+'">'+pagesData.page[J].name+"</a>"+ot.replace("undefined","")+"</li>",K+='<li class="nav-item px-0 position-relative"><a class="'+(void 0===pagesData.page[J].sub_page||0==pagesData.page[J].sub_page.length?"":" dropdown-toggle ")+"nav-link px-3 py-2 "+(window.location.href.indexOf("/"+pagesData.page[J].url)>-1?"active":"")+'"'+(void 0===pagesData.page[J].sub_page||0==pagesData.page[J].sub_page.length?"":' id="'+pagesData.page[J].url+'dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ')+' href="/'+pagesData.page[J].url+'">'+pagesData.page[J].name+"</a>"+ot.replace("undefined","")+"</li>"),(i("Footer Links").indexOf(pagesData.page[J].url)>-1||pagesData.page[J].name.indexOf("&")>-1)&&(W+='<li class="nav-item d-inline-block px-0"><a class="nav-link px-2 py-1" href="/'+pagesData.page[J].url+'">'+pagesData.page[J].name.replace("(&)","").replace("(!)","").replace("(!!)","").replace("(#)","")+"</a></li>"))}var it=i("Social Media Links").split("\n"),dt="";for(J=0;J<it.length;J++){if(it[J].indexOf("facebook")>-1)var st="fa-facebook-f";else if(it[J].indexOf("twitter")>-1)st="fa-twitter";else if(it[J].indexOf("instagram")>-1)st="fa-instagram";else if(it[J].indexOf("pinterest")>-1)st="fa-pinterest";else if(it[J].indexOf("youtube")>-1)st="fa-youtube";else if(it[J].indexOf("vimeo")>-1)st="fa-vimeo";else if(it[J].indexOf("etsy")>-1)st="fa-etsy";else if(it[J].indexOf("tumblr")>-1)st="fa-tumblr";else if(it[J].indexOf("wordpress")>-1)st="fa-wordpress";else st=null;dt+='<li class="d-inline-block"><a target="_blank" href="'+it[J]+'" class="btn btn-sq-xs">'+(st?'<i class="fab '+st+'"></i>':it[J].replace("http://","").replace("https://",""))+"</a></li>"}var rt,nt='<li class="nav-item px-0 position-relative"><a class="nav-link px-3 py-4 '+(window.location.href.indexOf("/products")>-1?"active":"")+'" href="/products">All Products</a></li>'+Y+(-1==i("Navigation Style").indexOf("Top Nav")&&"Centered Menu with Top Nav Alt"!=i("Navigation Style")?V+(i("Contact Link Location").indexOf("Header")>-1?'<li class="nav-item d-inline-block px-0"><a class="nav-link px-3 py-4 '+(window.location.href.indexOf("/contact")>-1?"active":"")+'" href="/contact">Contact</a></li>':"")+(-1==i("Navigation Style").indexOf("Condensed")&&-1==i("Navigation Style").indexOf("Top")?'<li class="d-none d-md-inline-block nav-item px-1 py-4"><a href="#" data-toggle="modal" data-target="#search-modal-btn" aria-expanded="false" class="search-btn open-search btn btn-link px-1 py-0"><i class="material-icons">search</i></a></li>':"")+(-1==i("Navigation Style").indexOf("Condensed")&&-1==i("Navigation Style").indexOf("Top")?'<li class="d-none d-md-inline-block nav-item px-3 py-4"><a href="/cart"'+(-1==window.location.href.indexOf("TEMP_MINICART_REMOVAL")?" ":' data-toggle="modal" data-target="#cart-modal-btn"')+'class="nav-link p-0"><i class="material-icons">shopping_basket</i> <span>'+cartData.cartCount+(1==cartData.cartCount?" Item":" Items")+"</span></a></li>":""):""),ct=K+(i("Contact Link Location").indexOf("Header")>-1&&i("Navigation Style").indexOf("Top Nav")?'<li class="nav-item d-inline-block px-0"><a class="nav-link px-3 py-2 '+(window.location.href.indexOf("/contact")>-1?"active":"")+'" href="/contact">Contact</a></li>':""),lt='<li class="search-link d-none d-md-inline-block nav-item p-2"><a href="#" data-toggle="modal" data-target="#search-modal-btn" aria-expanded="false" class="search-btn open-search btn btn-link px-1 py-0"><i class="material-icons">search</i><span class="ml-2 search-text">Search</span></a></li>\t\t\t\t\t\t\t\t\t\t\t\t\t <li class="cart-link d-none d-md-inline-block nav-item p-2"><a href="/cart"'+(-1==window.location.href.indexOf("TEMP_MINICART_REMOVAL")?" ":' data-toggle="modal" data-target="#cart-modal-btn"')+'class="nav-link p-0"><i class="material-icons">shopping_basket</i> <span>'+cartData.cartCount+(1==cartData.cartCount?" Item":" Items")+"</span></a></li>",pt='<div class="modal right fade" id="menu-modal-btn" tabindex="-1" role="dialog" aria-labelledby="menu-modal-label">\t\t\t\t\t\t\t\t\t\t\t<div class="modal-dialog" role="document">\t\t\t\t\t\t\t\t\t\t\t\t<div class="modal-content">\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="p-3">\t\t\t\t\t\t\t\t\t\t\t\t\t\t<button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="material-icons">close</i></button>\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="modal-body menu-modal-holder px-0"><ul class="navbar-nav d-flex flex-column text-center">'+nt.replace(/dropdown-menu/g,"dropdown-menu w-100 text-center")+"</ul></div>\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t</div>",ut='<header><nav data-navigation-style="'+i("Navigation Style")+'" class="navbar '+(i("Navigation Style").indexOf("Centered")>-1||i("Header Promo Text")||i("Navigation Style").indexOf("Top")>-1?"d-lg-block ":"")+"fixed-top"+(-1==i("Navigation Style").indexOf("Condensed")?" navbar-expand-lg":"")+' py-0 px-0">'+(i("Navigation Style").indexOf("Top Nav")>-1||i("Header Promo Text")?'<div class="top-header mt-0 py-2 py-lg-0'+(i("Header Promo Text")||i("Navigation Style").indexOf("Top Nav")>-1?" ":" d-none ")+'d-lg-flex navbar-collapse">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="top-header_left col-12 col-lg-4 d-lg-flex mr-auto">'+(i("Header Promo Text")&&i("Navigation Style").indexOf("Standard Expanded with Top Nav")>-1?'<ul class="navbar-nav pl-2 container-fluid mx-auto"><span class="top-header_promo-text text-left pl-0">'+i("Header Promo Text")+"</span></ul>":"")+("Centered Menu with Top Nav"==i("Navigation Style")?'<ul class="navbar-nav pl-2 d-none d-lg-flex container-fluid mx-auto">'+ct+"</ul>":"")+'</div><div class="top-header_middle'+(i("Navigation Style").indexOf("Standard")>-1?" col ":" col-12 col-lg-4 ")+' d-flex mx-auto">'+(i("Header Promo Text")&&"Centered Menu with Top Nav"==i("Navigation Style")?'<span class="top-header_promo-text mx-auto text-center">'+i("Header Promo Text")+"</span>":"")+"</div>"+(i("Navigation Style").indexOf("Top")>-1?'<div class="top-header_right '+(i("Navigation Style").indexOf("Standard")>-1?" col-6 ":" col-4 ")+' d-none d-lg-flex ml-auto"><ul class="navbar-nav pr-2 container-fluid mx-auto justify-content-end">'+(i("Navigation Style").indexOf("Standard")>-1?ct:"")+lt+"</ul></div>":"")+"</div>":"")+'<div class="main-header navbar'+(i("Navigation Style").indexOf("Centered")>-1?" d-lg-block ":" ")+'navbar-expand-lg w-100 py-0 px-4">\t\t\t\t\t\t\t\t\t\t\t\t\t\t  <div class="store-logo '+(i("Navigation Style").indexOf("Condensed")>-1?"w-100":"")+(i("Navigation Style").indexOf("Centered")>-1?"d-lg-flex col-6 col-lg-12 py-4 pb-lg-0 px-0 d-inline-block justify-content-center":"")+'"><a class="navbar-brand py-3" href="/">'+(i("Logo Image URL")?"<img src="+i("Logo Image URL").replace(logoA,logoB)+">":i("Store Name"))+'</a></div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t  <ul data-nav-view="condensed" class="navbar-nav flex-row '+(i("Navigation Style").indexOf("Condensed")>-1?"":"d-lg-none d-flex")+' px-0 py-4 ml-auto">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li class="nav-item px-2"><a href="#" class="py-0 search-btn open-search btn btn-link px-1 collapsed" data-toggle="modal" data-target="#search-modal-btn" aria-expanded="false"><i class="material-icons">search</i></a></li>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li class="nav-item px-2"><a href="/cart"'+(-1==window.location.href.indexOf("TEMP_MINICART_REMOVAL")?" ":' data-toggle="modal" data-target="#cart-modal-btn"')+' class="nav-link p-0"><i class="material-icons">shopping_basket</i></a></li>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li class="nav-item px-2"><a href="#" class="py-0 px-1 btn btn-link collapsed" data-toggle="modal" data-target="#menu-modal-btn" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="material-icons">menu</i></a></li>\t\t\t\t\t\t\t\t\t\t\t\t\t\t  </ul>\t\t\t\t\t\t\t\t\t\t\t\t\t   <div class="collapse navbar-collapse" id="navbarSupportedContent"><ul data-nav-view="expanded" class=" navbar-nav '+(i("Navigation Style").indexOf("Centered Alternative")>-1?"container justify-content-between ":"")+(i("Navigation Style").indexOf("Condensed")>-1?"d-flex d-lg-none ":"")+(i("Navigation Style").indexOf("Centered")>-1?"mx-auto":"ml-auto")+'">'+nt+"</ul></div>\t\t\t\t\t\t\t\t\t\t\t\t\t  </div>\t\t\t\t\t\t\t\t\t\t\t\t\t</nav></header>"+pt+'<div class="modal right fade" id="cart-modal-btn" tabindex="-1" role="dialog" aria-labelledby="cart-modal-label">\t\t\t\t\t\t\t\t\t\t\t<div class="modal-dialog" role="document">\t\t\t\t\t\t\t\t\t\t\t\t<div class="modal-content">\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="p-3">\t\t\t\t\t\t\t\t\t\t\t\t\t\t<button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="material-icons">close</i></button>\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="mb-3"><h1 class="h2 text-center text-uppercase">Cart</h1></div>\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="modal-body cart-modal-holder"></div>\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t</div>',mt='<footer class="page-footer font-small px-3 mt-5">\t\t\t\t\t\t\t\t\t\t\t\t<div class="py-4 px-0 navbar navbar-expand-lg border-bottom row no-gutters">\t\t\t\t\t\t\t\t\t\t\t\t\t<nav class="col-md-6 col-sm-12"><ul class="navbar-nav d-block text-center text-md-left">'+W+(i("Contact Link Location").indexOf("Footer")>-1?'<li class="nav-item d-inline-block px-0"><a class="nav-link px-2 py-1" href="/contact">Contact</a></li>':"")+'</ul>\t\t\t\t\t\t\t\t\t\t\t\t\t</nav>\t\t\t\t\t\t\t\t\t\t\t\t\t<nav class="col-md-6 col-sm-12"><ul class="navbar-nav d-block text-center text-md-right">'+dt+'</ul></nav>\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t<div class="footer-copyright py-4 text-left">&copy; '+(new Date).getFullYear()+' Copyright <a href="/">'+i("Store Name")+'</a><span class="tf-credit ml-2 pl-2 border-left">Designed by <a href="http://themefiend.com?ref=credit" target="_blank">Theme Fiend</a></span></div>\t\t\t\t\t\t\t\t\t\t\t</footer><div class="modal fade" id="search-modal-btn" tabindex="-1" role="dialog" aria-labelledby="search-modal-label">\t\t\t\t\t\t\t\t\t\t\t<div class="modal-dialog h-100 w-100 d-flex mx-auto" role="document">\t\t\t\t\t\t\t\t\t\t\t\t <div class="d-flex w-100 align-self-center text-center">\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="modal-content">\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="mb-3"><h1 class="h2 text-center text-uppercase">Search</h1></div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t<form action="/products" method="get" class="search">\t\t\t\t\t\t\t\t\t\t\t\t\t\t <div class="input-group mb-3 col-12">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<input id="search" class="form-control" type="text" placeholder="Search.." name="search">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t   <div class="input-group-append">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<button class="btn btn-lg p-3 primary-btn" type="submit"><i class="fa fa-search"></i></button>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t  </div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t</form>\t\t\t\t\t\t\t\t\t\t\t\t  </div>\t\t\t\t\t\t\t\t\t\t\t\t </div>\t\t\t\t\t\t\t\t\t\t\t  </div>\t\t\t\t\t\t\t\t\t\t\t</div>'+j.replace("undefined","");if("/"==location.pathname||window.document.body.id.indexOf("home-")>-1)var gt='<div class="section-title"><div class="container"><h4 class="h1">'+b+"</h4></div></div>";else gt="";var vt="";for(J=0;J<productGridData.products.length;J++){for(var bt="",ht="",ft="",xt=[],yt=0;yt<productGridData.products[J].product_options.length;yt++)-1===xt.indexOf(productGridData.products[J].product_options[yt].title)&&(ht+='<li data-index="'+xt.push(productGridData.products[J].product_options[yt].title)+'"><input data-title="'+productGridData.products[J].product_options[yt].tag+'"type="radio" id="'+productGridData.products[J].url.replace("/product/","")+"_option_"+productGridData.products[J].product_options[yt].value+'"name="first_group" value="'+productGridData.products[J].product_options[yt].value+'"><label data-slug="'+productGridData.products[J].url.replace("/product/","")+'"data-tag="'+productGridData.products[J].product_options[yt].tag+'"for="'+productGridData.products[J].url.replace("/product/","")+"_option_"+productGridData.products[J].product_options[yt].value+'"><a href="'+productGridData.products[J].url+"?"+c.toLowerCase()+"="+productGridData.products[J].product_options[yt].title.replace(" ","%20").replace("/","-")+'"><span data-swatch="'+productGridData.products[J].product_options[yt].title+'"class="color-swatch"></span><span class="label-text">'+productGridData.products[J].product_options[yt].title+"</span></a></label></li>"),-1===xt.indexOf(productGridData.products[J].product_options[yt].title)&&(ft+=xt[yt]);bt+='<div class="product_options_list parent-options" data-product-slug="'+productGridData.products[J].url.replace("/product/","")+'"><div class="pol-inner">'+ht+ft+"</div>\t\t\t\t\t\t\t\t</div>";for(var wt,Dt="",Ct="",kt="",_t=0;_t<productGridData.products[J].images.length;_t++)"true"==productGridData.products[J].onSale?kt='<span class="badge badge--sale py-2 px-3 position-absolute"><span class="h6">On Sale</span></span>':"sold-out"==productGridData.products[J].status?kt='<span class="badge badge--sold badge-secondary py-2 px-3 position-absolute"><span class="h6">Sold Out</span></span>':"coming-soon"==productGridData.products[J].status&&(kt='<span class="badge badge--soon badge-secondary py-2 px-3 position-absolute"><span class="h6">Coming Soon</span></span>'),"true"!=productGridData.products[J].onSale&&"sold-out"!=productGridData.products[J].status&&"coming-soon"!=productGridData.products[J].status||(Ct=kt),Dt+='<li data-image="'+productGridData.products[J].images[_t]+'" data-slug="'+productGridData.products[J].url.replace("/product/","")+'">'+(void 0!==typeof Ct?Ct:"")+'<a href="'+productGridData.products[J].url+'"><img alt="Image of '+productGridData.products[J].title+'" src="'+productGridData.products[J].images[_t]+'" data-image="'+productGridData.products[J].images[_t]+'"></a></li>';1==i("Product Grid Columns")&&(wt="col-sm-12"),2==i("Product Grid Columns")&&(wt="col-sm-6"),3==i("Product Grid Columns")&&(wt="col-sm-4"),4==i("Product Grid Columns")&&(wt="col-sm-3"),vt+='<div class="product '+wt+" mb-4"+("sold-out"==productGridData.products[J].status?" sold-out ":"")+'">\t\t\t\t\t\t\t\t\t<div class="shop-item-image"><ul style="overflow:hidden">'+Dt+'</ul></div>\t\t\t\t\t\t\t\t\t<div class="mt-3 text-center">\t\t\t\t\t\t\t\t\t\t<p class="product-title m-0"><a href="'+productGridData.products[J].url+'">'+productGridData.products[J].title+'</a></p>\t\t\t\t\t\t\t\t\t\t<p class="product-price mb-3">'+productGridData.products[J].defaultPrice+"</p>\t\t\t\t\t\t\t\t\t</div>"+bt+"\t\t\t\t\t\t\t\t</div>"}if("/"==location.pathname||window.document.body.id.indexOf("home-")>-1)var Tt="";if("/"!=location.pathname||window.document.body.id.indexOf("home-")>-1)Tt='<div class="band my-3"><nav>'+pagination+"</nav></div>";rt='<div id="products-holder">'+gt+'<div class="product-loop px-3"><div class="row">'+vt+"</div></div>"+Tt+"</div>";var St='</div>\t\t\t\t\t\t\t\t\t\t\t<div class="cart-footer row">\t\t\t\t\t\t\t\t\t\t\t\t<div class="col-12 col-md-6 row no-gutters">\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="col-12 col-md-6"><a href="/products" class="primary-btn btn btn-block secondary-btn rounded-0"><i class="fa fa-angle-left"></i> '+i("'Continue Shopping' Text")+'</a></div>\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t<div class="checkout-info col-xs-12 col-md-6 py-4 pt-md-0 text-right">\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="subtotal-row h3 mb-3 text-center col-12 col-md-6 ml-auto"><p class="h5">Subtotal:</p> <p class="h4">'+cartData.cartSubtotal+'</p></div>\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="subtotal-info-row mb-3 text-center small col-12 col-md-6 ml-auto">'+i("Checkout Note")+'</div>\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="checkout-row row no-gutters">\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="col-12 col-md-6 ml-auto">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<button type="submit" name="checkout" title="'+i("'Checkout' Text")+'" class="primary-btn btn button btn-block btn-lg checkout-btn rounded-0">'+i("'Checkout' Text")+"</button>\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t</form>\t\t\t\t\t\t\t\t\t</div>",Ot='</div>\t\t\t\t\t\t\t\t\t\t\t<div class="cart-footer row">\t\t\t\t\t\t\t\t\t\t\t\t<div class="checkout-info py-4 row col-12 text-right">\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="subtotal-row h3 mb-3 text-center col-12 ml-auto">Subtotal: '+cartData.cartSubtotal+'</div>\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="subtotal-info-row mb-3 text-center small col-12 ml-auto">'+i("Checkout Note")+'</div>\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="checkout-row col-12 row no-gutters">\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="col-12 ml-auto">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<button type="submit" name="checkout" title="'+i("'Checkout' Text")+'" class="primary-btn btn button btn-block btn-lg checkout-btn rounded-0">'+i("'Checkout' Text")+"</button>\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t</form>\t\t\t\t\t\t\t\t\t</div>",Lt="",Ht="";for(J=0;J<cartData.items.length;J++){var It=[];for(_t=0;_t<cartData.items[J].images.length;_t++)It[J]+='<img src="'+cartData.items[J].images[_t]+'">';var Bt="",Nt="";for(xt=[],yt=0;yt<cartData.items[J].product_options.length;yt++)-1===xt.indexOf(cartData.items[J].product_options[yt].title)&&(Bt+='<span data-index="'+xt.push(cartData.items[J].product_options[yt].title)+'"><input name="'+cartData.items[J].url.replace("/product/","")+'" data-title="'+cartData.items[J].product_options[yt].tag+'"type="radio" id="'+cartData.items[J].product_options[yt].value+'"value="'+cartData.items[J].product_options[yt].value+'"><label data-item-url="'+cartData.items[J].url+'"data-slug="'+cartData.items[J].url.replace("/product/","")+'"data-title="'+cartData.items[J].product_options[yt].tag+'"data-tag="'+cartData.items[J].product_options[yt].tag+'"for="'+cartData.items[J].product_options[yt].value+'"><span data-swatch="'+cartData.items[J].product_options[yt].title+'"class="color-swatch"></span><span class="label-text">'+cartData.items[J].product_options[yt].title+"</span></label></span>");for(yt=0;yt<cartData.items[J].product_options.length;yt++)-1===xt.indexOf(cartData.items[J].product_options[yt].title)&&(Nt+=xt[yt]);Lt+='<div class="cart-item row no-gutters col-md-12 pb-4 mb-4 border-bottom" data-product-id="'+cartData.items[J].id+'">\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="item-info no-gutters mb-3 row col-12 col-md-6">\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="item-image-holder row col-6">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="item-image-current col-md-8 col-10 m-md-auto"><a class="item-image" href="'+cartData.items[J].url+'"title="View '+cartData.items[J].title+'"><img src="'+cartData.items[J].images[0]+'" class="img-responsive current-image" /></a></div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="item_images">'+It[J]+'</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="swatch-options">'+Bt+Nt+'</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="item-text d-flex flex-column justify-content-center col-6">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="item-name h5"><a class="item-product-link" title="View '+cartData.items[J].title+'" href="'+cartData.items[J].url+'">'+cartData.items[J].title+"</a></div>"+(-1==cartData.items[J].current_option.indexOf("Default")?'<div class="item-option">'+cartData.items[J].current_option+"</div>":"")+'<div class="item-price">'+cartData.items[J].unit_price+'</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="item-values align-items-center row no-gutters col-12 justify-content-center col-md-6">\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="item-qty row justify-content-center col-6 col-sm-6" data-cart-id="'+cartData.items[J].id+'">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="item-qty_input col-6 offset-md-3 col-md-3 col-sm-6 align-items-center d-flex row text-center">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<input type="number" name="cart[update]['+cartData.items[J].id+']" value="'+cartData.items[J].quantity+'" autocomplete="off" min="1" class="option-quantity form-control text-center"> </div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="col-6 col-sm-6 align-self-center remove-btn-holder">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<button class="btn btn-danger btn-sm item-delete remove-btn" data-item-id="'+cartData.items[J].id+'"><i class="material-icons">close</i></button>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="item-total text-md-center text-right col-sm-6 col-6">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="item-total_price h5">'+cartData.items[J].total_price+"</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t</div>",Ht+='<div class="cart-item row no-gutters pb-4 mb-4 border-bottom" data-product-id="'+cartData.items[J].id+'">\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="item-info no-gutters mb-3 row col-12">\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="item-image-holder row col-6">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="item-image-current col-10 m-md-auto"><a class="item-image" href="'+cartData.items[J].url+'"title="View '+cartData.items[J].title+'"><img src="'+cartData.items[J].images[0]+'" class="img-responsive current-image" /></a></div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="item_images">'+It[J]+'</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="swatch-options">'+Bt+Nt+'</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="item-text d-flex flex-column justify-content-center col-6">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="item-name h5"><a class="item-product-link" title="View '+cartData.items[J].title+'" href="'+cartData.items[J].url+'">'+cartData.items[J].title+"</a></div>"+(-1==cartData.items[J].current_option.indexOf("Default")?'<div class="item-option">'+cartData.items[J].current_option+"</div>":"")+'<div class="item-price" data-item-price="'+parseFloat(cartData.items[J].unit_price.replace(storeInfo.currencySign,""))+'">'+cartData.items[J].unit_price+'</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="item-values align-items-center row no-gutters col-12 justify-content-center">\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="item-qty row justify-content-center col-6" data-cart-id="'+cartData.items[J].id+'">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="item-qty_input col-6 align-items-center d-flex row text-center">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<input type="number" name="cart[update]['+cartData.items[J].id+']" value="'+cartData.items[J].quantity+'" autocomplete="off" min="1" class="option-quantity form-control text-center"> </div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="col-6 align-self-center remove-btn-holder">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<button class="btn btn-danger btn-sm item-delete remove-btn" type="button"  data-item-id="'+cartData.items[J].id+'"><i class="material-icons">close</i></button>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="item-total text-md-center text-right col-6">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="item-total_price h5">'+cartData.items[J].total_price+"</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t</div>"}if(0==cartData.cartCount)var Mt='<div class="p-5 text-center">\t\t\t\t\t\t\t\t\t\t\t\t\t\t<h3>Your cart is empty!</h3>\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href="/products" class="btn"><i class="fa fa-angle-left"></i> Continue Shopping</a>\t\t\t\t\t\t\t\t\t\t\t\t\t</div>',Pt='<div class="p-5 text-center">\t\t\t\t\t\t\t\t\t\t\t\t\t\t<h3>Your cart is empty!</h3>\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href="/products" class="btn" data-dismiss="modal" aria-label="Close"><i class="fa fa-angle-left"></i> Continue Shopping</a>\t\t\t\t\t\t\t\t\t\t\t\t\t</div>';else Mt='<div id="cart-table" class="container-fluid px-2">\t\t\t\t\t\t\t\t\t\t\t\t<form method="post" action="/cart" id="cart-form" class="cart-form">\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="cart-heading row no-gutters d-none no-gutters mb-4 pb-3 pt-4 border-bottom border-top d-md-flex">\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="item-info-heading row no-gutters col-md-6">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="col-sm-12 row"><div class="col-md-12 h5"></div></div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="item-values-headings row col-md-6">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="item-qty-heading text-center col-6 col-sm-6 row no-gutters"><div class="col-md-12 h5">Quantity</div></div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="item-total-heading col-6 col-sm-6 text-md-center row no-gutters"><div class="col-md-12 h5">Total</div></div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="cart-body row">'+Lt+St,Pt='<div id="cart-table" class="container-fluid px-2">\t\t\t\t\t\t\t\t\t\t\t\t<form method="post" action="/cart" id="cart-form" class="cart-form">\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="cart-body cart-body-in-modal row">'+Ht+Ot;(location.pathname.indexOf("/cart")>-1||window.document.body.id.indexOf("cart-")>-1)&&(document.querySelector("body").innerHTML+=loader+ut+'<div data-template="cart" class="pt-4 px-4"><div class="mb-5 mt-3"><h1 class="h2 text-center text-uppercase">'+pageTitle+"</h1></div>"+Mt+"</div>"+mt),$(".item-delete").click(function(){$(this).closest("div.cart-item").find("input.option-quantity").val(0).closest("form").submit()}),$("input.option-quantity").on("focusout",function(){$(this).closest("form").submit()});var At,Ft;if("/"==location.pathname||window.document.body.id.indexOf("home-")>-1?(!function(){var t,e,a,o,d=i("Instagram Section Heading")?i("Instagram Section Heading"):"@Capsule",s=i("Instagram Feed Embed Code")?i("Instagram Feed Embed Code"):'\x3c!-- SnapWidget --\x3e<iframe src="https://snapwidget.com/embed/592774" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:640px; height:160px"></iframe>',r='<div class="instagram-feed px-3 mb-3">\t\t\t\t\t\t\t\t\t\t\t<div class="section-title"><div class="container"><h4 class="h1 mb-5">'+d+'</h4></div></div>\t\t\t\t\t\t\t\t\t\t\t<div class="mt-3">'+s+"</div>\t\t\t\t\t\t\t\t\t\t</div>",n={img:i("Hero Image 1 Image URL").replace(imgA,imgB),heading:null!=i("Hero Image 1 Heading Text")?i("Hero Image 1 Heading Text"):"",subheading:null!=i("Hero Image 1 Sub Heading Text")?i("Hero Image 1 Sub Heading Text"):"",button:null!=i("Hero Image 1 Button Text")?i("Hero Image 1 Button Text"):"",link:null!=i("Hero Image 1 Link URL")?i("Hero Image 1 Link URL"):""},c={img:i("Hero Image 2 Image URL").replace(imgA,imgB),heading:null!=i("Hero Image 2 Heading Text")?i("Hero Image 2 Heading Text"):"",subheading:null!=i("Hero Image 2 Sub Heading Text")?i("Hero Image 2 Sub Heading Text"):"",button:null!=i("Hero Image 2 Button Text")?i("Hero Image 2 Button Text"):"",link:null!=i("Hero Image 2 Link URL")?i("Hero Image 2 Link URL"):""},l={img:i("Hero Image 3 Image URL").replace(imgA,imgB),heading:null!=i("Hero Image 3 Heading Text")?i("Hero Image 3 Heading Text"):"",subheading:null!=i("Hero Image 3 Sub Heading Text")?i("Hero Image 3 Sub Heading Text"):"",button:null!=i("Hero Image 3 Button Text")?i("Hero Image 3 Button Text"):"",link:null!=i("Hero Image 3 Link URL")?i("Hero Image 3 Link URL"):""},p='<li class="col-md-12 col-xs-12" style="background-image:url(&#x27;'+n.img+'&#x27;)">\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href="'+n.link+'"></a>\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div data-hero-text-position="'+i("Hero Image 1 Text Alignment").toLowerCase()+'" class="hero-text">'+(n.heading?'<h2 class="display-4">'+n.heading+"</h2>":"")+(n.subheading?'<p class="mt-2 lead">'+n.subheading+"</p>":"")+(n.button?'<button class="btn primary-btn btn-lg rounded-0">'+n.button+"</button>":"")+"</div>\t\t\t\t\t\t\t\t\t\t\t\t\t</li>",u='<li class="col-md-12 col-xs-12" style="background-image:url(&#x27;'+c.img+'&#x27;)">\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href="'+c.link+'"></a>\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div data-hero-text-position="'+i("Hero Image 2 Text Alignment").toLowerCase()+'"class="hero-text">'+(c.heading?'<h3 class="h1">'+c.heading+"</h2>":"")+(c.subheading?'<p class="mt-2 lead">'+c.subheading+"</p>":"")+(c.button?'<button class="btn primary-btn btn-lg rounded-0">'+c.button+"</button>":"")+"</div>\t\t\t\t\t\t\t\t\t\t\t\t\t</li>",m='<li class="col-md-12 col-xs-12" style="background-image:url(&#x27;'+l.img+'&#x27;)">\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href="'+l.link+'"></a>\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div data-hero-text-position="'+i("Hero Image 3 Text Alignment").toLowerCase()+'"class="hero-text">'+(l.heading?'<h3 class="h1">'+l.heading+"</h2>":"")+(l.subheading?'<p class="mt-2 lead">'+l.subheading+"</p>":"")+(l.button?'<button class="btn primary-btn btn-lg rounded-0">'+l.button+"</button>":"")+"</div>\t\t\t\t\t\t\t\t\t\t\t\t\t</li>",g='<div id="hero-section" class="row no-gutters" data-hero-type="grid"><div class="left-grid-items col-md-6 col-sm-12 col-xs-12">'+(n.img.indexOf(".")>-1?p:"")+'</div><div class="right-grid-items col-md-6 col-sm-12 col-xs-12">'+(c.img.indexOf(".")>-1?u:"")+(l.img.indexOf(".")>-1?m:"")+"</div></div>",v='<div id="hs-slide-1" class="hs-slide" style="background-image:url(&#x27;'+n.img+'&#x27;)">\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href="'+n.link+'"></a>\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img src="'+n+'">\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div data-hero-text-position="'+i("Hero Image 1 Text Alignment").toLowerCase()+'"class="hero-text">'+(n.heading?'<h2 class="h1 display-4 mb-3">'+n.heading+"</h2>":"")+(n.subheading?'<p class="h4 font-weight-light text-capitalize mb-4">'+n.subheading+"</p>":"")+(n.button?'<button class="btn rounded-0 primary-btn btn-lg">'+n.button+"</button>":"")+"</div>\t\t\t\t\t\t\t\t\t\t\t\t\t</div>",b='<div id="hs-slide-2" class="hs-slide" style="background-image:url(&#x27;'+c.img+'&#x27;)">\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href="'+c.link+'"></a>\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img src="'+c+'">\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div data-hero-text-position="'+i("Hero Image 2 Text Alignment").toLowerCase()+'"class="hero-text">'+(c.heading?'<h2 class="h1 display-4 mb-3">'+c.heading+"</h2>":"")+(c.subheading?'<p class="h4 font-weight-light text-capitalize mb-4">'+c.subheading+"</p>":"")+(c.button?'<button class="btn rounded-0 primary-btn btn-lg">'+c.button+"</button>":"")+"</div>\t\t\t\t\t\t\t\t\t\t\t\t\t</div>",y='<div id="hs-slide-3" class="hs-slide" style="background-image:url(&#x27;'+l.img+'&#x27;)">\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href="'+l.link+'"></a>\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img src="'+l+'">\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div data-hero-text-position="'+i("Hero Image 3 Text Alignment").toLowerCase()+'"class="hero-text">'+(l.heading?'<h2 class="h1 display-4 mb-3">'+l.heading+"</h2>":"")+(l.subheading?'<p class="h4 font-weight-light text-capitalize mb-4">'+l.subheading+"</p>":"")+(l.button?'<button class="btn rounded-0 primary-btn btn-lg">'+l.button+"</button>":"")+"</div>\t\t\t\t\t\t\t\t\t\t\t\t\t</div>",w='<div id="hero-section" class="row no-gutters" data-hero-type="slider">'+(n.img.indexOf(".")>-1?v:"")+(c.img.indexOf(".")>-1?b:"")+(l.img.indexOf(".")>-1?y:"")+"</div>",D=i("Media Card 1 Image").replace(imgA,imgB)||"",C=i("Media Card 2 Image").replace(imgA,imgB)||"",k=i("Media Card 3 Image").replace(imgA,imgB)||"",_=i("Media Card 1 Video")||"",T=i("Media Card 2 Video")||"",S=i("Media Card 3 Video")||"";if(t={textPos:i("Media Card 1 Text Position")},e={textPos:i("Media Card 2 Text Position")},a={textPos:i("Media Card 3 Text Position")},o=i("Media Card Style").indexOf("2")>-1?{colCount:2,col:"col-sm-6",textCol:"col-sm-12",imgCol:"col-sm-12"}:i("Media Card Style").indexOf("3")>-1?{colCount:3,col:"col-sm-4",textCol:"col-sm-12",imgCol:"col-sm-12"}:{colCount:1,col:"col-sm-12",textCol:"col-sm-4",imgCol:"col-sm-8"},"Video"==i("Media Card 1 Type"))var O='<div class="cb-image cb-image--video '+o.imgCol+'">\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="embed-responsive embed-responsive-16by9">\t\t\t\t\t\t\t\t\t\t\t\t\t\t  <iframe class="embed-responsive-item" src="'+_.replace("/watch?v=","/embed/")+'" allowfullscreen></iframe>\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t</div>';else O='<div class="cb-image '+o.imgCol+'" style="background-image:url(&#x27;'+D+'&#x27;)"><a href="'+i("Media Card 1 Link URL")+'"></a></div>';if("Video"==i("Media Card 2 Type"))var L='<div class="cb-image cb-image--video '+o.imgCol+'">\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="embed-responsive embed-responsive-16by9">\t\t\t\t\t\t\t\t\t\t\t\t\t\t  <iframe class="embed-responsive-item" src="'+T.replace("/watch?v=","/embed/")+'" allowfullscreen></iframe>\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t</div>';else L='<div class="cb-image '+o.imgCol+'" style="background-image:url(&#x27;'+C+'&#x27;)"><a href="'+i("Media Card 2 Link URL")+'"></a></div>';if("Video"==i("Media Card 3 Type"))var H='<div class="cb-image cb-image--video '+o.imgCol+'">\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="embed-responsive embed-responsive-16by9">\t\t\t\t\t\t\t\t\t\t\t\t\t\t  <iframe class="embed-responsive-item" src="'+S.replace("/watch?v=","/embed/")+'" allowfullscreen></iframe>\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t</div>';else H='<div class="cb-image '+o.imgCol+'" style="background-image:url(&#x27;'+k+'&#x27;)"><a href="'+i("Media Card 3 Link URL")+'"></a></div>';var I='<div class="cb-text '+o.textCol+'">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="cb-text-inner '+("Overlay"==t?"":" pt-3 ")+(1==o.colCount?" px-4":" px-0")+'">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<h3 class="h2">'+i("Media Card 1 Heading Text")+'</h3>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="cb-text-info my-4">'+i("Media Card 1 Body Text")+'</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a class="btn btn-lg rounded-0 primary-btn" href="'+i("Media Card 1 Link URL")+'">'+i("Media Card 1 Button Text")+"</a>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>",B='<div class="cb-text '+o.textCol+'">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="cb-text-inner '+("Overlay"==e?"":" pt-3 ")+(1==o.colCount?" px-4":" px-0")+'">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<h3 class="h2">'+i("Media Card 2 Heading Text")+'</h3>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="cb-text-info my-4">'+i("Media Card 2 Body Text")+'</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a class="btn btn-lg rounded-0 primary-btn" href="'+i("Media Card 2 Link URL")+'">'+i("Media Card 2 Button Text")+"</a>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>",N='<div class="cb-text '+o.textCol+'">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="cb-text-inner '+("Overlay"==a?"":" pt-3 ")+(1==o.colCount?" px-4":" px-0")+'">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<h3 class="h2">'+i("Media Card 3 Heading Text")+'</h3>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="cb-text-info my-4">'+i("Media Card 3 Body Text")+'</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a class="btn btn-lg rounded-0 primary-btn" href="'+i("Media Card 3 Link URL")+'">'+i("Media Card 3 Button Text")+"</a>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>",M='<div id="content-blocks-section" data-media-card-style="'+i("Media Card Style")+'" data-cb-columns="'+o.colCount+'" class="row '+(1==o.colCount?"no-gutters":" ")+' row py-3 px-4 m-0">',P='<div class="content-block row no-gutters '+(1==o.colCount?" d-flex ":" d-block ")+o.col+' col-12 mb-4 mx-auto">'+O+I+"</div>",A='<div class="content-block row no-gutters flex-sm-row-reverse'+(1==o.colCount?" d-flex ":" d-block ")+o.col+' col-12 mb-4 mx-auto">'+L+B+"</div>",F='<div class="content-block row no-gutters '+(1==o.colCount?" d-flex ":" d-block ")+o.col+' col-12 mb-4 mx-auto">'+H+N+"</div>",E=M+(D.indexOf(".")>-1||_.indexOf(".")>-1?P:"")+(C.indexOf(".")>-1||T.indexOf(".")>-1?A:"")+(k.indexOf(".")>-1||S.indexOf(".")>-1?F:"")+"</div>",$='<div class="newsletter-block p-5 mb-5">\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="container">\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="row no-gutters text-center">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="col-sm-12 mb-2">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<h4 class="h1 ">'+f+'</h4>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p class="h5 my-4 font-weight-normal">'+x+'</p>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="form-group row no-gutters">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<form target="_blank" name="mc-embedded-subscribe-form" method="post" id="mc-embedded-subscribe-form"  class="validate col-sm-12 row no-gutters" novalidate action="'+h+'">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="col-sm-10">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<input id="mce-EMAIL"  name="EMAIL" type="email" class="email form-control form-control-lg rounded-0" placeholder="Enter your email address">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<input type="hidden" id="mce-FNAME">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<input type="hidden" id="mce-LNAME">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t \x3c!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--\x3e\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name=""b_27b7d5cbfb45164d58769c000_a2cb5cedb8" tabindex="-1" value=""></div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="col-sm-2">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<input value="Sign Up" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" name="subscribe" type="button" class="rounded-0 btn btn-lg btn-dark col-sm-12"/>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</form>\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t</div>',G=(i("Home Page Hero Style").indexOf("Grid")>-1?g:"")+(i("Home Page Hero Style").indexOf("Full")>-1?w:"")+(D||_?E:"")+rt+$+(s?r:"");document.querySelector("body").innerHTML+=loader+ut+'<div data-template="home">'+G+"</div>"+mt}(),document.querySelector(".cart-modal-holder").innerHTML=Pt):location.pathname.indexOf("/products")>-1||location.pathname.indexOf("/category")>-1||window.document.body.id.indexOf("products-")>-1?(Ft='<div class="category-title mb-5 mt-3"><h1 class="h2 text-center text-uppercase">'+pageTitle+"</h1></div>"+rt,document.querySelector("body").innerHTML+=loader+ut+'<div data-template="category" class="pt-4 px-4">'+Ft+"</div>"+mt,document.querySelector(".cart-modal-holder").innerHTML=Pt):location.pathname.indexOf("/product/")>-1||window.document.body.id.indexOf("product-")>-1?(!function(){for(var t="",e="",a="",o="",d="",s="",r="",p="",u=0;u<productData.products.length;u++){null==productData.products[u].product_options[0].relationship&&-1==productData.products[u].product_options[0].original_title.indexOf("/")||$(".parent-options.option-group input, .parent-options.option-group select").on("change",function(){}),"true"==productData.products[u].onSale?s='<span class="badge d-inline-block badge-secondary py-2 px-3 ml-3"><span class="h6 font-weight-normal">On Sale</span></span>':"sold-out"==productData.products[u].status?s='<span class="badge d-inline-block badge-secondary py-2 px-3 ml-3"><span class="h6 font-weight-normal">Sold Out</span></span>':"coming-soon"==productData.products[u].status&&(s='<span class="badge d-inline-block badge-secondary py-2 px-3 ml-3"><span class="h6 font-weight-normal">Coming Soon</span></span>'),"true"!=productData.products[u].onSale&&"sold-out"!=productData.products[u].status&&"coming-soon"!=productData.products[u].status||(r=s);for(var m=0;m<1;m++)productData.products[u].images[m];for(m=0;m<productData.products[u].images.length;m++)p+='<li class="mb-2"><a href="#img_'+productData.products[u].images[m].replace("https://assets.bigcartel.com/product_images/","").split("?")[0]+'"><img src="'+productData.products[u].images[m]+'"></a></li>';for(m=0;m<productData.products[u].images.length;m++)o+='<div data-hash="img_'+productData.products[u].images[m].replace("https://assets.bigcartel.com/product_images/","").split("?")[0]+'"  data-image="'+productData.products[u].images[m]+'" data-slug="'+productData.products[u].url.replace("/product/","")+'" class="swiper-slide"><img alt="Image of '+productData.products[u].title+'" src="'+productData.products[u].images[m]+'" data-image="'+productData.products[u].images[m]+'"></div>';for(m=1;m<productData.products[u].images.length;m++)productData.products[u].images[m];for(var g=[],v=0;v<productData.products[u].product_options.length;v++)if(-1===g.indexOf(productData.products[u].product_options[v].title)){if(productData.products[u].product_options[0].original_title.indexOf(" / ")>-1)var b="parent_option";else b="cart[add][id]";if("parent"==productData.products[u].product_options[v].relationship)var h=productData.products[u].product_options[v].value;else h=productData.products[u].product_options[v].option_id;"Dropdown"==n||null==productData.products[u].product_options[0].relationship&&-1==productData.products[u].product_options[0].original_title.indexOf("/")?d+="<option"+("sold-out"==productData.products[u].product_options[v].stock_status?" disabled ":" ")+' data-price="'+productData.products[u].product_options[v].price+'" data-index="'+g.push(productData.products[u].product_options[v].title)+'" data-title="'+productData.products[u].product_options[v].tag+'" id="'+productData.products[u].product_options[v].value+'" value="'+h+'">'+productData.products[u].product_options[v].title+"</option>":d+='<li data-index="'+g.push(productData.products[u].product_options[v].title)+'"><input data-title="'+productData.products[u].product_options[v].tag+'" type="radio" required id="'+productData.products[u].url.replace("/product/","")+"_option_"+productData.products[u].product_options[v].value+'" name="'+b+'" value="'+h+'"><label data-swatch="'+productData.products[u].product_options[v].title+'" for="'+productData.products[u].url.replace("/product/","")+"_option_"+productData.products[u].product_options[v].value+'"><span data-swatch="'+productData.products[u].product_options[v].title+'" class="color-swatch"></span><span>'+productData.products[u].product_options[v].title+"</span></label></li>"}if("Dropdown"==n||null==productData.products[u].product_options[0].relationship&&-1==productData.products[u].product_options[0].original_title.indexOf("/"))var f='<div class="parent-options option-group" data-product-slug="'+productData.products[u].url.replace("/product/","").replace(storeURL,"")+'"><div class="select options"><select required size="1" name="cart[add][id]" class="mb-0 form-control custom-select" data-name="'+(null==productData.products[u].product_options[0].relationship&&-1==productData.products[u].product_options[0].original_title.indexOf("/")?"option":c.toLowerCase())+'"><option disabled="disabled" selected="selected">Choose '+(null==productData.products[u].product_options[0].relationship&&-1==productData.products[u].product_options[0].original_title.indexOf("/")?"option":c.toLowerCase())+"</option>"+d+"</select></div></div>";else f='<div class="parent-options option-group" data-product-slug="'+productData.products[u].url.replace("/product/","").replace(storeURL,"")+'">'+d+"</div>";if(productData.products[u].product_options[0].original_title.indexOf(" / ")>-1)var x='<div class="select sub-options mb-4">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<label><span class="sub-option_title">'+l+'</span></label>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<select name="cart[add][id]" size="1" class="mb-0 form-control custom-select">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<option disabled="disabled" selected="selected">Choose '+l.toLowerCase()+"</option>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</select>\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>";else x="";"Default"==productData.products[u].product_options[0].title||"default"==productData.products[u].product_options[0].title?a+="sold-out"==productData.products[u].status?" ":'<div class="product-purchase mt-4">\t\t\t\t\t\t\t\t\t\t\t\t\t\t<form method="post" action="/cart">\t\t\t\t\t\t\t\t\t\t\t\t\t\t<input class="d-none" checked type="radio" value="'+productData.products[u].product_options[0].option_id+'" name="cart[add][id]">\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="row">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="col-sm-9 col-xs-12"><button class="primary-btn btn btn-lg btn-block rounded-0 add-to-cart-btn" name="submit" type="submit" title="'+i("'Add to Cart' Text")+'">'+i("'Add to Cart' Text")+"</button>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t</form>\t\t\t\t\t\t\t\t\t\t\t\t\t</div>":a+="sold-out"==productData.products[u].status?" ":'<div class="product-purchase mt-4">\t\t\t\t\t\t\t\t\t\t\t\t\t\t<form method="post" action="/cart">\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div id="multiple_product_options" data-mpo-id="'+productData.products[u].id+'_id">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="selector mb-4">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t'+(null==productData.products[u].product_options[0].relationship&&-1==productData.products[u].product_options[0].original_title.indexOf("/")?'<div class="option-title">Choose Option</div>':'<div class="option-title">'+c+"</div>")+f+"</div>"+x+'</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="row">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="col-sm-9 col-xs-12"><button class="primary-btn btn btn-lg btn-block rounded-0 add-to-cart-btn" name="submit" type="submit" title="'+i("'Add to Cart' Text")+'">'+i("'Add to Cart' Text")+"</button>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t</form>\t\t\t\t\t\t\t\t\t\t\t\t\t</div>",t+='<div class="product-intro">\t\t\t\t\t\t\t\t\t\t\t\t<div class="mb-4 back-link text-uppercase"><a href="/products"><i class="material-icons">arrow_back</i><span>Back to All Products</span></a></div>\t\t\t\t\t\t\t\t\t\t\t\t<h1 class="product-title mb-4 h3">'+productData.products[u].title+'</h1>\t\t\t\t\t\t\t\t\t\t\t\t<div class="price-holder">\t\t\t\t\t\t\t\t\t\t\t\t\t<p class="product-price h5 mb-4 d-inline-block"><span data-price="'+parseFloat(productData.products[u].defaultPrice.replace(storeInfo.currencySign,""))+'" class="price-value">'+productData.products[u].defaultPrice+"</span></p>"+(void 0!==typeof r?r:"")+"</div>"+("Yes"==i("Enable Product Reviews")?'<a href="#wpac-review" data-toggle="collapse" data-target="#prod-desc-3" aria-expanded="false" aria-controls="prod-desc-3">Reviews</a>':"")+"</div>";var y="Yes"==i("Enable Product Reviews")?'<div id="wpac-review"></div>':"",w=document.querySelector(".prodDesc1").innerHTML;e+='<div id="product-info">'+(""==i("Shipping Tab Info")?"":'<div class="tab-content">')+(""==i("Shipping Tab Info")?"":'<div id="prod-desc-head-1"><h6 class="text-uppercase py-3 mb-0" data-toggle="collapse" data-target="#prod-desc-1" aria-expanded="true" aria-controls="prod-desc-1">\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span>Details</span>\t\t\t\t\t\t\t\t\t\t\t\t\t\t  <i class="float-right tab-icon material-icons"></i>\t\t\t\t\t\t\t\t\t\t\t\t\t  </h6></div>')+'<div id="prod-desc-1" class="" aria-labelledby="prod-desc-head-1" data-parent="#product-info">\t\t\t\t\t\t\t\t\t\t\t\t\t  <div class="pb-4">'+w+"</div>\t\t\t\t\t\t\t\t\t\t\t\t\t</div>"+(""==i("Shipping Tab Info")?"":"</div>")+(i("Shipping Tab Info")?'<div class="tab-content">\t\t\t\t\t\t\t\t\t\t\t\t\t<div id="prod-desc-head-2">\t\t\t\t\t\t\t\t\t\t\t\t\t <h6 class="text-uppercase py-3 mb-0" data-toggle="collapse" data-target="#prod-desc-2" aria-expanded="false" aria-controls="prod-desc-2">\t\t\t\t\t\t\t\t\t\t\t\t\t   <span>'+i("Shipping Tab Name")+'</span>\t\t\t\t\t\t\t\t\t\t\t\t\t\t <i class="float-right tab-icon material-icons"></i>\t\t\t\t\t\t\t\t\t\t\t\t\t  </h6>\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t<div id="prod-desc-2" class="collapse" aria-labelledby="prod-desc-head-2" data-parent="#product-info">\t\t\t\t\t\t\t\t\t\t\t\t\t <div class="pb-4">'+i("Shipping Tab Info")+"</div>\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t  </div>":"")+("Yes"==i("Enable Product Reviews")?'<div class="tab-content">\t\t\t\t\t\t\t\t\t\t\t\t\t<div id="prod-desc-head-3">\t\t\t\t\t\t\t\t\t\t\t\t\t <h6 class="text-uppercase py-3 mb-0" data-toggle="collapse" data-target="#prod-desc-3" aria-expanded="false" aria-controls="prod-desc-3">\t\t\t\t\t\t\t\t\t\t\t\t\t   <span>Reviews</span>\t\t\t\t\t\t\t\t\t\t\t\t\t\t <i class="float-right tab-icon material-icons"></i>\t\t\t\t\t\t\t\t\t\t\t\t\t  </h6>\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t<div id="prod-desc-3" class="collapse" aria-labelledby="prod-desc-head-3" data-parent="#product-info">\t\t\t\t\t\t\t\t\t\t\t\t\t <div class="pb-4">'+y+"</div>\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t  </div>":"")+"</div>"}var D,C;"Large"!=i("Product Image Width")&&""!=i("Product Image Width")&&null!=i("Product Image Width")||(D="col-sm-8",C="col-sm-4"),"Small"==i("Product Image Width")&&(D="col-sm-4",C="col-sm-8");var k='<div class="product-thumbs col-sm-2 d-none d-md-flex"><ul class="p-0">'+p+"</div>",_='<div class="row"><div class="d-none d-md-flex product-images product-image-gallery '+D+' row">'+k+'<div class="product-thumbnails-list col-sm-10 swiper-wrapper">'+o+'</div></div><div class="d-flex d-md-none product-images_mobile product-image-gallery row">'+k+'<div class="product-thumbnails-list col-sm-10 swiper-wrapper">'+o+'</div></div><div class="product-description col-12 col-md-4 '+C+'">\t\t\t\t\t\t\t\t\t<div class="description__inner col-md-12">'+t+e+a+"</div>\t\t\t\t\t\t\t\t</div></div>";document.querySelector("body").innerHTML+=loader+ut+'<div data-template="product" data-current-product-slug="'+productData.products[0].url.replace("/product/","")+'" class="pt-4 px-4">'+_+"</div>"+mt}(),document.querySelector(".cart-modal-holder").innerHTML=Pt):location.pathname.indexOf("/contact")>-1||window.document.body.id.indexOf("contact-")>-1?(!function(){if(window.location.href.indexOf("/contact?success")>-1)var t='<div class="row d-block contact-success"><div class="col-12 mb-3 text-center h5">'+i("Contact Success Heading")+'</div><div class="col-12 mb-4 text-center">'+i("Contact Success Message")+"</div></div>";else t='<div class="row d-block">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="col-12">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="form-group">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<label for="name">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tName</label>'+document.querySelector(".contactName").innerHTML+'\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="form-group">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<label for="email">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEmail Address</label>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="input-group"><span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>'+document.querySelector(".contactEmail").innerHTML+'</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="form-group">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<label for="subject">Subject</label>'+document.querySelector(".contactSubject").innerHTML+'</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="captcha-set row">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="form-group col-md-3">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<label for="captcha-image">Captcha Image</label><div class="captcha-image">'+document.querySelector(".contactCaptchaImage").innerHTML+'</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="form-group col-9">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<label for="captcha-text">Enter Captcha Text</label>'+document.querySelector(".contactCaptchaField").innerHTML+'</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="contact-message-holder">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="form-group">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<label for="name">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tMessage</label>'+document.querySelector(".contactMessage").innerHTML+'</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="ml-auto col-md-4 col-12">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<button id="contact-submit"  type="submit" class="primary-btn btn button btn-block btn-lg submit-btn rounded-0">Send Message</button>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>';var e='<div class="container">\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="col-12 col-md-8 mx-auto">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="col-12">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="border-1 px-3 pt-0">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="col-12 mb-4 text-center">'+i("Contact Intro Text")+'</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="col-12 mt-2 mb-5 pb-3 border-bottom text-center">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p class="contact_store-name mb-0">'+i("Store Name")+'</strong></p>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="contact_address mb-0"><address>'+i("Contact Address").replace(/(?:\r\n|\r|\n)/g,"<br>")+'</address></div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p class="contact_phone-number mb-0">'+i("Contact Phone Number")+'</p>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p class="contact_email mb-0 "><a href="mailto:'+i("Contact Email")+'">'+i("Contact Email")+'</a></p>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class="m-4 text-center customer-service-info">'+i("Customer Service Info")+'</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t <form id="contact-form" method="post" action="/contact?success=true">'+t+"</form>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t</div>";document.querySelector("body").innerHTML+=loader+ut+'<div data-template="contact" class="pt-4 px-4"><div class="mb-5 mt-3"><h1 class="h2 text-center text-uppercase">'+pageTitle+"</h1></div>"+e+"</div>"+mt}(),document.querySelector(".cart-modal-holder").innerHTML=Pt):location.pathname.indexOf("/cart")>-1||window.document.body.id.indexOf("cart-")>-1||(At='<div class="container"><div class="mb-5 mt-3"><h1 class="h2 text-center text-uppercase">'+pageTitle+"</h1></div>"+document.querySelector("#page-content").innerHTML+"</div>",document.querySelector("body").innerHTML+=loader+ut+'<div data-template="custom-page" class="pt-4 px-4">'+At+"</div>"+mt,document.querySelector(".cart-modal-holder").innerHTML=Pt),location.pathname.indexOf("/product/")>-1||window.document.body.id.indexOf("product-")>-1){var Et=i("Widget Pack ID (for Product Reviews)")?i("Widget Pack ID (for Product Reviews)"):1981;"Yes"==i("Enable Product Reviews")&&(wpac_init=window.wpac_init||[],wpac_init.push({widget:"Review",id:Et}),wpac_init.push({widget:"ReviewCount",id:Et}),function(){if(!("WIDGETPACK_LOADED"in window)){WIDGETPACK_LOADED=!0;var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://embed.widgetpack.com/widget.js";var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e.nextSibling)}}())}var $t=i("GetSiteControl ID")||"";!function(t,e,a,o,i,d,s){t[a]=t[a]||[],(d=e.createElement(o)).async=1,d.src=i,(s=e.getElementsByTagName(o)[0]).parentNode.insertBefore(d,s)}(window,document,"_gscq","script","//widgets.getsitecontrol.com/"+$t+"/script.js"),$("div.cart-item .swatch-options label[data-title]").each(function(){$(this).click(function(){var t=$(this).attr("data-title"),e=$(this).parents("div.cart-item").attr("data-product-id"),a=$(this).attr("data-item-url");$("div.cart-item[data-product-id="+e+"] .item_images img[src*='_"+t+"_']:first").each(function(){var o=$(this).attr("src");$("div.cart-item[data-product-id="+e+"] .current-image").attr("src",o).parents("a").attr("href",a+"?"+c.toLowerCase()+"="+t.replace("+","%20"))})})}),$(document).ready(function(){$(".remove-btn").click(function(){$(this).attr("data-item-id")}),$("div.cart-item .swatch-options label[data-title]").trigger("click")}),$("div.cart-item span[data-swatch]").each(function(){"rgba(0, 0, 0, 0)"==$(this).css("background-color")&&"none"==$(this).css("background-image")&&$(this).remove()})}if(a==i("License Key").trim()){console.log("License Key "+i("License Key").trim()+" is registered in database.");var s=!0;d()}1==s&&void 0!==s||d(),$(window).ready(function(){("/"==window.location.pathname||window.document.body.id.indexOf("home-")>-1)&&("Transparent"!=i("Header Navigation Overlay")&&"Yes"!=i("Header Navigation Overlay")||(document.getElementsByTagName("Body")[0].classList.add("pt-0"),document.getElementsByTagName("Body")[0].classList.add("header-overlay"),$(window).scroll(function(){var t=parseInt($(window).scrollTop());t>100?document.getElementsByTagName("Body")[0].classList.remove("header-overlay"):t<=100&&document.getElementsByTagName("Body")[0].classList.add("header-overlay")})),"Translucent"==i("Header Navigation Overlay")&&(document.getElementsByTagName("Body")[0].classList.add("pt-0"),document.getElementsByTagName("Body")[0].classList.add("header-overlay"),document.getElementsByTagName("Body")[0].classList.add("header-overlay--translucent"),$(window).scroll(function(){var t=parseInt($(window).scrollTop());t>100?(document.getElementsByTagName("Body")[0].classList.remove("header-overlay"),document.getElementsByTagName("Body")[0].classList.remove("header-overlay--translucent")):t<=100&&(document.getElementsByTagName("Body")[0].classList.add("header-overlay"),document.getElementsByTagName("Body")[0].classList.add("header-overlay--translucent"))}))),$("body").on("change",".select select",function(){var t=$(this).find(":selected").attr("data-price");"undefined"!=t&&$(".price-holder .price-value").html(t)}),$("body").on("change","[name=parent_option]",function(){var t=$(".select select").find(":selected").attr("data-price");"undefined"!=t&&$(".price-holder .price-value").html(t)});var t=$("body"),e=$("header nav.navbar").height();if(i("Header Navigation Overlay").indexOf("Trans")>-1&&"/"!=window.location.pathname&&-1==window.document.body.id.indexOf("home-")&&(t.css("padding-top",e),window.addEventListener("resize",function(){e=$("header nav.navbar").height(),t.css("padding-top",e)},!1)),-1==i("Header Navigation Overlay").indexOf("Trans")&&(t.css("padding-top",e),window.addEventListener("resize",function(){e=$("header nav.navbar").height(),t.css("padding-top",e)},!1)),$(".loading_wrap").fadeOut(100),$(".page-item:contains(1)").length||$(".pagination").remove(),$("#hero-section[data-hero-type=slider]").slick({dots:!0,arrows:!1,infinite:!0,autoplay:!0,speed:500,fade:!0,cssEase:"linear"}),window.location.href.indexOf("/product/")>-1){new Swiper(".product-images",{direction:"vertical",loop:!0,grabCursor:!0,preventClicks:!1,preventClicksPropagation:!1,slideToClickedSlide:!0,hashNavigation:{replaceState:!1,watchState:!0},mousewheel:{invert:!1},scrollbar:{el:".swiper-scrollbar"}}),new Swiper(".product-images_mobile",{direction:"horizontal",loop:!0,autoHeight:!0,watchOverflow:!0,grabCursor:!0,preventClicks:!1,preventClicksPropagation:!1,slideToClickedSlide:!0,hashNavigation:{replaceState:!1,watchState:!0}});for(var a=document.querySelectorAll(".product-thumbnails-list img"),o=0;o<a.length;o++){var d=a[o].scrollHeight;parseInt(d)}document.querySelector(".product-thumbnails-list").style.setProperty("height","100vh","important")}$(".open-search").on("click",function(){document.querySelector(".overlay").style.display="block"}),$(".close-search").on("click",function(){document.querySelector(".overlay").style.display="none"});cartData.cartCount})});t.exists()?console.log("License Key is registered!"):(console.log("License Key is not registered. Create new user"),firebase.database().ref().limitToLast(1).once("child_added",function(t){console.log("Registered user "+e),firebase.database().ref(e).update(presets._userInfo),firebase.database().ref(e).update(presets.street.install),firebase.database().ref(e).update(presets.street.demoContent),$(document).ready(function(){$("body").prepend('<header class="fixed-top">                              <div class="container-fluid py-4 d-flex justify-content-between align-items-center border-bottom">                                  <div class="col-md-2 col-4"><img src="https://themefiend.com/wp-content/uploads/theme-fiend-logo.svg"></div>                              </div>                          </header>                          <div class="page-wrap d-flex flex-row align-items-center" style="min-height: 100vh">                      \t\t    <div class="container">                      \t\t        <div class="row justify-content-center text-center">                      \t\t            <div class="col-md-12 text-left">                      \t\t                <h1 class="d-block font-weight-bold mt-3 mb-4" style="font-size: 50px">Theme Updated</h1>                      \t\t                <div><button class="d-flex text-uppercase btn btn-lg installer-btn" onclick="window.top.location.reload()">Continue</button></div>                      \t\t            </div>                      \t\t        </div>                      \t\t    </div>                      \t\t</div>                      \t\t<style type="text/css">body {padding-top: 0 !important}.installer-btn {background-color: rgb(109, 171, 60);box-shadow: none;font-weight: 400; display:flex;color: rgb(255, 255, 255);padding: 15px 30px;border-radius: 30px !important}</style>'),$(".loading_wrap").remove()}),window.top.onbeforeunload=null,window.top.location.pathname="admin/design"}))})}
+// CAPSULE THEME TEMPLATE
+
+
+ // logo img compressor variables
+ var logoA = '/upload/';
+ var logoB = '/upload/c_limit,q_auto:eco,w_300,h_100/';
+ 
+ // img compressor variables
+ var imgA = '/upload/';
+ var imgB = '/upload/c_limit,q_auto:eco,w_2000/';
+ 
+ // loader
+ var loader = '<div class="loading_wrap"><div class="spinner"></div></div>';
+
+// Pass variables of current page type (to indicate which page template is being previewed)
+var environment = environment; 
+var licenseKey = licenseKey; 
+
+var pageTitle = pageTitle || '';
+
+function loadjscssfile(filename, filetype){
+       if (filetype=="js"){ //if filename is a external JavaScript file
+           var fileref=document.createElement('script')
+           fileref.setAttribute("type","text/javascript")
+           fileref.setAttribute("src", filename)
+       }
+       else if (filetype=="css"){ //if filename is an external CSS file
+           var fileref=document.createElement("link")
+           fileref.setAttribute("rel", "stylesheet")
+           fileref.setAttribute("type", "text/css")
+           fileref.setAttribute("href", filename)
+       }
+       if (typeof fileref!="undefined")
+           document.getElementsByTagName("head")[0].appendChild(fileref)
+ }
+
+
+ var config = {
+   apiKey: "AIzaSyC-FgFJGFfqOAUQm7V2VAiLAXK8ygmY8KA",
+   authDomain: "capsule-theme-bigcartel.firebaseapp.com",
+   databaseURL: "https://capsule-theme-bigcartel.firebaseio.com",
+   projectId: "capsule-theme-bigcartel",
+   storageBucket: "capsule-theme-bigcartel.appspot.com",
+   messagingSenderId: "110118486824"
+ };
+ firebase.initializeApp(config);
+ 
+ // Load Theme Controls 
+ 
+
+ loadjscssfile('https://themefiend.com/_Capsule/' + (typeof environment != 'undefined' ? environment : 'staging/') + 'admin/theme-controls.js', 'js');
+ 
+ // Loading Presets
+ 
+   var presets = {};
+   
+   presets._userInfo = {};
+   
+   
+   
+       presets = {
+     _userInfo: {
+       "License Key": licenseKey,
+       "Store Name": storeName,
+       "Registration Date": "",
+       "Contact Address" : "123 Theme Street #3\nAnytown, NJ 12345\nUnited States",
+       "Contact Email" : "email@example.com",
+       "Contact Intro Text" : "For questions, comments or concerns, contact us using the form. ",
+       "Contact Page" : "",
+       "Contact Phone Number" : "555-555-5555",
+       "Contact Success Heading" : "Message Received",
+       "Contact Success Message" : "We'll be in touch with you shortly!",
+     },
+     "ruby": {},
+     "fab": {},
+     "street": {},
+     "legend": {}
+   };
+   
+
+   function _preset(name) {
+     loadjscssfile('https://themefiend.com/_Capsule/' + (typeof environment != 'undefined' ? environment : 'staging/') + 'theme-presets/' + name + '/default-settings.js', 'js');
+   }
+   
+   // Available Theme Presets
+     _preset("ruby");
+     _preset("fab");
+     _preset("street");
+     _preset("legend");
+     
+     console.log(presets);
+ 
+
+if (typeof trialID != "undefined") {
+   
+ var currDate = new Date();
+   var currentDate = currDate.toLocaleString();
+           
+   firebase.database().ref().orderByChild('License Key').equalTo(licenseKey).once("value", function(snapshot) {
+       
+       var newUserID = storeURL.replace('.bigcartel.com', '').replace('http://','').replace('https://','').replace(/\./g,'-').replace('www', '');
+       
+
+        var loadTheme = snapshot.forEach(function(data) {
+           
+           $.getScript("https://s3.amazonaws.com/themefiend/js/mousewheel.js");
+           $.getScript("https://s3.amazonaws.com/themefiend/js/flexslider/jquery.flexslider-min.js");
+           
+           var userLicenseKey = licenseKey;
+           console.log(userLicenseKey + ' is the users license key!');
+           
+            var userData = snapshot.child(data.key);
+            var USER = function (KEY) {
+                    return userData.child(KEY).val() || '';
+            }
+            
+            
+          if (window.location.href.indexOf('about:blank') > -1 && USER("Big Cartel Domain") == null || 
+              window.location.href.indexOf('https://secure.bigcartel.com/admin') > -1 && USER("Big Cartel Domain") == null || 
+              window.location.href.indexOf('about:blank') > -1 && USER("Big Cartel Domain") == "" || 
+              window.location.href.indexOf('https://secure.bigcartel.com/admin') > -1 && USER("Big Cartel Domain") == "" || 
+              window.location.href.indexOf('about:blank') > -1 && typeof USER("Big Cartel Domain") == "undefined" ||
+              window.location.href.indexOf('https://secure.bigcartel.com/admin') > -1 && typeof USER("Big Cartel Domain") == "undefined") {
+            
+             
+            
+             firebase.database().ref('/' + data.key).update({"Big Cartel Domain": storeURL}).then(function(){
+                   setTimeout(function() {
+                     window.top.onbeforeunload = null;
+                         window.top.location.reload();
+                  }, 500);
+               });
+              
+                      
+          } else {
+           
+                   function capsuleTheme() {
+                   
+                       if (window.location.href.indexOf('about:blank') == -1 ||  window.location.href.indexOf('https://secure.bigcartel.com/admin') > -1) {
+                           var adminPanel = $('#TFConfigPanel');
+                           adminPanel.hide();
+                           adminPanel.remove();
+                       }
+                       
+                       
+                       // Preview Configuration Bar
+                       
+                       if (window.location.href.indexOf('about:blank') > -1 || window.location.href.indexOf('https://secure.bigcartel.com/admin') > -1) {
+                               
+                           document.querySelector("body").innerHTML += '<div class="mode-toggle">\
+                                 <button type="button" class="preview-mode btn"><i class="material-icons">remove_red_eye</i> View Changes</button>\
+                                 <button type="button" class="customize-mode customize-mode--bouncy btn"><i class="material-icons">build</i> Customize Theme</button>\
+                                 <button type="button" title="View live store" class="btn rounded-circle live-store"><i class="material-icons" style="margin: 0">open_in_new</i></button>\
+                           </div>';
+                           
+                             $(document).ready(function(){
+                                 $(".mode-toggle").animate({
+                       bottom: "+=1019",
+                   }, 1000);
+                             });
+                           
+                       }
+                                           
+                       var faviconImg = (USER("Favicon Image URL") ? USER("Favicon Image URL") : 'https://res.cloudinary.com/theme-fiend/image/upload/v1532797112/shop-favicon.png' );
+                       
+                       
+                       // Multiple Product Option Selection Variables
+                       var first_option_selection_type = USER("First Product Option Group Style");
+                       var first_option_group_name = USER("First Product Option Group Name");						
+                       var second_option_selection_type = USER("Second Product Option Group Style");
+                       var second_option_group_name = USER("Second Product Option Group Name");
+                       
+                       // *********Theme Apps / Add-Ons***********
+                       function availableApps(url) {
+                           var script = document.createElement("script");
+                           script.src = url;	
+                           document.head.appendChild(script);
+                       }
+                       
+                       
+   
+                       availableApps('https://themefiend.com/_Capsule/' + (typeof environment != 'undefined' ? environment : 'master/') + 'theme-apps/apps_capsule-theme.js');
+                                       
+                       
+                       document.head || (document.head = document.getElementsByTagName('head')[0]);
+   
+                       function changeFavicon(src) {
+                            var link = document.createElement('link'),
+                                oldLink = document.getElementById('dynamic-favicon');
+                                link.id = 'dynamic-favicon';
+                                link.rel = 'shortcut icon';
+                                link.href = src;
+                                if (oldLink) {
+                                 document.head.removeChild(oldLink);
+                                }
+                                document.head.appendChild(link);				
+                       }
+                       
+                       changeFavicon(faviconImg);
+                       
+   
+                   // Reusable Components
+                   
+                                                       
+                       // Default Language
+                       
+                       var featured_products_heading = (USER("'Featured Products' Text") ? USER("'Featured Products' Text") : 'New Products');
+   
+                       // Mailchimp info
+                       
+                       var mailchimpURL = (USER("MailChimp Form Action URL") ? USER("MailChimp Form Action URL") : 'https://themefiend.us2.list-manage.com/subscribe/post?u=27b7d5cbfb45164d58769c000&amp;id=a2cb5cedb8');
+                       var mailchimpHeading = (USER("Mailing List Sign Up Heading") ? USER("Mailing List Sign Up Heading") : 'Sign Up for Updates');
+                       var mailchimpInfo = (USER("Mailing List Sign Up Info") ? USER("Mailing List Sign Up Info") : '');
+                   
+                       // Default styles
+                       var background_color = (USER("Body Background Color") ? USER("Body Background Color") : '#FFF');
+                       var body_text_color = (USER("Body Text Color") ? USER("Body Text Color") : '#000');
+                       var headings_text_color = (USER("Headings Text Color") ? USER("Headings Text Color") : '#000');
+                           
+                       var header_color = (USER("Header Background Color") ? USER("Header Background Color") : '#FFF');
+                       var top_header_color = (USER("Top Header Bar Background Color") ? USER("Top Header Bar Background Color") : '#000');
+                       var header_navigation_link_color = (USER("Header Navigation Link Color") ? USER("Header Navigation Link Color") : '#000');
+                       var header_navigation_link_hover_color = (USER("Header Navigation Link Hover Color") ? USER("Header Navigation Link Hover Color") : '#999');
+                       var top_header_navigation_color = (USER("Top Header Bar Link Color") ? USER("Top Header Bar Link Color") : '#fff');
+                       var accent_color = (USER("Accent Color") ? USER("Accent Color") : 'gold');
+                       
+                       var link_color = (USER("Inline Link Color") ? USER("Inline Link Color") : '#666');
+
+                       var primary_button_bg_color = (USER("Primary Button Background Color") ? USER("Primary Button Background Color") : '#111');
+                       var primary_button_tx_color = (USER("Primary Button Text Color") ? USER("Primary Button Text Color") : '#FFF');
+                       
+                       var secondary_button_bg_color = (USER("Secondary Button Background Color") ? USER("Secondary Button Background Color") : '#efefef');
+                       var secondary_button_tx_color = (USER("Secondary Button Text Color") ? USER("Secondary Button Text Color") : '#666');
+                       
+                       var hero_heading_tx_color = (USER("Hero Heading Color") ? USER("Hero Heading Color") : '#ffffff' );
+
+                       var footer_link_color = (USER("Footer Navigation Link Color") ? USER("Footer Navigation Link Color") : '#666');
+                       
+                       
+                       var navigation_font = (USER("Navigation Font Family") ? USER("Navigation Font Family") : 'Barlow');
+                       var headings_font = (USER("Headings Font Family") ? USER("Headings Font Family") : 'Barlow Semi Condensed');
+                       var body_font = (USER("Body Font Family") ? USER("Body Font Family") : 'Barlow');
+
+                     // Font Size Settings
+                     var body_font_size, headings_font_size, navigation_font_size, button_font_size;
+                     
+                     body_font_size = {
+                       setting: (USER("Body Font Size") ? USER("Body Font Size") : 'Medium'),
+                       small: 
+                         'body {font-size: 14px}'
+                       ,
+                       medium: 
+                         ''
+                       ,
+                       large: 
+                         'body {font-size: 18px}'
+                     };
+                     
+                       headings_font_size = {
+                       setting: (USER("Headings Font Size") ? USER("Headings Font Size") : 'Medium'),
+                       small: 
+                         'h1, .h1 {font-size: 2rem} h2, .h2 {font-size: 1.5rem} h3, .h3 {font-size: 1.25rem} h4, .h4 {font-size: 1rem} h5, .h5 {font-size: .75rem} h6, .h6 {font-size: .5rem}' +
+                         '.hero-text h2 {font-size: 2.5rem}' +
+                         '@media screen and (max-width: 767px) {\
+                         }'
+                       ,
+                       medium: 
+                         ''
+                       ,
+                       large: 
+                         'h1, .h1 {font-size: 3rem} h2, .h2 {font-size: 2.5rem} h3, .h3 {font-size: 2.25rem} h4, .h4 {font-size: 2rem} h5, .h5 {font-size: 1.75rem} h6, .h6 {font-size: 1.5rem}' +
+                         '.hero-text h2 {font-size: 7.5rem}' +
+                         '@media screen and (max-width: 767px) {\
+                         }'
+                     };
+                     
+                     navigation_font_size = {
+                       setting: (USER("Navigation Font Size") ? USER("Navigation Font Size") : 'Medium'),
+                       small: 
+                         'header nav .nav-link {font-size: .8rem} header .navbar .material-icons {font-size: 1rem; line-height: 1;}'
+                       ,
+                       medium: 
+                         ''
+                       ,
+                       large: 
+                         'header nav .nav-link {font-size: 1.3rem} header .navbar .material-icons {font-size: 1.5rem; line-height: 1;}'
+                     };
+                     
+                       button_font_size = {
+                       setting: (USER("Button Font Size") ? USER("BUtton Font Size") : 'Medium'),
+                       small: 
+                         '.btn-lg {font-size: .75rem}'
+                       ,
+                       medium: 
+                         ''
+                       ,
+                       large: 
+                         '.btn-lg {font-size: 1.75rem}'
+                     };
+                       
+                       // Preset Stylesheet Reference
+                       var themePreset;
+                       
+                       themePreset = {
+                         handle: USER("Choose a Preset").toLowerCase() || 'street',
+                       };
+                       
+                       themePreset.styles = '<link data-stylesheet="preset-css" href="https://themefiend.com/_Capsule/' + (typeof environment != 'undefined' ? environment : 'staging/') + 'theme-presets/' + themePreset.handle + '/styles.css" rel="stylesheet">'
+
+                       // Function for translucent header background color (USER("Header Navigation Overlay")
+                       function hexToRGB(hex, alpha) {
+                           var r = parseInt(hex.slice(1, 3), 16),
+                               g = parseInt(hex.slice(3, 5), 16),
+                               b = parseInt(hex.slice(5, 7), 16);
+                       
+                           if (alpha) {
+                               return "rgba(" + r + ", " + g + ", " + b + ", " + alpha + ")";
+                           } else {
+                               return "rgb(" + r + ", " + g + ", " + b + ")";
+                           }
+                       }
+                       
+                       var header_color_translucent = hexToRGB(header_color, 0.75);
+                       
+                       // Stylesheet
+                       var stylesheet = 
+                       '<style data-stylesheet="custom-css" type="text/css">' +  
+                           'body:not(.bc-admin) {background-color:' + background_color + '; font-family: ' + body_font + '}' + 
+                           '.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {font-family: ' + headings_font + '; color: ' + headings_text_color + '}' +
+                           '.cb-text-inner h3 {color: ' + headings_text_color + '}' +
+                           'p, .cb-text-inner .cb-text-info, .product-title a, div, li {color: ' + body_text_color + '}' +
+                           'a.navbar-brand { font-family: ' + headings_font + '; color:' + header_navigation_link_color + '}' +
+                           'a {color:' + link_color + '}' +
+                           'a:hover, a:active, a:focus {text-decoration: none; opacity:.7; color: ' + link_color + '}' +
+                           'header nav, header .dropdown-menu {background-color:' + header_color + '}' + 
+                           '.top-header {background-color:' + top_header_color + '}' +
+                           'body.header-overlay--translucent header nav, body.header-overlay--translucent header .dropdown-menu {background-color:' + header_color_translucent + '}' + 
+                           'header nav .nav-link, header nav .btn-link, button.search-btn {color:' + header_navigation_link_color + '}' +
+                           'header nav .nav-link:hover, header nav .btn-link:hover, button.search-btn:hover {color:' + header_navigation_link_hover_color + '}' +
+                           '.top-header .nav-link, .top-header .btn-link, .top-header button.search-btn, .top-header_promo-text {color:' + top_header_navigation_color + '}' +
+                           '.top-header .nav-link:hover, .top-header .btn-link:hover, .top-header button.search-btn:hover {opacity:.7; color:' + top_header_navigation_color + '}' +
+                           'header nav .nav-link.active {border-bottom-color:' + accent_color + '}' +
+                           'body .swiper-pagination-bullet-active, div.product .badge {background: ' + accent_color + '}' +
+                           '.slick-dots li.slick-active {background-color: ' + accent_color + ' !important}' +
+                           '.dropdown-item.active, .dropdown-item:active {color: #fff; background-color: ' + accent_color + '}' +
+                           '.cb-text:before {background-color: ' + accent_color + '}' +
+                           '.btn-link {color:' + link_color + '}' +
+                           '.primary-btn {background-color: ' + primary_button_bg_color + '; color: ' + primary_button_tx_color + '}' +
+                           '.primary-btn:hover {color: ' + primary_button_tx_color + '}' +
+                           '.page-link, .secondary-btn {background-color: ' + secondary_button_bg_color + '; color: ' + secondary_button_tx_color + '}' +
+                           '.cover-text h1, .cover-text h2, .hero-text *, .cover-text p, .lb-caption, .lb-caption *, [data-media-card-style*=Overlay] .cb-text * {color:' + hero_heading_tx_color + '}' +
+                           'body.header-overlay:not([class*=translucent]) a.navbar-brand, body.header-overlay:not([class*=translucent]) header nav .nav-link, body.header-overlay:not([class*=translucent]) header nav .btn-link, body.header-overlay:not([class*=translucent]) button.search-btn {color:' + hero_heading_tx_color + '}' +
+                           'footer a {color: ' + footer_link_color + '}' + 
+                           body_font_size[body_font_size.setting.toLowerCase()] +
+                           headings_font_size[headings_font_size.setting.toLowerCase()] +
+                           navigation_font_size[navigation_font_size.setting.toLowerCase()] +
+                           button_font_size[button_font_size.setting.toLowerCase()] +
+                           unescape(USER("Custom CSS")) +
+                       '</style>' +
+                       themePreset.styles +
+                       '<link href="https://fonts.googleapis.com/css?family=' + navigation_font.replace(/ /g, "+") + ':100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">\
+                       <link href="https://fonts.googleapis.com/css?family=' + headings_font.replace(/ /g, "+") + ':100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">\
+                       <link href="https://fonts.googleapis.com/css?family=' + body_font.replace(/ /g, "+") + ':100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">';
+                   
+                       if (typeof trialID != "undefined") {
+                                   
+                           // Navigation
+                           var headerPageNav = '';
+                           var topHeaderPageNav = '';
+                           var footerPageNav = '';
+                           var categoryNav = '';
+                       
+                       }
+                                       
+                       // Category Links Output			
+                       
+                       if (typeof categoriesData == 'undefined') {
+                       
+                       } else {
+                           for(var x=0; x < categoriesData.category.length; x++){
+                               
+                               var subCatNavOpen = '<div class="dropdown-menu rounded-0 p-0 border-top-0 m-0" aria-labelledby="' + categoriesData.category[x].url + 'dropdownMenuButton"><ul class="navbar-nav flex-column">';
+                               var subCatNavClose = '</ul></div>';
+                               
+                               var subCatNavLoop = [];
+                               
+                               subCatNavLoop[x] += '<li class="nav-link w-100 p-0"><a class="dropdown-item px-3 py-2" href="/category/' + categoriesData.category[x].url + '">View All</a></li>';
+   
+                               if (categoriesData.category[x].sub_category === undefined || categoriesData.category[x].sub_category.length == 0) {
+                               } else {
+                                   for(var y=0; y < categoriesData.category[x].sub_category.length; y++){
+                                           subCatNavLoop[x] += '<li class="nav-link w-100 p-0"><a class="dropdown-item px-3 py-2" href="/category/' + categoriesData.category[x].sub_category[y].url + '">' + categoriesData.category[x].sub_category[y].name + '</a></li>';
+                                   }
+                               }
+                                               
+                               var subCategoryNav = subCatNavOpen + subCatNavLoop[x] + subCatNavClose;
+                                               
+                                   categoryNav += '<li class="nav-item px-0 position-relative"><a class="' + (categoriesData.category[x].sub_category === undefined || categoriesData.category[x].sub_category.length == 0 ? '' : ' dropdown-toggle ' ) + 'nav-link px-3 py-4 ' + (window.location.href.indexOf("/" + categoriesData.category[x].url) > -1 ? 'active' : '') + '"' + (categoriesData.category[x].sub_category === undefined || categoriesData.category[x].sub_category.length == 0 ? '' : ' id="' + categoriesData.category[x].url + 'dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ') + ' href="/category/' + categoriesData.category[x].url + '">' + categoriesData.category[x].name + '</a>' + subCategoryNav.replace('undefined', '') + '</li>';
+                           }
+                       }
+                       
+                       // Page Links Output	
+                       for(var x=0; x < pagesData.page.length; x++){
+                           
+                           var subPageNavOpen = '<div class="dropdown-menu rounded-0 p-0 border-top-0 m-0" aria-labelledby="' + pagesData.page[x].url + 'dropdownMenuButton"><ul class="navbar-nav flex-column">';
+                           var subPageNavClose = '</ul></div>';
+                           
+                           var subPageNavLoop = [];
+                           
+                           subPageNavLoop[x] += '<li class="nav-link w-100 p-0"><a class="dropdown-item px-3 py-2" href="/' + pagesData.page[x].url + '">' + pagesData.page[x].name + '</a></li>';
+   
+                           
+                           if (pagesData.page[x].sub_page === undefined || pagesData.page[x].sub_page.length == 0) {
+                           } else {
+                               for(var y=0; y < pagesData.page[x].sub_page.length; y++){
+                                       subPageNavLoop[x] += '<li class="nav-link w-100 p-0"><a class="dropdown-item px-3 py-2" href="/' + pagesData.page[x].sub_page[y].url + '">' + pagesData.page[x].sub_page[y].name + '</a></li>';
+                               }
+                           }
+                           
+                           
+                           var subpageNav = subPageNavOpen + subPageNavLoop[x] + subPageNavClose;
+                           
+                           if (USER("Hidden Links").indexOf(pagesData.page[x].url) == -1) {
+                               if (USER("Footer Links").indexOf(pagesData.page[x].url) == -1 && pagesData.page[x].name.indexOf('(&)') == -1 && pagesData.page[x].name.indexOf('(#)') == -1) {
+                                   headerPageNav += '<li class="nav-item px-0 position-relative"><a class="' + (pagesData.page[x].sub_page === undefined || pagesData.page[x].sub_page.length == 0 ? '' : ' dropdown-toggle ' ) + 'nav-link px-3 py-4 ' + (window.location.href.indexOf("/" + pagesData.page[x].url) > -1 ? 'active' : '') + '"' + (pagesData.page[x].sub_page === undefined || pagesData.page[x].sub_page.length == 0 ? '' : ' id="' + pagesData.page[x].url + 'dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ') + ' href="/' + pagesData.page[x].url + '">' + pagesData.page[x].name + '</a>' + subpageNav.replace('undefined', '') + '</li>';
+                                   topHeaderPageNav += '<li class="nav-item px-0 position-relative"><a class="' + (pagesData.page[x].sub_page === undefined || pagesData.page[x].sub_page.length == 0 ? '' : ' dropdown-toggle ' ) + 'nav-link px-3 py-2 ' + (window.location.href.indexOf("/" + pagesData.page[x].url) > -1 ? 'active' : '') + '"' + (pagesData.page[x].sub_page === undefined || pagesData.page[x].sub_page.length == 0 ? '' : ' id="' + pagesData.page[x].url + 'dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ') + ' href="/' + pagesData.page[x].url + '">' + pagesData.page[x].name + '</a>' + subpageNav.replace('undefined', '') + '</li>';
+                               }
+                               if (USER("Footer Links").indexOf(pagesData.page[x].url) > -1 || pagesData.page[x].name.indexOf('&') > -1) {
+                                       footerPageNav += '<li class="nav-item d-inline-block px-0"><a class="nav-link px-2 py-1" href="/' + pagesData.page[x].url + '">' + pagesData.page[x].name.replace('(&)', '').replace('(!)', '').replace('(!!)', '').replace('(#)', '') + '</a></li>';
+                               }
+                           }
+                       }
+   
+                       
+                       var socialLinks = USER("Social Media Links").split('\n');
+                       var socialLinksLoop = '';
+                       
+                       for(var x=0; x < socialLinks.length; x++){
+                               if (socialLinks[x].indexOf('facebook') > -1) { var socialIcon = 'fa-facebook-f'; }
+                               else if (socialLinks[x].indexOf('twitter') > -1) { var socialIcon = 'fa-twitter'; }
+                               else if (socialLinks[x].indexOf('instagram') > -1) { var socialIcon = 'fa-instagram'; }
+                               else if (socialLinks[x].indexOf('pinterest') > -1) { var socialIcon = 'fa-pinterest'; }
+                               else if (socialLinks[x].indexOf('youtube') > -1) { var socialIcon = 'fa-youtube'; }
+                               else if (socialLinks[x].indexOf('vimeo') > -1) { var socialIcon = 'fa-vimeo'; }
+                               else if (socialLinks[x].indexOf('etsy') > -1) { var socialIcon = 'fa-etsy'; }
+                               else if (socialLinks[x].indexOf('tumblr') > -1) { var socialIcon = 'fa-tumblr'; }
+                               else if (socialLinks[x].indexOf('wordpress') > -1) { var socialIcon = 'fa-wordpress'; }
+                               else { var socialIcon = null;}
+                           socialLinksLoop += '<li class="d-inline-block"><a target="_blank" href="' + socialLinks[x] + '" class="btn btn-sq-xs">' + (socialIcon ? '<i class="fab ' + socialIcon + '"></i>' : socialLinks[x].replace('http://', '').replace('https://', '')) + '</a></li>';
+                       }
+                       
+                       var flyoutCart = '<div class="modal right fade" id="cart-modal-btn" tabindex="-1" role="dialog" aria-labelledby="cart-modal-label">\
+                                           <div class="modal-dialog" role="document">\
+                                               <div class="modal-content">\
+                                                   <div class="p-3">\
+                                                       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="material-icons">close</i></button>\
+                                                   </div>\
+                                                   <div class="mb-3"><h1 class="h2 text-center text-uppercase">Cart</h1></div>\
+                                                   <div class="modal-body cart-modal-holder"></div>\
+                                               </div>\
+                                           </div>\
+                                       </div>';							
+                       
+   
+                       var standardNavLinks = '<li class="nav-item px-0 position-relative"><a class="nav-link px-3 py-4 ' + (window.location.href.indexOf("/products") > -1 ? 'active' : '') + '" href="/products">All Products</a></li>' +
+                                                        categoryNav +
+                                                        (USER("Navigation Style").indexOf('Top Nav') == -1 && USER("Navigation Style") != 'Centered Menu with Top Nav Alt' ?
+                                                           headerPageNav + 
+                                                           (USER("Contact Link Location").indexOf('Header') > -1 ? '<li class="nav-item d-inline-block px-0"><a class="nav-link px-3 py-4 ' + (window.location.href.indexOf("/contact") > -1 ? 'active' : '') + '" href="/contact">Contact</a></li>' : '') +
+                                                           (USER("Navigation Style").indexOf('Condensed') == -1 && USER("Navigation Style").indexOf('Top') == -1 ? '<li class="d-none d-md-inline-block nav-item px-1 py-4"><a href="#" data-toggle="modal" data-target="#search-modal-btn" aria-expanded="false" class="search-btn open-search btn btn-link px-1 py-0"><i class="material-icons">search</i></a></li>' : '') +
+                                                           (USER("Navigation Style").indexOf('Condensed') == -1 && USER("Navigation Style").indexOf('Top') == -1 ? '<li class="d-none d-md-inline-block nav-item px-3 py-4"><a href="/cart"' + (window.location.href.indexOf('TEMP_MINICART_REMOVAL') == -1 ? ' ' : ' data-toggle="modal" data-target="#cart-modal-btn"') + 'class="nav-link p-0"><i class="material-icons">shopping_basket</i> <span>' + cartData.cartCount + (cartData.cartCount == 1 ? ' Item' : ' Items') + '</span></a></li>' : '')
+                                                         : '');
+                                                        
+                       
+                               
+                       var topNavPageLinks = topHeaderPageNav +
+                                             (USER("Contact Link Location").indexOf('Header') > -1 && USER("Navigation Style").indexOf('Top Nav') ? '<li class="nav-item d-inline-block px-0"><a class="nav-link px-3 py-2 ' + (window.location.href.indexOf("/contact") > -1 ? 'active' : '') + '" href="/contact">Contact</a></li>' : '');
+                   
+                       var topNavSearchCartLinks = '<li class="search-link d-none d-md-inline-block nav-item p-2"><a href="#" data-toggle="modal" data-target="#search-modal-btn" aria-expanded="false" class="search-btn open-search btn btn-link px-1 py-0"><i class="material-icons">search</i><span class="ml-2 search-text">Search</span></a></li>\
+                                                    <li class="cart-link d-none d-md-inline-block nav-item p-2"><a href="/cart"' + (window.location.href.indexOf('TEMP_MINICART_REMOVAL') == -1 ? ' ' : ' data-toggle="modal" data-target="#cart-modal-btn"') + 'class="nav-link p-0"><i class="material-icons">shopping_basket</i> <span>' + cartData.cartCount + (cartData.cartCount == 1 ? ' Item' : ' Items') + '</span></a></li>';
+                                           
+                       var menuModal = '<div class="modal right fade" id="menu-modal-btn" tabindex="-1" role="dialog" aria-labelledby="menu-modal-label">\
+                                           <div class="modal-dialog" role="document">\
+                                               <div class="modal-content">\
+                                                   <div class="p-3">\
+                                                       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="material-icons">close</i></button>\
+                                                   </div>\
+                                                   <div class="modal-body menu-modal-holder px-0"><ul class="navbar-nav d-flex flex-column text-center">' + standardNavLinks.replace(/dropdown-menu/g, 'dropdown-menu w-100 text-center') + '</ul></div>\
+                                               </div>\
+                                           </div>\
+                                       </div>';
+                                       
+                       var searchModal = '<div class="modal fade" id="search-modal-btn" tabindex="-1" role="dialog" aria-labelledby="search-modal-label">\
+                                           <div class="modal-dialog h-100 w-100 d-flex mx-auto" role="document">\
+                                                <div class="d-flex w-100 align-self-center text-center">\
+                                                   <div class="modal-content">\
+                                                       <div class="mb-3"><h1 class="h2 text-center text-uppercase">Search</h1></div>\
+                                                       <form action="/products" method="get" class="search">\
+                                                        <div class="input-group mb-3 col-12">\
+                                                           <input id="search" class="form-control" type="text" placeholder="Search.." name="search">\
+                                                              <div class="input-group-append">\
+                                                                   <button class="btn btn-lg p-3 primary-btn" type="submit"><i class="fa fa-search"></i></button>\
+                                                               </div>\
+                                                         </div>\
+                                                       </form>\
+                                                 </div>\
+                                                </div>\
+                                             </div>\
+                                           </div>';
+                                       
+                       
+                       var storeHeader = '<header><nav data-navigation-style="' + USER("Navigation Style") + '" class="navbar ' + (USER("Navigation Style").indexOf('Centered') > -1 || USER("Header Promo Text") || USER("Navigation Style").indexOf('Top') > -1 ? 'd-lg-block ' : '') + 'fixed-top' + (USER("Navigation Style").indexOf('Condensed') == -1 ? ' navbar-expand-lg' : '') + ' py-0 px-0">' +
+                                                     (USER("Navigation Style").indexOf('Top Nav') > -1 || USER("Header Promo Text") ? 
+                                                     '<div class="top-header mt-0 py-2 py-lg-0' + (USER("Header Promo Text") || USER("Navigation Style").indexOf('Top Nav') > -1 ? ' ' : ' d-none ') + 'd-lg-flex navbar-collapse">\
+                                                           <div class="top-header_left col-12 col-lg-4 d-lg-flex mr-auto">' + (USER("Header Promo Text") && USER("Navigation Style").indexOf('Standard Expanded with Top Nav') > -1 ? '<ul class="navbar-nav pl-2 container-fluid mx-auto"><span class="top-header_promo-text text-left pl-0">' + USER("Header Promo Text") + '</span></ul>' : '') + (USER("Navigation Style") == 'Centered Menu with Top Nav' ? '<ul class="navbar-nav pl-2 d-none d-lg-flex container-fluid mx-auto">' + topNavPageLinks + '</ul>' : '') + '</div>' +
+                                                           '<div class="top-header_middle' + (USER("Navigation Style").indexOf('Standard') > -1 ? ' col ' : ' col-12 col-lg-4 ')  + ' d-flex mx-auto">' + (USER("Header Promo Text") && USER("Navigation Style") == 'Centered Menu with Top Nav' ? '<span class="top-header_promo-text mx-auto text-center">' + USER("Header Promo Text") + '</span>' : '') + '</div>' +
+                                                           (USER("Navigation Style").indexOf('Top') > -1 ? '<div class="top-header_right ' + (USER("Navigation Style").indexOf('Standard') > -1 ? ' col-6 ' : ' col-4 ')  + ' d-none d-lg-flex ml-auto"><ul class="navbar-nav pr-2 container-fluid mx-auto justify-content-end">' + (USER("Navigation Style").indexOf('Standard') > -1 ? topNavPageLinks : '') + topNavSearchCartLinks + '</ul></div>' : '') +
+                                                      '</div>' 
+                                                     : '') +
+                                                     '<div class="main-header navbar' + (USER("Navigation Style").indexOf('Centered') > -1 ? ' d-lg-block ' : ' ') + 'navbar-expand-lg w-100 py-0 px-4">\
+                                                         <div class="store-logo ' + (USER("Navigation Style").indexOf('Condensed') > -1 ? 'w-100' : '') + (USER("Navigation Style").indexOf('Centered') > -1 ? 'd-lg-flex col-6 col-lg-12 py-4 pb-lg-0 px-0 d-inline-block justify-content-center' : '') + '"><a class="navbar-brand py-3" href="/">' + (USER("Logo Image URL") ? '<img src=' + USER("Logo Image URL").replace(logoA, logoB) + '>' : USER("Store Name") ) + '</a></div>\
+                                                         <ul data-nav-view="condensed" class="navbar-nav flex-row ' + (USER("Navigation Style").indexOf('Condensed') > -1 ? '' : 'd-lg-none d-flex') + ' px-0 py-4 ml-auto">\
+                                                           <li class="nav-item px-2"><a href="#" class="py-0 search-btn open-search btn btn-link px-1 collapsed" data-toggle="modal" data-target="#search-modal-btn" aria-expanded="false"><i class="material-icons">search</i></a></li>\
+                                                           <li class="nav-item px-2"><a href="/cart"' + (window.location.href.indexOf('TEMP_MINICART_REMOVAL') == -1 ? ' ' : ' data-toggle="modal" data-target="#cart-modal-btn"') + ' class="nav-link p-0"><i class="material-icons">shopping_basket</i></a></li>\
+                                                           <li class="nav-item px-2"><a href="#" class="py-0 px-1 btn btn-link collapsed" data-toggle="modal" data-target="#menu-modal-btn" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="material-icons">menu</i></a></li>\
+                                                         </ul>\
+                                                      <div class="collapse navbar-collapse" id="navbarSupportedContent"><ul data-nav-view="expanded" class=" navbar-nav ' + (USER("Navigation Style").indexOf('Centered Alternative') > -1 ? 'container justify-content-between ' : '') + (USER("Navigation Style").indexOf('Condensed') > -1 ? 'd-flex d-lg-none ' : '') +  (USER("Navigation Style").indexOf('Centered') > -1 ? 'mx-auto' : 'ml-auto') + '">' + standardNavLinks + '</ul></div>\
+                                                     </div>\
+                                                   </nav></header>' + menuModal + flyoutCart;
+                               
+                       var storeFooter = '<footer class="page-footer font-small px-3 mt-5">\
+                                               <div class="py-4 px-0 navbar navbar-expand-lg border-bottom row no-gutters">\
+                                                   <nav class="col-md-6 col-sm-12"><ul class="navbar-nav d-block text-center text-md-left">' + footerPageNav + 
+                                                       (USER("Contact Link Location").indexOf('Footer') > -1 ? '<li class="nav-item d-inline-block px-0"><a class="nav-link px-2 py-1" href="/contact">Contact</a></li>' : '') + '</ul>\
+                                                   </nav>\
+                                                   <nav class="col-md-6 col-sm-12"><ul class="navbar-nav d-block text-center text-md-right">' + socialLinksLoop + '</ul></nav>\
+                                               </div>\
+                                               <div class="footer-copyright py-4 text-left">&copy; ' + new Date().getFullYear() + ' Copyright <a href="/">' + USER("Store Name") + '</a><span class="tf-credit ml-2 pl-2 border-left">Designed by <a href="http://themefiend.com?ref=credit" target="_blank">Theme Fiend</a></span></div>\
+                                           </footer>' + searchModal + stylesheet.replace("undefined", "");
+                                   
+                       // Product Grid
+                       
+                           
+                           var prodGrid = '';
+                                                       
+                           var prodGridBegin = '<div id="products-holder">';
+                           
+                           if (location.pathname == '/' || window.document.body.id.indexOf('home-') > -1 ) {
+                               var prodGridTitle = '<div class="section-title"><div class="container"><h4 class="h1">' + featured_products_heading + '</h4></div></div>';
+                           } else {
+                               var prodGridTitle = '';
+                           }
+                           
+                           var prodGridLoopBegin = '<div class="product-loop px-3"><div class="row">';
+                           var prodGridLoop = '';		
+                           for(var x=0; x < productGridData.products.length;x++){ 
+                           
+                           
+                               var prodGridOptionsHolder = '';
+                               var prodGridOptions = '';
+                               var prodGridUniqueOptions = '';
+                               var uniqueNames = [];
+   
+                               for(var a=0;a<productGridData.products[x].product_options.length;a++){ 
+                               
+                                   if(uniqueNames.indexOf(productGridData.products[x].product_options[a].title)===-1){ 
+                                       prodGridOptions += '<li data-index="' + uniqueNames.push(productGridData.products[x].product_options[a].title) + '"><input data-title="' + productGridData.products[x].product_options[a].tag + '"type="radio" id="' + productGridData.products[x].url.replace("/product/", "") + '_option_' + productGridData.products[x].product_options[a].value + '"name="first_group" value="' + productGridData.products[x].product_options[a].value + '"><label data-slug="' + productGridData.products[x].url.replace("/product/", "") + '"data-tag="' + productGridData.products[x].product_options[a].tag + '"for="' + productGridData.products[x].url.replace("/product/", "") + '_option_'  + productGridData.products[x].product_options[a].value + '"><a href="' + productGridData.products[x].url + '?' + first_option_group_name.toLowerCase() + '=' + productGridData.products[x].product_options[a].title.replace(" ", "%20").replace("/", "-") + '"><span data-swatch="' + productGridData.products[x].product_options[a].title + '"class="color-swatch"></span><span class="label-text">' + productGridData.products[x].product_options[a].title + '</span></a></label></li>';
+                                   } 
+   
+                                   if(uniqueNames.indexOf(productGridData.products[x].product_options[a].title)===-1){ 
+                                       prodGridUniqueOptions += uniqueNames[a] 
+                                   } 
+                               }
+                                           
+   
+                               prodGridOptionsHolder += '<div class="product_options_list parent-options" data-product-slug="' + productGridData.products[x].url.replace("/product/", "") + '"><div class="pol-inner">' + prodGridOptions + prodGridUniqueOptions + '</div>\
+                               </div>';
+                           
+                           
+                               var prodImageLoop = '';
+                               var prodStatus = '';
+                               var statusType = '';
+                               
+                               
+                               
+                               for(var z=0; z<productGridData.products[x].images.length; z++){
+                                   
+                                   if (productGridData.products[x].onSale=="true"){
+                                       statusType = '<span class="badge badge--sale py-2 px-3 position-absolute"><span class="h6">On Sale</span></span>';
+                                   } else if (productGridData.products[x].status=="sold-out") {
+                                       statusType = '<span class="badge badge--sold badge-secondary py-2 px-3 position-absolute"><span class="h6">Sold Out</span></span>';
+                                   } else if (productGridData.products[x].status=="coming-soon") {
+                                        statusType = '<span class="badge badge--soon badge-secondary py-2 px-3 position-absolute"><span class="h6">Coming Soon</span></span>';
+                                   }
+                                   
+                                   if(productGridData.products[x].onSale=="true"||productGridData.products[x].status=="sold-out"||productGridData.products[x].status=="coming-soon"){
+                                       prodStatus = statusType;
+                                   }
+                               
+                                   prodImageLoop += '<li data-image="' + productGridData.products[x].images[z] + '" data-slug="' + productGridData.products[x].url.replace("/product/", "") + '">' 
+                                   + (typeof prodStatus !== undefined ? prodStatus : '') + 
+                                   '<a href="' + productGridData.products[x].url + '"><img alt="Image of ' + productGridData.products[x].title + '" src="' + productGridData.products[x].images[z] + '" data-image="' +  productGridData.products[x].images[z] + '"></a></li>';
+                               }
+                               
+                               
+                               var prodperRow;
+                               
+                               if (USER("Product Grid Columns") == 1) {prodperRow = 'col-sm-12'}
+                               if (USER("Product Grid Columns") == 2) {prodperRow = 'col-sm-6'}
+                               if (USER("Product Grid Columns") == 3) {prodperRow = 'col-sm-4'}
+                               if (USER("Product Grid Columns") == 4) {prodperRow = 'col-sm-3'}
+                               
+                               prodGridLoop +=	
+                               '<div class="product ' + prodperRow + ' mb-4' + (productGridData.products[x].status=="sold-out" ? ' sold-out ' : '') + '">\
+                                   <div class="shop-item-image"><ul style="overflow:hidden">' + prodImageLoop + '</ul></div>\
+                                   <div class="mt-3 text-center">\
+                                       <p class="product-title m-0"><a href="' + productGridData.products[x].url + '">' + productGridData.products[x].title + '</a></p>\
+                                       <p class="product-price mb-3">' + productGridData.products[x].defaultPrice + '</p>\
+                                   </div>' + prodGridOptionsHolder + '\
+                               </div>';
+                           }
+                           
+                           if (location.pathname == '/' || window.document.body.id.indexOf('home-') > -1) {
+                               var paginationHolder = '';
+                           }
+                           
+                           if (location.pathname != '/' || window.document.body.id.indexOf('home-') > -1) {
+                               var paginationHolder = '<div class="band my-3"><nav>' + pagination + '</nav></div>';
+                           }
+                           
+                           var prodGridLoopEnd = '</div></div>';					
+                           var prodGridEnd = '</div>';
+                           
+                           prodGrid = 
+                               prodGridBegin +
+                               prodGridTitle +
+                               prodGridLoopBegin +
+                                   prodGridLoop +
+                               prodGridLoopEnd +
+                               paginationHolder +
+                               prodGridEnd;
+                   
+                   
+                   // Template: Home
+   
+                       var homePage = function() {
+                           
+                           // IG Feed 
+                           
+                           var igFeedHeading = (USER("Instagram Section Heading") ? USER("Instagram Section Heading") :  '@Capsule');
+                           // var igFeedName = (USER("Instagram Feed Name") ? USER("Instagram Feed Name") : 'streetwearxs');
+                           var igFeedEmebedCode = (USER("Instagram Feed Embed Code") ? USER("Instagram Feed Embed Code") : '<!-- SnapWidget --><iframe src="https://snapwidget.com/embed/592774" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:640px; height:160px"></iframe>');
+                           
+                           var igFeed = '<div class="instagram-feed px-3 mb-3">\
+                                           <div class="section-title"><div class="container"><h4 class="h1 mb-5">' + igFeedHeading + '</h4></div></div>\
+                                           <div class="mt-3">' + igFeedEmebedCode + '</div>\
+                                       </div>';
+                                       
+                                       
+                           // Hero Text
+                           
+                           var heroImage1 = {
+                              img: USER("Hero Image 1 Image URL").replace(imgA, imgB),
+                              heading: USER("Hero Image 1 Heading Text") != null ? USER("Hero Image 1 Heading Text") : '',
+                              subheading: USER("Hero Image 1 Sub Heading Text") != null ? USER("Hero Image 1 Sub Heading Text") : '',
+                              button: USER("Hero Image 1 Button Text") != null ? USER("Hero Image 1 Button Text") : '',
+                              link: USER("Hero Image 1 Link URL") != null ? USER("Hero Image 1 Link URL") : '',
+                           };
+                           
+                           
+                           var heroImage2 = {
+                              img: USER("Hero Image 2 Image URL").replace(imgA, imgB),
+                              heading: USER("Hero Image 2 Heading Text") != null ? USER("Hero Image 2 Heading Text") : '',
+                              subheading: USER("Hero Image 2 Sub Heading Text") != null ? USER("Hero Image 2 Sub Heading Text") : '',
+                              button: USER("Hero Image 2 Button Text") != null ? USER("Hero Image 2 Button Text") : '',
+                              link: USER("Hero Image 2 Link URL") != null ? USER("Hero Image 2 Link URL") : '',
+                           };
+                           
+                           var heroImage3 = {
+                              img: USER("Hero Image 3 Image URL").replace(imgA, imgB),
+                              heading: USER("Hero Image 3 Heading Text") != null ? USER("Hero Image 3 Heading Text") : '',
+                              subheading: USER("Hero Image 3 Sub Heading Text") != null ? USER("Hero Image 3 Sub Heading Text") : '',
+                              button: USER("Hero Image 3 Button Text") != null ? USER("Hero Image 3 Button Text") : '',
+                              link: USER("Hero Image 3 Link URL") != null ? USER("Hero Image 3 Link URL") : '',
+                           };
+   
+                           // Hero: Grid
+                           
+                           var heroGridBegin = '<div id="hero-section" class="row no-gutters" data-hero-type="grid">';
+                               
+                               var heroGridItem1 = '<li class="col-md-12 col-xs-12" style="background-image:url(&#x27;' + heroImage1.img + '&#x27;)">\
+                                                       <a href="' + heroImage1.link + '"></a>\
+                                                       <div data-hero-text-position="' + USER("Hero Image 1 Text Alignment").toLowerCase() + '" class="hero-text">' +
+                                                           (heroImage1.heading ? '<h2 class="display-4">' + heroImage1.heading + '</h2>' : '') +
+                                                           (heroImage1.subheading ? '<p class="mt-2 lead">' + heroImage1.subheading + '</p>' : '') +
+                                                           (heroImage1.button ? '<button class="btn primary-btn btn-lg rounded-0">' + heroImage1.button + '</button>' : '') +
+                                                       '</div>\
+                                                   </li>';
+                               
+                               var heroGridItem2 = '<li class="col-md-12 col-xs-12" style="background-image:url(&#x27;' + heroImage2.img + '&#x27;)">\
+                                                       <a href="' + heroImage2.link + '"></a>\
+                                                       <div data-hero-text-position="' + USER("Hero Image 2 Text Alignment").toLowerCase() + '"class="hero-text">' +
+                                                           (heroImage2.heading ? '<h3 class="h1">' + heroImage2.heading + '</h2>' : '') +
+                                                           (heroImage2.subheading ? '<p class="mt-2 lead">' + heroImage2.subheading + '</p>' : '') +
+                                                           (heroImage2.button ? '<button class="btn primary-btn btn-lg rounded-0">' + heroImage2.button + '</button>' : '') +
+                                                       '</div>\
+                                                   </li>';
+                               
+                               var heroGridItem3 = '<li class="col-md-12 col-xs-12" style="background-image:url(&#x27;' + heroImage3.img + '&#x27;)">\
+                                                       <a href="' + heroImage3.link + '"></a>\
+                                                       <div data-hero-text-position="' + USER("Hero Image 3 Text Alignment").toLowerCase() + '"class="hero-text">' +
+                                                           (heroImage3.heading ? '<h3 class="h1">' + heroImage3.heading + '</h2>' : '') +
+                                                           (heroImage3.subheading ? '<p class="mt-2 lead">' + heroImage3.subheading + '</p>' : '') +
+                                                           (heroImage3.button ? '<button class="btn primary-btn btn-lg rounded-0">' + heroImage3.button + '</button>' : '') +
+                                                       '</div>\
+                                                   </li>';
+                               
+                           var heroGridEnd = '</div>';
+                           
+                           var heroGrid = 
+                               heroGridBegin +
+                                   '<div class="left-grid-items col-md-6 col-sm-12 col-xs-12">' + 
+                                       (heroImage1.img.indexOf('.') > -1 ? heroGridItem1 : '') +
+                                   '</div>' +
+                                   '<div class="right-grid-items col-md-6 col-sm-12 col-xs-12">' + 
+                                       (heroImage2.img.indexOf('.') > -1 ? heroGridItem2 : '') +
+                                       (heroImage3.img.indexOf('.') > -1 ? heroGridItem3 : '') +
+                                   '</div>' +
+                               heroGridEnd;
+                               
+                               
+                       //  Hero: Slider
+                       
+                           
+                           var heroSliderBegin = '<div id="hero-section" class="row no-gutters" data-hero-type="slider">';
+   
+                               var heroSlide1 = '<div id="hs-slide-1" class="hs-slide" style="background-image:url(&#x27;' + heroImage1.img + '&#x27;)">\
+                                                       <a href="' + heroImage1.link + '"></a>\
+                                                       <img src="' + heroImage1 + '">\
+                                                       <div data-hero-text-position="' + USER("Hero Image 1 Text Alignment").toLowerCase() + '"class="hero-text">' + 
+                                                           (heroImage1.heading ? '<h2 class="h1 display-4 mb-3">' + heroImage1.heading + '</h2>' : '') +
+                                                           (heroImage1.subheading ? '<p class="h4 font-weight-light text-capitalize mb-4">' + heroImage1.subheading + '</p>' : '') +
+                                                           (heroImage1.button ? '<button class="btn rounded-0 primary-btn btn-lg">' + heroImage1.button + '</button>' : '') +
+                                                       '</div>\
+                                                   </div>';
+                               
+                                   var heroSlide2 = '<div id="hs-slide-2" class="hs-slide" style="background-image:url(&#x27;' + heroImage2.img + '&#x27;)">\
+                                                       <a href="' + heroImage2.link + '"></a>\
+                                                       <img src="' + heroImage2 + '">\
+                                                       <div data-hero-text-position="' + USER("Hero Image 2 Text Alignment").toLowerCase() + '"class="hero-text">' + 
+                                                           (heroImage2.heading ? '<h2 class="h1 display-4 mb-3">' + heroImage2.heading + '</h2>' : '') +
+                                                           (heroImage2.subheading ? '<p class="h4 font-weight-light text-capitalize mb-4">' + heroImage2.subheading + '</p>' : '') +
+                                                           (heroImage2.button ? '<button class="btn rounded-0 primary-btn btn-lg">' + heroImage2.button + '</button>' : '') +
+                                                       '</div>\
+                                                   </div>';
+                               
+                                   var heroSlide3 = '<div id="hs-slide-3" class="hs-slide" style="background-image:url(&#x27;' + heroImage3.img + '&#x27;)">\
+                                                       <a href="' + heroImage3.link + '"></a>\
+                                                       <img src="' + heroImage3 + '">\
+                                                       <div data-hero-text-position="' + USER("Hero Image 3 Text Alignment").toLowerCase() + '"class="hero-text">' + 
+                                                           (heroImage3.heading ? '<h2 class="h1 display-4 mb-3">' + heroImage3.heading + '</h2>' : '') +
+                                                           (heroImage3.subheading ? '<p class="h4 font-weight-light text-capitalize mb-4">' + heroImage3.subheading + '</p>' : '') +
+                                                           (heroImage3.button ? '<button class="btn rounded-0 primary-btn btn-lg">' + heroImage3.button + '</button>' : '') +
+                                                       '</div>\
+                                                   </div>';
+                               
+                           var heroSliderEnd = '</div>';
+                           
+                           var heroSlider = 
+                               heroSliderBegin +
+                                       (heroImage1.img.indexOf('.') > -1 ? heroSlide1 : '') +
+                                       (heroImage2.img.indexOf('.') > -1 ? heroSlide2 : '') +
+                                       (heroImage3.img.indexOf('.') > -1 ? heroSlide3 : '') +
+                               heroSliderEnd;
+                               
+                               
+                               
+                               
+                       // Content Blocks
+   
+                           var contentBlockImage1 = USER("Media Card 1 Image").replace(imgA, imgB) || '';
+                           var contentBlockImage2 = USER("Media Card 2 Image").replace(imgA, imgB) || '';
+                           var contentBlockImage3 = USER("Media Card 3 Image").replace(imgA, imgB) || '';	
+                           
+                           var contentBlockVideo1 = USER("Media Card 1 Video") || '';
+                           var contentBlockVideo2 = USER("Media Card 2 Video") || '';
+                           var contentBlockVideo3 = USER("Media Card 3 Video") || '';
+                           
+                           var cb1, cb2, cb3;
+                           
+                           cb1 = {
+                             textPos: USER("Media Card 1 Text Position")
+                           }
+                           
+                           cb2 = {
+                             textPos: USER("Media Card 2 Text Position")
+                           }
+                           
+                           cb3 = {
+                             textPos: USER("Media Card 3 Text Position")
+                           }
+                           
+                           var mediaCard;
+                             if (USER("Media Card Style").indexOf("2") > -1){mediaCard = {colCount: 2, col: 'col-sm-6', textCol: 'col-sm-12', imgCol: 'col-sm-12'}}
+                             else if (USER("Media Card Style").indexOf("3") > -1){mediaCard = {colCount: 3, col: 'col-sm-4', textCol: 'col-sm-12', imgCol: 'col-sm-12'}}
+                             else {mediaCard = {colCount: 1, col: 'col-sm-12', textCol: 'col-sm-4', imgCol: 'col-sm-8'}}
+                           
+                           if (USER("Media Card 1 Type") == 'Video') {
+                               var cbImgHolder1 = '<div class="cb-image cb-image--video ' + mediaCard.imgCol + '">\
+                                                       <div class="embed-responsive embed-responsive-16by9">\
+                                                         <iframe class="embed-responsive-item" src="' + contentBlockVideo1.replace("/watch?v=", "/embed/") + '" allowfullscreen></iframe>\
+                                                       </div>\
+                                                   </div>';
+                           } else {
+                               var cbImgHolder1 = '<div class="cb-image ' + mediaCard.imgCol + '" style="background-image:url(&#x27;' + contentBlockImage1 + '&#x27;)"><a href="' + USER("Media Card 1 Link URL") + '"></a></div>';
+                               
+                           }
+                           
+                           
+                           if (USER("Media Card 2 Type") == 'Video') {
+                               var cbImgHolder2 = '<div class="cb-image cb-image--video ' + mediaCard.imgCol + '">\
+                                                       <div class="embed-responsive embed-responsive-16by9">\
+                                                         <iframe class="embed-responsive-item" src="' + contentBlockVideo2.replace("/watch?v=", "/embed/") + '" allowfullscreen></iframe>\
+                                                       </div>\
+                                                   </div>';
+                           } else {
+                               var cbImgHolder2 = '<div class="cb-image ' + mediaCard.imgCol + '" style="background-image:url(&#x27;' + contentBlockImage2 + '&#x27;)"><a href="' + USER("Media Card 2 Link URL") + '"></a></div>';
+                           }
+                           
+                           
+                           if (USER("Media Card 3 Type") == 'Video') {
+                               var cbImgHolder3 = '<div class="cb-image cb-image--video ' + mediaCard.imgCol + '">\
+                                                       <div class="embed-responsive embed-responsive-16by9">\
+                                                         <iframe class="embed-responsive-item" src="' + contentBlockVideo3.replace("/watch?v=", "/embed/") + '" allowfullscreen></iframe>\
+                                                       </div>\
+                                                   </div>';
+                           } else {
+                               var cbImgHolder3 = '<div class="cb-image ' + mediaCard.imgCol + '" style="background-image:url(&#x27;' + contentBlockImage3 + '&#x27;)"><a href="' + USER("Media Card 3 Link URL") + '"></a></div>';
+                           }
+                           
+                           
+                           var cbTextHolder1 = '<div class="cb-text ' + mediaCard.textCol + '">\
+                                                           <div class="cb-text-inner ' + (cb1 == "Overlay" ? '' : ' pt-3 ') + (mediaCard.colCount == 1 ? ' px-4' : ' px-0') + '">\
+                                                               <h3 class="h2">' + USER("Media Card 1 Heading Text") + '</h3>\
+                                                               <div class="cb-text-info my-4">' + USER("Media Card 1 Body Text") + '</div>\
+                                                               <a class="btn btn-lg rounded-0 primary-btn" href="' + USER("Media Card 1 Link URL") + '">' + USER("Media Card 1 Button Text") + '</a>\
+                                                           </div>\
+                                                       </div>';
+                                                       
+                           var cbTextHolder2 = '<div class="cb-text ' + mediaCard.textCol + '">\
+                                                           <div class="cb-text-inner ' + (cb2 == "Overlay" ? '' : ' pt-3 ') + (mediaCard.colCount == 1 ? ' px-4' : ' px-0') + '">\
+                                                               <h3 class="h2">' + USER("Media Card 2 Heading Text") + '</h3>\
+                                                               <div class="cb-text-info my-4">' + USER("Media Card 2 Body Text") + '</div>\
+                                                               <a class="btn btn-lg rounded-0 primary-btn" href="' + USER("Media Card 2 Link URL") + '">' + USER("Media Card 2 Button Text") + '</a>\
+                                                           </div>\
+                                                       </div>';
+                                                       
+                           var cbTextHolder3 = '<div class="cb-text ' + mediaCard.textCol + '">\
+                                                           <div class="cb-text-inner ' + (cb3 == "Overlay" ? '' : ' pt-3 ') + (mediaCard.colCount == 1 ? ' px-4' : ' px-0') + '">\
+                                                               <h3 class="h2">' + USER("Media Card 3 Heading Text") + '</h3>\
+                                                               <div class="cb-text-info my-4">' + USER("Media Card 3 Body Text") + '</div>\
+                                                               <a class="btn btn-lg rounded-0 primary-btn" href="' + USER("Media Card 3 Link URL") + '">' + USER("Media Card 3 Button Text") + '</a>\
+                                                           </div>\
+                                                       </div>';
+           
+        
+                           var contentBlockBegin = '<div id="content-blocks-section" data-media-card-style="' + USER("Media Card Style") + '" data-cb-columns="' + mediaCard.colCount + '" class="row ' + (mediaCard.colCount == 1 ? 'no-gutters' : ' ') + ' row py-3 px-4 m-0">';
+                           
+                           
+                               
+                               var contentBlock1 = '<div class="content-block row no-gutters ' + (mediaCard.colCount == 1 ? ' d-flex ' : ' d-block ') + mediaCard.col + ' col-12 mb-4 mx-auto">' + cbImgHolder1 + cbTextHolder1 + '</div>';
+                               var contentBlock2 = '<div class="content-block row no-gutters flex-sm-row-reverse' + (mediaCard.colCount == 1 ? ' d-flex ' : ' d-block ') + mediaCard.col + ' col-12 mb-4 mx-auto">' + cbImgHolder2 + cbTextHolder2 + '</div>';
+                               var contentBlock3 = '<div class="content-block row no-gutters ' + (mediaCard.colCount == 1 ? ' d-flex ' : ' d-block ') + mediaCard.col + ' col-12 mb-4 mx-auto">' + cbImgHolder3 + cbTextHolder3 + '</div>';
+                               
+                           var contentBlockEnd = '</div>';
+                           
+                           var contentBlocks = 
+                               contentBlockBegin +
+                                       (contentBlockImage1.indexOf('.') > -1 || contentBlockVideo1.indexOf('.') > -1 ? contentBlock1 : '') +
+                                       (contentBlockImage2.indexOf('.') > -1 || contentBlockVideo2.indexOf('.') > -1 ? contentBlock2 : '') +
+                                     (contentBlockImage3.indexOf('.') > -1 || contentBlockVideo3.indexOf('.') > -1 ? contentBlock3 : '') +
+                               contentBlockEnd;
+                       
+                               
+                       // Newsletter
+                               
+                           var newsletterBlock = '<div class="newsletter-block p-5 mb-5">\
+                                                   <div class="container">\
+                                                       <div class="row no-gutters text-center">\
+                                                           <div class="col-sm-12 mb-2">\
+                                                               <h4 class="h1 ">' + mailchimpHeading + '</h4>\
+                                                               <p class="h5 my-4 font-weight-normal">' + mailchimpInfo + '</p>\
+                                                           </div>\
+                                                       </div>\
+                                                       <div class="form-group row no-gutters">\
+                                                           <form target="_blank" name="mc-embedded-subscribe-form" method="post" id="mc-embedded-subscribe-form"  class="validate col-sm-12 row no-gutters" novalidate action="' + mailchimpURL + '">\
+                                                               <div class="col-sm-10">\
+                                                                   <input id="mce-EMAIL"  name="EMAIL" type="email" class="email form-control form-control-lg rounded-0" placeholder="Enter your email address">\
+                                                                   <input type="hidden" id="mce-FNAME">\
+                                                                   <input type="hidden" id="mce-LNAME">\
+                                                               </div>\
+                                                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->\
+                                                               <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name=""b_27b7d5cbfb45164d58769c000_a2cb5cedb8" tabindex="-1" value=""></div>\
+                                                               <div class="col-sm-2">\
+                                                                   <input value="Sign Up" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" name="subscribe" type="button" class="rounded-0 btn btn-lg btn-dark col-sm-12"/>\
+                                                               </div>\
+                                                           </form>\
+                                                       </div>\
+                                                   </div>\
+                                               </div>';
+   
+                           var homeHTML = 
+                               (USER("Home Page Hero Style").indexOf('Grid') > -1 ? heroGrid : '') +
+                               (USER("Home Page Hero Style").indexOf('Full') > -1 ? heroSlider : '') +
+                               (contentBlockImage1 || contentBlockVideo1 ? contentBlocks : '') +
+                               prodGrid +
+                               newsletterBlock +
+                               (igFeedEmebedCode ? igFeed : '');
+                           
+                               document.querySelector('body').innerHTML += 
+                                   loader +
+                                   storeHeader + 
+                                   '<div data-template="home">' + 
+                                       homeHTML + 
+                                   '</div>' + 
+                                   storeFooter;
+                               
+                           
+                       };
+                       
+                       // Template: Category / Products
+                       
+                       var categoryPage = function() {
+                           
+                           
+                           var categoryHTML = 
+                               '<div class="category-title mb-5 mt-3"><h1 class="h2 text-center text-uppercase">' + pageTitle + '</h1></div>' +
+                               prodGrid;
+                           
+                               document.querySelector('body').innerHTML += 
+                                   loader +
+                                   storeHeader + 
+                                   '<div data-template="category" class="pt-4 px-4">' + 
+                                       categoryHTML + 
+                                   '</div>' + 
+                                   storeFooter;		
+                            
+                            
+                       };
+                       
+                       
+                       // Template: Individual Product
+                       
+                       var productPage = function() {	
+                       
+                           var prodIntro = '';
+                           var prodInfo = '';
+                           var prodPurchase = '';
+                           var prodImageFeatured = '';
+                           var prodImageLoop = '';
+                           var prodImageLoopOffset = '';
+                           var prodParentOptionLoop = '';
+                           
+                           
+                           var singleStatusType = '';
+                           var singleProdStatus = '';
+                           
+                           
+                           var prodThumbsBegin = '<div class="product-thumbs col-sm-2 d-none d-md-flex"><ul class="p-0">';
+                           var prodThumbsEnd = '</div>';
+                           var prodThumbsLoop = '';
+                           
+                           
+                           for(var x=0; x < productData.products.length;x++){
+                               
+                               if (productData.products[x].product_options[0].relationship == null && productData.products[x].product_options[0].original_title.indexOf('/') == -1) { 
+                    
+                               } else {
+                                     
+                                     $('.parent-options.option-group input, .parent-options.option-group select').on('change', function(){
+                                       //window.location.href = '#';
+                                     });
+                                     
+                                 }
+                           
+                               if (productData.products[x].onSale=="true"){
+                                       singleStatusType = '<span class="badge d-inline-block badge-secondary py-2 px-3 ml-3"><span class="h6 font-weight-normal">On Sale</span></span>';
+                                   } else if (productData.products[x].status=="sold-out") {
+                                       singleStatusType = '<span class="badge d-inline-block badge-secondary py-2 px-3 ml-3"><span class="h6 font-weight-normal">Sold Out</span></span>';
+                                   } else if (productData.products[x].status=="coming-soon") {
+                                        singleStatusType = '<span class="badge d-inline-block badge-secondary py-2 px-3 ml-3"><span class="h6 font-weight-normal">Coming Soon</span></span>';
+                                   }
+                                   
+                                   if(productData.products[x].onSale=="true"||productData.products[x].status=="sold-out"||productData.products[x].status=="coming-soon"){
+                                       singleProdStatus = singleStatusType;
+                                   }
+                                   
+                           
+                               for(var z=0; z < 1; z++){ 					
+                                   prodImageFeatured += '<li class="featured"><img src="' + productData.products[x].images[z] + '"></li>';			
+                               }
+                               
+                               for(var z=0; z < productData.products[x].images.length; z++){ 
+                                   prodThumbsLoop += '<li class="mb-2"><a href="#img_' + productData.products[x].images[z].replace('https://assets.bigcartel.com/product_images/', '').split("?")[0] + '"><img src="' + productData.products[x].images[z] + '"></a></li>';
+                               }					
+                               
+                               for(var z=0; z < productData.products[x].images.length; z++){ 
+                                   prodImageLoop += '<div data-hash="img_' + productData.products[x].images[z].replace('https://assets.bigcartel.com/product_images/', '').split("?")[0] + '"  data-image="' + productData.products[x].images[z] + '" data-slug="' + productData.products[x].url.replace("/product/", "") + '" class="swiper-slide">' 
+                                   + '<img alt="Image of ' + productData.products[x].title + '" src="' + productData.products[x].images[z] + '" data-image="' +  productData.products[x].images[z] + '"></div>';			
+                               }
+                               
+                               for(var z=1; z < productData.products[x].images.length; z++){ 
+                                   prodImageLoopOffset += '<li><img src="' + productData.products[x].images[z] + '"></li>';				
+                               }
+                               
+                               var uniqueNames = [];
+                               
+                               for(var a = 0; a < productData.products[x].product_options.length; a++){   
+                                   if(uniqueNames.indexOf(productData.products[x].product_options[a].title) === -1){
+                                   
+                                   if (productData.products[x].product_options[0].original_title.indexOf(" / ") > -1) {
+                                       var optionType = 'parent_option';						
+                                   } else {
+                                       var optionType = 'cart[add][id]';
+                                   }
+                                   
+                                   
+                                   if (productData.products[x].product_options[a].relationship == "parent") { 
+                                       var optVal = productData.products[x].product_options[a].value;
+                                   } else { 
+                                       var optVal = productData.products[x].product_options[a].option_id; 
+                                   } 
+                                   
+                                   
+                                   
+                                   
+                                   if (first_option_selection_type == "Dropdown" || productData.products[x].product_options[0].relationship == null && productData.products[x].product_options[0].original_title.indexOf('/') == -1) { 
+                                       prodParentOptionLoop += '<option' + (productData.products[x].product_options[a].stock_status == "sold-out" ? " disabled " : " ") + ' data-price="' + productData.products[x].product_options[a].price + '" data-index="' + uniqueNames.push(productData.products[x].product_options[a].title) + '" data-title="' + productData.products[x].product_options[a].tag + 
+                                           '" id="' + productData.products[x].product_options[a].value + '" value="' + optVal + '">' + productData.products[x].product_options[a].title + '</option>';
+                                   } else {
+                                       prodParentOptionLoop += '<li data-index="' + uniqueNames.push(productData.products[x].product_options[a].title) + '"><input data-title="' + productData.products[x].product_options[a].tag + 
+                                           '" type="radio" required id="' + productData.products[x].url.replace("/product/", "") + '_option_'  + productData.products[x].product_options[a].value + '" name="' + optionType + '" value="' + optVal + '"><label data-swatch="' + productData.products[x].product_options[a].title + '" for="' + productData.products[x].url.replace("/product/", "") + '_option_'  + productData.products[x].product_options[a].value + '"><span data-swatch="' + productData.products[x].product_options[a].title + '" class="color-swatch"></span><span>' + productData.products[x].product_options[a].title + '</span></label></li>';
+                                   }	
+                                   
+                                   
+                                   }
+                                   
+                               }
+                               
+                               
+                               if (first_option_selection_type == "Dropdown" || productData.products[x].product_options[0].relationship == null && productData.products[x].product_options[0].original_title.indexOf('/') == -1) { 
+                                   var parentOptionHandler = '<div class="parent-options option-group" data-product-slug="' + productData.products[x].url.replace("/product/","").replace(storeURL, "") + '"><div class="select options"><select required size="1" name="cart[add][id]" class="mb-0 form-control custom-select" data-name="' + (productData.products[x].product_options[0].relationship == null && productData.products[x].product_options[0].original_title.indexOf('/') == -1 ? 'option' : first_option_group_name.toLowerCase()) + '"><option disabled="disabled" selected="selected">Choose ' + (productData.products[x].product_options[0].relationship == null && productData.products[x].product_options[0].original_title.indexOf('/') == -1 ? 'option' : first_option_group_name.toLowerCase()) + '</option>' + prodParentOptionLoop + '</select></div></div>';
+                               } else {
+                                   var parentOptionHandler = '<div class="parent-options option-group" data-product-slug="' + productData.products[x].url.replace("/product/","").replace(storeURL, "") + '">' + prodParentOptionLoop + '</div>';
+                               }
+                               
+                               if (productData.products[x].product_options[0].original_title.indexOf(" / ") > -1) {
+                                   var subOptions = '<div class="select sub-options mb-4">\
+                                                           <label><span class="sub-option_title">' + second_option_group_name + '</span></label>\
+                                                           <select name="cart[add][id]" size="1" class="mb-0 form-control custom-select">\
+                                                               <option disabled="disabled" selected="selected">Choose ' + second_option_group_name.toLowerCase() + '</option>\
+                                                           </select>\
+                                                       </div>';
+                               } else {
+                                   var subOptions = '';
+                               }
+                               
+                               
+                                if (productData.products[x].product_options[0].title == "Default" || productData.products[x].product_options[0].title == "default") {
+                               
+                                   prodPurchase += (productData.products[x].status=="sold-out" ? ' ' : '<div class="product-purchase mt-4">\
+                                                       <form method="post" action="/cart">\
+                                                       <input class="d-none" checked type="radio" value="' + productData.products[x].product_options[0].option_id + '" name="cart[add][id]">\
+                                                       <div class="row">\
+                                                           <div class="col-sm-9 col-xs-12"><button class="primary-btn btn btn-lg btn-block rounded-0 add-to-cart-btn" name="submit" type="submit" title="' + USER("'Add to Cart' Text") + '">'
+                                                               + USER("'Add to Cart' Text") + '</button>\
+                                                           </div>\
+                                                       </div>\
+                                                   </form>\
+                                                   </div>');
+                               
+                               } else {
+                               
+                                   prodPurchase += (productData.products[x].status=="sold-out" ? ' ' : '<div class="product-purchase mt-4">\
+                                                       <form method="post" action="/cart">\
+                                                       <div id="multiple_product_options" data-mpo-id="' + productData.products[x].id + '_id">\
+                                                           <div class="selector mb-4">\
+                                                               ' + (productData.products[x].product_options[0].relationship == null && productData.products[x].product_options[0].original_title.indexOf('/') == -1 ? '<div class="option-title">Choose Option</div>' : '<div class="option-title">' + first_option_group_name + '</div>') + 
+                                                               parentOptionHandler +
+                                                           '</div>' + subOptions + '</div>\
+                                                       <div class="row">\
+                                                           <div class="col-sm-9 col-xs-12"><button class="primary-btn btn btn-lg btn-block rounded-0 add-to-cart-btn" name="submit" type="submit" title="' + USER("'Add to Cart' Text") + '">'
+                                                               + USER("'Add to Cart' Text") + '</button>\
+                                                           </div>\
+                                                       </div>\
+                                                   </form>\
+                                                   </div>');
+                                               
+                               }
+                           
+                               prodIntro += '<div class="product-intro">\
+                                               <div class="mb-4 back-link text-uppercase"><a href="/products"><i class="material-icons">arrow_back</i><span>Back to All Products</span></a></div>\
+                                               <h1 class="product-title mb-4 h3">' + productData.products[x].title + '</h1>\
+                                               <div class="price-holder">\
+                                                   <p class="product-price h5 mb-4 d-inline-block"><span data-price="' + parseFloat(productData.products[x].defaultPrice.replace(storeInfo.currencySign, '')) + '" class="price-value">' + productData.products[x].defaultPrice + '</span></p>' + (typeof singleProdStatus !== undefined ? singleProdStatus : '') + 
+                                               '</div>' + 
+                                               (USER("Enable Product Reviews") == 'Yes' ? '<a href="#wpac-review" data-toggle="collapse" data-target="#prod-desc-3" aria-expanded="false" aria-controls="prod-desc-3">Reviews</a>' : '') + 
+                                             '</div>';
+                                             
+                                             
+                                    var reviews = (USER("Enable Product Reviews") == 'Yes' ? '<div id="wpac-review"></div>' : '');
+                   
+   
+                                   var prodDesc_1 = document.querySelector('.prodDesc1').innerHTML;
+                               
+                                   var desc1 = (USER("Shipping Tab Info") == '' ? '' : '<div class="tab-content">') +
+                                                    (USER("Shipping Tab Info") == '' ? '' : '<div id="prod-desc-head-1"><h6 class="text-uppercase py-3 mb-0" data-toggle="collapse" data-target="#prod-desc-1" aria-expanded="true" aria-controls="prod-desc-1">\
+                                                       <span>Details</span>\
+                                                         <i class="float-right tab-icon material-icons"></i>\
+                                                     </h6></div>') +
+                                                   '<div id="prod-desc-1" class="" aria-labelledby="prod-desc-head-1" data-parent="#product-info">\
+                                                     <div class="pb-4">' + prodDesc_1 + 
+                                                    '</div>\
+                                                   </div>' + 
+                                                (USER("Shipping Tab Info") == '' ? '' : '</div>');
+   
+   
+                                   var shipTab = (USER("Shipping Tab Info") ? '<div class="tab-content">\
+                                                   <div id="prod-desc-head-2">\
+                                                    <h6 class="text-uppercase py-3 mb-0" data-toggle="collapse" data-target="#prod-desc-2" aria-expanded="false" aria-controls="prod-desc-2">\
+                                                      <span>' + USER("Shipping Tab Name") + '</span>\
+                                                        <i class="float-right tab-icon material-icons"></i>\
+                                                     </h6>\
+                                                   </div>\
+                                                   <div id="prod-desc-2" class="collapse" aria-labelledby="prod-desc-head-2" data-parent="#product-info">\
+                                                    <div class="pb-4">' + USER("Shipping Tab Info") + 
+                                                    '</div>\
+                                                   </div>\
+                                                 </div>' : '');
+                                                 
+                                   var reviewTab = (USER("Enable Product Reviews") == 'Yes' ? '<div class="tab-content">\
+                                                   <div id="prod-desc-head-3">\
+                                                    <h6 class="text-uppercase py-3 mb-0" data-toggle="collapse" data-target="#prod-desc-3" aria-expanded="false" aria-controls="prod-desc-3">\
+                                                      <span>Reviews</span>\
+                                                        <i class="float-right tab-icon material-icons"></i>\
+                                                     </h6>\
+                                                   </div>\
+                                                   <div id="prod-desc-3" class="collapse" aria-labelledby="prod-desc-head-3" data-parent="#product-info">\
+                                                    <div class="pb-4">' + reviews + 
+                                                    '</div>\
+                                                   </div>\
+                                                 </div>' : '');
+   
+                               
+                                                       
+                               prodInfo += '<div id="product-info">' + desc1 + shipTab + reviewTab + '</div>';
+                                                                     
+                           }
+   
+                           var prodBegin = '<div class="row">';
+                           var prodImgWidth, prodDescWidth;
+                           if (USER("Product Image Width") == 'Large' || USER("Product Image Width") == '' || USER("Product Image Width") == null) {prodImgWidth = 'col-sm-8'; prodDescWidth = 'col-sm-4'};
+                           if (USER("Product Image Width") == 'Small') {prodImgWidth = 'col-sm-4'; prodDescWidth = 'col-sm-8'};
+                           var prodThumbs = prodThumbsBegin + prodThumbsLoop + prodThumbsEnd;
+                           var prodImages = '<div class="d-none d-md-flex product-images product-image-gallery ' + prodImgWidth + ' row">' + prodThumbs + '<div class="product-thumbnails-list col-sm-10 swiper-wrapper">' + prodImageLoop + '</div></div>';
+                           var prodImagesMobile = '<div class="d-flex d-md-none product-images_mobile product-image-gallery row">' + prodThumbs + '<div class="product-thumbnails-list col-sm-10 swiper-wrapper">' + prodImageLoop + '</div></div>';
+                           var prodDesc = 
+                               '<div class="product-description col-12 col-md-4 ' + prodDescWidth + '">\
+                                   <div class="description__inner col-md-12">' +
+                                       prodIntro +								
+                                       prodInfo +
+                                       prodPurchase +
+                                   '</div>\
+                               </div>';
+                           var prodEnd = '</div>';
+                           
+   
+                           var productHTML = 
+                               prodBegin +
+                                   prodImages +
+                                   prodImagesMobile + 
+                                   prodDesc +
+                               prodEnd;
+                           
+                               document.querySelector('body').innerHTML += 
+                                   loader +
+                                   storeHeader + 
+                                   '<div data-template="product" data-current-product-slug="' + productData.products[0].url.replace("/product/", "") + '" class="pt-4 px-4">' + 
+                                       productHTML + 
+                                   '</div>' + 
+                                   storeFooter;
+                                                   
+   
+                                       
+                           
+                       };
+                       
+                       // Template: Cart
+                       
+                           
+                           var cartBegin = '<div id="cart-table" class="container-fluid px-2">\
+                                               <form method="post" action="/cart" id="cart-form" class="cart-form">\
+                                                   <div class="cart-heading row no-gutters d-none no-gutters mb-4 pb-3 pt-4 border-bottom border-top d-md-flex">\
+                                                       <div class="item-info-heading row no-gutters col-md-6">\
+                                                           <div class="col-sm-12 row"><div class="col-md-12 h5"></div></div>\
+                                                       </div>\
+                                                       <div class="item-values-headings row col-md-6">\
+                                                           <div class="item-qty-heading text-center col-6 col-sm-6 row no-gutters"><div class="col-md-12 h5">Quantity</div></div>\
+                                                           <div class="item-total-heading col-6 col-sm-6 text-md-center row no-gutters"><div class="col-md-12 h5">Total</div></div>\
+                                                       </div>\
+                                                   </div>\
+                                                   <div class="cart-body row">';
+                           
+                           var cartEnd = '</div>\
+                                           <div class="cart-footer row">\
+                                               <div class="col-12 col-md-6 row no-gutters">\
+                                                   <div class="col-12 col-md-6"><a href="/products" class="primary-btn btn btn-block secondary-btn rounded-0"><i class="fa fa-angle-left"></i> ' + USER("'Continue Shopping' Text") + '</a></div>\
+                                               </div>\
+                                               <div class="checkout-info col-xs-12 col-md-6 py-4 pt-md-0 text-right">\
+                                                   <div class="subtotal-row h3 mb-3 text-center col-12 col-md-6 ml-auto"><p class="h5">Subtotal:</p> <p class="h4">' + cartData.cartSubtotal + '</p></div>\
+                                                   <div class="subtotal-info-row mb-3 text-center small col-12 col-md-6 ml-auto">' + USER("Checkout Note") + '</div>\
+                                                   <div class="checkout-row row no-gutters">\
+                                                       <div class="col-12 col-md-6 ml-auto">\
+                                                           <button type="submit" name="checkout" title="' + USER("'Checkout' Text") + '" class="primary-btn btn button btn-block btn-lg checkout-btn rounded-0">' + USER("'Checkout' Text") + '</button>\
+                                                       </div>\
+                                                   </div>\
+                                               </div>\
+                                           </div>\
+                                       </form>\
+                                   </div>';
+                                   
+                           var flyoutCartBegin = '<div id="cart-table" class="container-fluid px-2">\
+                                               <form method="post" action="/cart" id="cart-form" class="cart-form">\
+                                                   <div class="cart-body cart-body-in-modal row">';
+                                   
+                                   
+                           var flyoutCartEnd = '</div>\
+                                           <div class="cart-footer row">\
+                                               <div class="checkout-info py-4 row col-12 text-right">\
+                                                   <div class="subtotal-row h3 mb-3 text-center col-12 ml-auto">Subtotal: ' + cartData.cartSubtotal + '</div>\
+                                                   <div class="subtotal-info-row mb-3 text-center small col-12 ml-auto">' + USER("Checkout Note") + '</div>\
+                                                   <div class="checkout-row col-12 row no-gutters">\
+                                                       <div class="col-12 ml-auto">\
+                                                           <button type="submit" name="checkout" title="' + USER("'Checkout' Text") + '" class="primary-btn btn button btn-block btn-lg checkout-btn rounded-0">' + USER("'Checkout' Text") + '</button>\
+                                                       </div>\
+                                                   </div>\
+                                               </div>\
+                                           </div>\
+                                       </form>\
+                                   </div>';
+           
+                           var cartLoop = '';
+                           var flyoutCartLoop = '';
+                           
+                               
+                           for(var x=0; x< cartData.items.length; x++){ 
+                           
+                               var cartImageLoop = [];
+   
+                                   for(var z=0; z < cartData.items[x].images.length; z++){ 
+                                       cartImageLoop[x] += '<img src="' + cartData.items[x].images[z] + '">';
+                                   }
+                                   
+                                   var cartOptionLoop = '';
+                                   var cartOptionUniqueLoop = '';
+                                   
+                                   var uniqueNames=[]; 
+                                   
+                               
+                                   
+                                   for(var a=0;a<cartData.items[x].product_options.length;a++){ 
+                                       if(uniqueNames.indexOf(cartData.items[x].product_options[a].title)===-1){ 
+                                           cartOptionLoop += '<span data-index="' + uniqueNames.push(cartData.items[x].product_options[a].title) + '"><input name="' + cartData.items[x].url.replace('/product/','') + '" data-title="' + cartData.items[x].product_options[a].tag + '"type="radio" id="' +  cartData.items[x].product_options[a].value + '"value="' + cartData.items[x].product_options[a].value + '"><label data-item-url="' + cartData.items[x].url + '"data-slug="' + cartData.items[x].url.replace("/product/", "") + '"data-title="' + cartData.items[x].product_options[a].tag + '"data-tag="' + cartData.items[x].product_options[a].tag + '"for="' + cartData.items[x].product_options[a].value + '"><span data-swatch="' + cartData.items[x].product_options[a].title + '"class="color-swatch"></span><span class="label-text">' + cartData.items[x].product_options[a].title + '</span></label></span>';
+                                       } 
+                                   }
+                                   
+                                   for(var a=0;a<cartData.items[x].product_options.length;a++){ 
+                                           if(uniqueNames.indexOf(cartData.items[x].product_options[a].title)===-1){ 
+                                               cartOptionUniqueLoop += uniqueNames[a] 
+                                           } 
+                                   }
+   
+                                   cartLoop += '<div class="cart-item row no-gutters col-md-12 pb-4 mb-4 border-bottom" data-product-id="' + cartData.items[x].id + '">\
+                                                   <div class="item-info no-gutters mb-3 row col-12 col-md-6">\
+                                                       <div class="item-image-holder row col-6">\
+                                                           <div class="item-image-current col-md-8 col-10 m-md-auto"><a class="item-image" href="' + cartData.items[x].url + '"title="View ' + cartData.items[x].title + '"><img src="' + cartData.items[x].images[0] + '" class="img-responsive current-image" /></a></div>\
+                                                           <div class="item_images">' + cartImageLoop[x] + '</div>\
+                                                           <div class="swatch-options">' + cartOptionLoop + cartOptionUniqueLoop + '</div>\
+                                                       </div>\
+                                                       <div class="item-text d-flex flex-column justify-content-center col-6">\
+                                                           <div class="item-name h5"><a class="item-product-link" title="View ' + cartData.items[x].title + '" href="' + cartData.items[x].url + '">' + cartData.items[x].title + '</a></div>' +
+                                                           (cartData.items[x].current_option.indexOf('Default') == -1 ? '<div class="item-option">' + cartData.items[x].current_option + '</div>' : '') +
+                                                           '<div class="item-price">' + cartData.items[x].unit_price + '</div>\
+                                                       </div>\
+                                                   </div>\
+                                                   <div class="item-values align-items-center row no-gutters col-12 justify-content-center col-md-6">\
+                                                       <div class="item-qty row justify-content-center col-6 col-sm-6" data-cart-id="' + cartData.items[x].id + '">\
+                                                           <div class="item-qty_input col-6 offset-md-3 col-md-3 col-sm-6 align-items-center d-flex row text-center">\
+                                                               <input type="number" name="cart[update][' + cartData.items[x].id + ']" value="' + cartData.items[x].quantity + '" autocomplete="off" min="1" class="option-quantity form-control text-center"> </div>\
+                                                           <div class="col-6 col-sm-6 align-self-center remove-btn-holder">\
+                                                               <button class="btn btn-danger btn-sm item-delete remove-btn" data-item-id="' + cartData.items[x].id + '"><i class="material-icons">close</i></button>\
+                                                           </div>\
+                                                       </div>\
+                                                       <div class="item-total text-md-center text-right col-sm-6 col-6">\
+                                                           <div class="item-total_price h5">' + cartData.items[x].total_price + '</div>\
+                                                       </div>\
+                                                   </div>\
+                                               </div>'; 
+                                               
+                                               
+                                   flyoutCartLoop += '<div class="cart-item row no-gutters pb-4 mb-4 border-bottom" data-product-id="' + cartData.items[x].id + '">\
+                                                   <div class="item-info no-gutters mb-3 row col-12">\
+                                                       <div class="item-image-holder row col-6">\
+                                                           <div class="item-image-current col-10 m-md-auto"><a class="item-image" href="' + cartData.items[x].url + '"title="View ' + cartData.items[x].title + '"><img src="' + cartData.items[x].images[0] + '" class="img-responsive current-image" /></a></div>\
+                                                           <div class="item_images">' + cartImageLoop[x] + '</div>\
+                                                           <div class="swatch-options">' + cartOptionLoop + cartOptionUniqueLoop + '</div>\
+                                                       </div>\
+                                                       <div class="item-text d-flex flex-column justify-content-center col-6">\
+                                                           <div class="item-name h5"><a class="item-product-link" title="View ' + cartData.items[x].title + '" href="' + cartData.items[x].url + '">' + cartData.items[x].title + '</a></div>' +
+                                                           (cartData.items[x].current_option.indexOf('Default') == -1 ? '<div class="item-option">' + cartData.items[x].current_option + '</div>' : '') +
+                                                           '<div class="item-price" data-item-price="' + parseFloat(cartData.items[x].unit_price.replace(storeInfo.currencySign, '')) + '">' + cartData.items[x].unit_price + '</div>\
+                                                       </div>\
+                                                   </div>\
+                                                   <div class="item-values align-items-center row no-gutters col-12 justify-content-center">\
+                                                       <div class="item-qty row justify-content-center col-6" data-cart-id="' + cartData.items[x].id + '">\
+                                                           <div class="item-qty_input col-6 align-items-center d-flex row text-center">\
+                                                               <input type="number" name="cart[update][' + cartData.items[x].id + ']" value="' + cartData.items[x].quantity + '" autocomplete="off" min="1" class="option-quantity form-control text-center"> </div>\
+                                                           <div class="col-6 align-self-center remove-btn-holder">\
+                                                               <button class="btn btn-danger btn-sm item-delete remove-btn" type="button"  data-item-id="' + cartData.items[x].id + '"><i class="material-icons">close</i></button>\
+                                                           </div>\
+                                                       </div>\
+                                                       <div class="item-total text-md-center text-right col-6">\
+                                                           <div class="item-total_price h5">' + cartData.items[x].total_price + '</div>\
+                                                       </div>\
+                                                   </div>\
+                                               </div>'; 
+                               
+                           }
+                               
+                               if (cartData.cartCount == 0) {
+                                   var cartHTML = '<div class="p-5 text-center">\
+                                                       <h3>Your cart is empty!</h3>\
+                                                       <a href="/products" class="btn"><i class="fa fa-angle-left"></i> Continue Shopping</a>\
+                                                   </div>';
+                                   var flyoutCartHTML = '<div class="p-5 text-center">\
+                                                       <h3>Your cart is empty!</h3>\
+                                                       <a href="/products" class="btn" data-dismiss="modal" aria-label="Close"><i class="fa fa-angle-left"></i> Continue Shopping</a>\
+                                                   </div>';
+                               } else {
+                                   var cartHTML = 
+                                       cartBegin +
+                                               cartLoop +
+                                       cartEnd;
+                                       
+                                   var flyoutCartHTML = 
+                                       flyoutCartBegin +
+                                               flyoutCartLoop +
+                                       flyoutCartEnd;
+                               }
+                           
+                           if (location.pathname.indexOf('/cart') > -1 || window.document.body.id.indexOf('cart-') > -1) {
+                               document.querySelector('body').innerHTML += 
+                                   loader +
+                                   storeHeader + 
+                                   '<div data-template="cart" class="pt-4 px-4">' + 
+                                   '<div class="mb-5 mt-3"><h1 class="h2 text-center text-uppercase">' + pageTitle + '</h1></div>' +
+                                       cartHTML + 
+                                   '</div>' + 
+                                   storeFooter;
+                           }
+                           
+                                   
+                               $(".item-delete").click(function(){
+                                   $(this).closest("div.cart-item").find("input.option-quantity").val(0).closest("form").submit();
+                               });
+   
+                               
+                               $("input.option-quantity").on('change', function(){
+                                   $(this).closest("form").submit();
+                               });
+                               
+                       // Template: Contact Page
+                       
+                       
+                       var contactPage = (function() {
+                           
+                           if(window.location.href.indexOf('/contact?success') > -1){
+                               var contactFormContent = '<div class="row d-block contact-success"><div class="col-12 mb-3 text-center h5">' +  USER("Contact Success Heading") + '</div><div class="col-12 mb-4 text-center">' +  USER("Contact Success Message") + '</div></div>';
+                           } else {
+                               var contactFormContent = '<div class="row d-block">\
+                                                                       <div class="col-12">\
+                                                                               <div class="form-group">\
+                                                                                   <label for="name">\
+                                                                                       Name</label>' +
+                                                                                       document.querySelector('.contactName').innerHTML + '\
+                                                                               </div>\
+                                                                               <div class="form-group">\
+                                                                                   <label for="email">\
+                                                                                       Email Address</label>\
+                                                                                   <div class="input-group"><span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>' +
+                                                                                       document.querySelector('.contactEmail').innerHTML + '</div>\
+                                                                               </div>\
+                                                                               <div class="form-group">\
+                                                                                   <label for="subject">Subject</label>' +
+                                                                                       document.querySelector('.contactSubject').innerHTML + 
+                                                                               '</div>\
+                                                                               <div class="captcha-set row">\
+                                                                                   <div class="form-group col-md-3">\
+                                                                                       <label for="captcha-image">Captcha Image</label><div class="captcha-image">' +
+                                                                                           document.querySelector('.contactCaptchaImage').innerHTML + '</div>\
+                                                                                   </div>\
+                                                                                   <div class="form-group col-9">\
+                                                                                       <label for="captcha-text">Enter Captcha Text</label>' +
+                                                                                           document.querySelector('.contactCaptchaField').innerHTML + 
+                                                                                   '</div>\
+                                                                               </div>\
+                                                                           <div class="contact-message-holder">\
+                                                                               <div class="form-group">\
+                                                                                   <label for="name">\
+                                                                                       Message</label>' +
+                                                                                       document.querySelector('.contactMessage').innerHTML + '</div>\
+                                                                           </div>\
+                                                                           <div class="ml-auto col-md-4 col-12">\
+                                                                               <button id="contact-submit"  type="submit" class="primary-btn btn button btn-block btn-lg submit-btn rounded-0">Send Message</button>\
+                                                                           </div>\
+                                                                       </div>';
+                           }
+                           
+                           var contactPageHTML = '<div class="container">\
+                                                       <div class="col-12 col-md-8 mx-auto">\
+                                                           <div class="col-12">\
+                                                               <div class="border-1 px-3 pt-0">\
+                                                                   <div class="col-12 mb-4 text-center">' + USER("Contact Intro Text") + '</div>\
+                                                                       <div class="col-12 mt-2 mb-5 pb-3 border-bottom text-center">\
+                                                                               <p class="contact_store-name mb-0">' + USER("Store Name") + '</strong></p>\
+                                                                               <div class="contact_address mb-0"><address>' + USER("Contact Address").replace(/(?:\r\n|\r|\n)/g, '<br>') + '</address></div>\
+                                                                               <p class="contact_phone-number mb-0">' + USER("Contact Phone Number") + '</p>\
+                                                                               <p class="contact_email mb-0 "><a href="mailto:' + USER("Contact Email") + '">' + USER("Contact Email") + '</a></p>\
+                                                                               <div class="m-4 text-center customer-service-info">' + USER("Customer Service Info") + '</div>\
+                                                                       </div>\
+                                                                    <form id="contact-form" method="post" action="/contact?success=true">' + contactFormContent + '</form>\
+                                                                   </div>\
+                                                               </div>\
+                                                           </div>\
+                                                       </div>\
+                                                   </div>';
+                                                   
+                                                   
+                                   document.querySelector('body').innerHTML += 
+                                   loader +
+                                   storeHeader + 
+                                   '<div data-template="contact" class="pt-4 px-4">' + 
+                                   '<div class="mb-5 mt-3"><h1 class="h2 text-center text-uppercase">' + pageTitle + '</h1></div>' +
+                                       contactPageHTML + 
+                                   '</div>' + 
+                                   storeFooter;
+               
+                           
+                       });
+                       
+                       // Template: Custom Page
+                       
+                       var customPage = function() {
+                           
+                           var customPageHTML = 
+                               '<div class="container">' +
+                                   '<div class="mb-5 mt-3"><h1 class="h2 text-center text-uppercase">' + pageTitle + '</h1></div>' +
+                                   document.querySelector('#page-content').innerHTML +
+                               '</div>';
+                                   
+                           
+                               document.querySelector('body').innerHTML += 
+                                   loader +
+                                   storeHeader + 
+                                   '<div data-template="custom-page" class="pt-4 px-4">' + 
+                                       customPageHTML + 
+                                   '</div>' + 
+                                   storeFooter;
+                           
+                       }	
+                       
+   
+                       
+                       if (location.pathname == '/' || window.document.body.id.indexOf('home-') > -1) {homePage(); document.querySelector('.cart-modal-holder').innerHTML = flyoutCartHTML;}
+                       else if (location.pathname.indexOf('/products') > -1 || location.pathname.indexOf('/category') > -1 || window.document.body.id.indexOf('products-') > -1) {categoryPage(); document.querySelector('.cart-modal-holder').innerHTML = flyoutCartHTML;}
+                       else if (location.pathname.indexOf('/product/') > -1 || window.document.body.id.indexOf('product-') > -1) {productPage(); document.querySelector('.cart-modal-holder').innerHTML = flyoutCartHTML;}
+                       else if(location.pathname.indexOf('/contact') > -1 || window.document.body.id.indexOf('contact-') > -1 ){contactPage(); document.querySelector('.cart-modal-holder').innerHTML = flyoutCartHTML;}
+                       //if (pageType == 'custom' || window.document.body.classList.indexOf('custom') > -1) {customPage(); document.querySelector('.cart-modal-holder').innerHTML = flyoutCartHTML;}					
+                       else if (location.pathname.indexOf('/cart') > -1 || window.document.body.id.indexOf('cart-') > -1) {}
+                       else {customPage(); document.querySelector('.cart-modal-holder').innerHTML = flyoutCartHTML;}	
+                       
+                       
+                       if (location.pathname.indexOf('/product/') > -1 || window.document.body.id.indexOf('product-') > -1) {
+                           
+                           var WPID = (USER("Widget Pack ID (for Product Reviews)") ? USER("Widget Pack ID (for Product Reviews)") : 1981);
+           
+                           if (USER("Enable Product Reviews") == 'Yes'){
+                               wpac_init = window.wpac_init || [];
+                               wpac_init.push({widget: 'Review', id: WPID});
+                               wpac_init.push({widget: 'ReviewCount', id: WPID});
+                               (function() {
+                                   if ('WIDGETPACK_LOADED' in window) return;
+                                   WIDGETPACK_LOADED = true;
+                                   var mc = document.createElement('script');
+                                   mc.type = 'text/javascript';
+                                   mc.async = true;
+                                   mc.src = 'https://embed.widgetpack.com/widget.js';
+                                   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+                               })();
+                           }
+                       }
+                       
+       
+                       
+                   // GetSiteControl.com integration
+                       var getSiteControlID = USER("GetSiteControl ID") || '';
+                   
+                   //	if (USER("Enable GetSiteControl Widgets") == 'Yes') {
+                           
+                         (function (w,i,d,g,e,t,s) {w[d] = w[d]||[];t= i.createElement(g);
+                           t.async=1;t.src=e;s=i.getElementsByTagName(g)[0];s.parentNode.insertBefore(t, s);
+                         })(window, document, '_gscq','script','//widgets.getsitecontrol.com/' + getSiteControlID +'/script.js');
+                         
+                   //	}
+                       
+                   // MPO cart actions
+                   $("div.cart-item .swatch-options label[data-title]").each(function(){ $(this).click(function(){ var selectedOption = $(this).attr("data-title"); var productId = $(this).parents("div.cart-item").attr("data-product-id"); var productUrl = $(this).attr("data-item-url"); $("div.cart-item[data-product-id=" + productId + "] .item_images img[src*='_" + selectedOption + "_']:first").each(function() { var currentOptionImage = $(this).attr('src'); $("div.cart-item[data-product-id=" + productId + "] .current-image").attr('src', currentOptionImage).parents("a").attr("href", productUrl + "?" + first_option_group_name.toLowerCase() + "=" + selectedOption.replace("+", "%20")); }); }); }); $(document).ready(function() { $(".remove-btn").click(function() { var product_id = $(this).attr('data-item-id'); }); $("div.cart-item .swatch-options label[data-title]").trigger("click");}); $('div.cart-item span[data-swatch]').each(function() { if ($(this).css('background-color') == 'rgba(0, 0, 0, 0)' && $(this).css('background-image') == 'none') { $(this).remove(); } });
+                   
+           
+               } // End Capsule Theme build function
+               
+          }
+          
+               if (userLicenseKey == USER("License Key").trim()) {				
+                   console.log('License Key ' + USER("License Key").trim() + ' is registered in database.');
+                   var isRegistered = true;
+                   capsuleTheme();	
+               }
+               
+               if (isRegistered != true || typeof isRegistered == "undefined") {
+                           //console.log('License Key is NOT registered in database. Show Capsule theme default settings.');					
+                           //	userLicenseKey = 'TF-XXXX-XXXX-XXXX-XXXX';
+                               capsuleTheme();
+                           //	console.log(licenseKey + ' (Defaults to setting of "' + userLicenseKey + '")');			
+               }
+               
+               
+               // End User database lookup
+               
+                       
+               
+                   $(window).ready(function() {
+                       
+               
+               
+                       if (window.location.pathname == '/' || window.document.body.id.indexOf('home-') > -1) {
+                           
+                           if (USER("Header Navigation Overlay") == 'Transparent' || USER("Header Navigation Overlay") == 'Yes') {
+                                   document.getElementsByTagName("Body")[0].classList.add('pt-0');
+                                   document.getElementsByTagName("Body")[0].classList.add('header-overlay');
+                                   
+                                   $(window).scroll(function(){
+                                       var ScrollTop = parseInt($(window).scrollTop());
+       
+                                       if (ScrollTop > 100) {
+                                           document.getElementsByTagName("Body")[0].classList.remove('header-overlay');
+                                       } else if (ScrollTop <= 100) {
+                                           document.getElementsByTagName("Body")[0].classList.add('header-overlay');
+                                       }
+                                   });
+                               
+                           }
+                           
+                           if (USER("Header Navigation Overlay") == 'Translucent') {
+                                   document.getElementsByTagName("Body")[0].classList.add('pt-0');
+                                   document.getElementsByTagName("Body")[0].classList.add('header-overlay');
+                                   document.getElementsByTagName("Body")[0].classList.add('header-overlay--translucent');
+                                   
+                                   $(window).scroll(function(){
+                                       var ScrollTop = parseInt($(window).scrollTop());
+       
+                                       if (ScrollTop > 100) {
+                                           document.getElementsByTagName("Body")[0].classList.remove('header-overlay');
+                                           document.getElementsByTagName("Body")[0].classList.remove('header-overlay--translucent');
+                                       } else if (ScrollTop <= 100) {
+                                           document.getElementsByTagName("Body")[0].classList.add('header-overlay');
+                                           document.getElementsByTagName("Body")[0].classList.add('header-overlay--translucent');
+                                       }
+                                   });
+                               
+                           }
+       
+                           
+                       }
+                       
+                       
+                   // Change product price on option select
+                   $("body").on("change", ".select select", function(){
+                       var optionPrice = $(this).find(":selected").attr("data-price");
+                       if (optionPrice != "undefined") { $(".price-holder .price-value").html(optionPrice); }
+                   });
+                   
+                   // Change product price on parent option select, based on value of sub option
+                   $("body").on("change", "[name=parent_option]", function(){
+                       var optionPrice = $(".select select").find(":selected").attr("data-price");
+                       if (optionPrice != "undefined") { $(".price-holder .price-value").html(optionPrice); }
+                   });
+
+                   var body = $("body");
+                   var headerHeight = $('header nav.navbar').height();
+
+                   if (USER("Header Navigation Overlay").indexOf('Trans') > -1 && window.location.pathname != '/' && window.document.body.id.indexOf('home-') == -1) {
+                       
+                           body.css('padding-top', headerHeight);
+                           
+                           window.addEventListener("resize", function() {
+                               headerHeight = $('header nav.navbar').height();
+                               body.css('padding-top', headerHeight);
+                           }, false);
+                   
+                   }
+                   
+                   if (USER("Header Navigation Overlay").indexOf('Trans') == -1) {
+                       
+                           body.css('padding-top', headerHeight);
+                           
+                           window.addEventListener("resize", function() {
+                               headerHeight = $('header nav.navbar').height();
+                               body.css('padding-top', headerHeight);
+                           }, false);
+                   
+                   }
+                   
+                   
+                     $('.loading_wrap').fadeOut(100);
+                     
+                     
+                     
+                     if($('.page-item:contains(1)').length) {
+                     } else {
+                        $('.pagination').remove(); 
+                     }
+                                 
+                       $('#hero-section[data-hero-type=slider]').slick({
+                         dots: true,
+                         arrows: false,
+                         infinite: true,
+                          autoplay: true,
+                         speed: 500,
+                         fade: true,
+                         cssEase: 'linear'
+                       });
+   
+                        if (window.location.href.indexOf('/product/') > -1) {
+         
+                              var mySwiper = new Swiper ('.product-images', {
+                               // Optional parameters
+                               direction: 'vertical',
+                               loop: true,
+                               grabCursor: true,
+                               preventClicks: false,
+                               preventClicksPropagation: false,
+                               slideToClickedSlide	: true,
+                               hashNavigation: {
+                                   replaceState: false,
+                                   watchState: true,
+                               },
+                                mousewheel: {
+                                       invert: false,
+                               },
+                               // And if we need scrollbar
+                               scrollbar: {
+                                 el: '.swiper-scrollbar',
+                               },
+                             });
+   
+                             
+                              var mobileSwiper = new Swiper ('.product-images_mobile', {
+                               // Optional parameters
+                               direction: 'horizontal',
+                               loop: true,
+                               autoHeight: true,
+                               watchOverflow: true,
+                               grabCursor: true,
+                               preventClicks: false,
+                               preventClicksPropagation: false,
+                               slideToClickedSlide	: true,
+                               hashNavigation: {
+                                   replaceState: false,
+                                   watchState: true,
+                               }
+                             });
+                             
+                             
+                           var allProdImgHeight = 0;
+                               var prodImgSet = document.querySelectorAll('.product-thumbnails-list img');
+                               
+                               for (var i = 0; i < prodImgSet.length; i++){
+                                   var singleProdImgHeight = prodImgSet[i].scrollHeight;
+                                   allProdImgHeight += parseInt(singleProdImgHeight);		
+                               }
+             
+                            document.querySelector('.product-thumbnails-list').style.setProperty('height', '100vh' , 'important');
+                       
+                        }
+                                       
+                       //Search
+                       
+                           $('.open-search').on('click', function() {
+                               document.querySelector('.overlay').style.display = 'block';
+                           });
+   
+                           $('.close-search').on('click', function() {
+                               document.querySelector('.overlay').style.display = 'none';
+                           });
+                           
+                    // Add to Cart AJAX
+                    
+                    
+                   /* document.querySelector('[data-target="#cart-modal-btn")').addEventListener('click', function(){
+                           window.scrollBy(0, -200);
+                   }); */
+                       
+                   //document.querySelector('[data-target="#menu-modal-btn")').addEventListener('click', function(){
+                       //var menuModalContent = document.createRange().createContextualFragment(standardNav);
+                       //document.querySelector('.menu-modal-holder .navbar-nav').appendChild(menuModalContent);
+                   //});
+                   
+                    var currentCartCount = cartData.cartCount;
+                    
+                    
+                    /* function flyoutCartItemDelete() {
+                        
+                        $('.cart-body-in-modal .item-delete').click(function(){
+                               var itemtoRemove = $(this).attr('data-item-id');
+                               Cart.removeItem(itemtoRemove, function(cart) {
+                                   $('.cart-item[data-product-id*=' + itemtoRemove + ']').remove();
+                                   Cart.refresh(function(cart) {
+                                       $('.nav-link[href*="/cart") span').html(cart.item_count + ' Items');
+                                       $('.subtotal-row').html('Subtotal: ' + Format.money(cart.total, true, true));
+                                       
+                                       
+                                       if (cart.item_count == 0) {
+                                           document.querySelector('.cart-footer').innerHTML = '';	
+                                           document.querySelector('.cart-modal-holder').innerHTML = 
+                                           '<div style="min-width:300px;" class="p-5 text-center">\
+                                               <h3>Your cart is empty!</h3>\
+                                               <a href="/products" class="btn" data-dismiss="modal" aria-label="Close"><i class="fa fa-angle-left"></i> Continue Shopping</a>\
+                                           </div>';
+                                           
+                                       }
+                                       
+                                   });
+                               });									
+                       });
+                       
+                    } 
+                    
+                     function flyoutCartInputUpdate() {
+                    
+                        $('.option-quantity').on('input', function(){
+                            optionVal = $(this).val();
+                            optionID = $(this).parents('div.cart-item').attr('data-product-id');
+                            optUnit = $(this).parents('div.cart-item').find('.item-price').attr('data-item-price');
+                            optTotalinCart = $(this).parents('div.cart-item').find('.item-total_price');
+                            
+                            Cart.updateItem(optionID, optionVal, function(cart) {
+                               Cart.refresh(function(cart) {
+                                   $('.nav-link[href*="/cart") span').html(cart.item_count + ' Items');
+                                   optTotalinCart.html(Format.money((optUnit * optionVal), true, true));
+                                   if (currentCartCount > 0) {	
+                                           $('.subtotal-row').html('Subtotal: ' + Format.money(cart.total, true, true));
+                                   }
+                               });
+                           });
+                            
+                        });
+                    
+                    }
+                    
+                    flyoutCartInputUpdate();
+                    flyoutCartItemDelete(); */
+                    
+                    
+                    // Refresh Cart
+                    /*  $('[data-target="#cart-modal-btn")').click(function(){
+                        
+                        Cart.refresh(function(cart) {
+                            
+                            var cartItemData = ''
+                            var cartItemImg = [];
+                            var cartItemId = [];
+                            var cartItem = [];
+                               
+                                   for (var x = 0; x < cart.items.length; x++){
+                                       
+                                       cartItemId[x] = cart.items[x].option;
+                                       
+                                           cartItem[x] = cart.items[x].product;
+   
+                                           cartItemData += '<div class="cart-item row no-gutters pb-4 mb-4 border-bottom" data-product-id="' + cart.items[x].id + '">\
+                                                   <div class="item-info no-gutters mb-3 row col-12">\
+                                                       <div class="item-image-holder row col-6">\
+                                                           <div class="item-image-current col-10 m-md-auto"><a data-img="' + cart.items[x].product + '" class="item-image" href="/product/' + cart.items[x].product + '" title="View ' + cart.items[x].name + '">[ITEM IMAGE]</a></div>\
+                                                           <div class="item_images">[IMAGES LOOP]</div>\
+                                                           <div class="swatch-options">[CART OPTIONS / UNIQUE OPTIONS LOOP]</div>\
+                                                       </div>\
+                                                       <div class="item-text d-flex flex-column justify-content-center col-6">\
+                                                           <div class="item-name h5"><a class="item-product-link" title="View ' + cart.items[x].name + '" href="/product/' + cart.items[x].product + '">' + cart.items[x].name + '</a></div>\
+                                                           <div class="item-option">' + cart.items[x].option + '</div>\
+                                                           <div class="item-price" data-item-price="' + cart.items[x].unit_price + '">' + Format.money(cart.items[x].unit_price, true, true) + '</div>\
+                                                       </div>\
+                                                   </div>\
+                                                   <div class="item-values align-items-center row no-gutters col-12 justify-content-center">\
+                                                       <div class="item-qty row justify-content-center col-6" data-cart-id="' + cart.items[x].id + '">\
+                                                           <div class="item-qty_input col-6 align-items-center d-flex row text-center">\
+                                                               <input type="number" name="cart[update][' + cart.items[x].id + ']" value="' + cart.items[x].quantity + '" autocomplete="off" min="1" class="option-quantity form-control text-center"> </div>\
+                                                           <div class="col-6 align-self-center remove-btn-holder">\
+                                                               <button class="btn btn-danger btn-sm item-delete remove-btn" type="button"  data-item-id="' + cart.items[x].id + '"><i class="material-icons">close</i></button>\
+                                                           </div>\
+                                                       </div>\
+                                                       <div class="item-total text-md-center text-right col-6">\
+                                                           <div class="item-total_price h5">' + Format.money(cart.items[x].price, true, true) + '</div>\
+                                                       </div>\
+                                                   </div>\
+                                               </div>';
+                                               
+                                               
+                                           Product.find(cartItem[x], function(product) {
+                                               
+                                               cartItemImg[x] = '<img src="' + product.images[0].url + '" class="img-responsive current-image" />';
+                                               //console.log(cartItemImg[x]);
+                                                                                   
+                                               for (var a = 0; a < product.options.length; a++){
+                                                   //console.log("I've got " + product.options[a].id + " in the cart!" );
+                                               }
+                                               
+                                           });	
+                                           
+                                           
+                                   }
+           
+                                       
+                               $('.cart-body-in-modal').html(cartItemData);	
+                               
+                               flyoutCartInputUpdate();
+                               flyoutCartItemDelete();
+                    
+                        });
+                        
+                    }); */
+                    
+                    
+                    /* $(".add-to-cart-btn").click(function(){
+                        
+                           
+                        
+                           var currOption = $('select[name="cart[add][id]")').val();
+                           var currProductName = document.querySelector('.product-intro h1').innerHTML;
+                           var currProductPrice = document.querySelector('.product-intro p').innerHTML;
+                           //var currProductImg = document.querySelector('.featured img').src;
+                           var currProductImg = document.querySelector('.product-thumbnails-list .swiper-slide.swiper-slide-active img').src;
+                           var currProductURL = document.querySelector('[data-current-product-slug]').getAttribute('data-current-product-slug');
+                           var currProductOpt1 = document.querySelector('.ot-name').innerHTML;
+                           
+                           $('[data-target="#cart-modal-btn")').trigger('click'); 
+                           Cart.addItem(currOption, 1, function(cart) {
+                               
+                               $('.add-to-cart-btn').text('Item Added');
+                               
+                               setTimeout(function(){ $('.add-to-cart-btn').text(USER("'Add to Cart' Text")) }, 2000);
+   
+                               
+                               
+                               Cart.refresh(function(cart) {
+                                   $('.nav-link[href*="/cart") span').html(cart.item_count + ' Items');
+   
+                                   var cartItemId = [];
+              
+                                   
+                                   if (currentCartCount  > 0) {	
+                                       $('.subtotal-row').html('Subtotal: ' + Format.money(cart.total, true, true));
+                                   }
+                                   
+                                   
+                                   var flyoutCartBeginAlt = '<div id="cart-table" class="container-fluid px-2">\
+                                               <form method="post" action="/cart" ="cart-form" class="cart-form">\
+                                                   <div class="cart-body cart-body-in-modal row">';
+                                   
+                                   
+                                   var flyoutCartEndAlt = '</div>\
+                                               <div class="cart-footer row">\
+                                                   <div class="checkout-info py-4 row col-12 text-right">\
+                                                       <div class="subtotal-row h3 mb-3 text-center col-12 ml-auto">Subtotal: ' + Format.money(cart.total, true, true) + '</div>\
+                                                       <div class="subtotal-info-row mb-3 text-center small col-12 ml-auto">Shipping, taxes, and discounts calculated at checkout.</div>\
+                                                       <div class="checkout-row col-12 row no-gutters">\
+                                                           <div class="col-12 ml-auto">\
+                                                               <button type="submit" name="checkout" title="' + USER("'Checkout' Text") + '" class="primary-btn btn button btn-block btn-lg checkout-btn rounded-0">' + USER("'Checkout' Text") + '</button>\
+                                                           </div>\
+                                                       </div>\
+                                                   </div>\
+                                               </div>\
+                                           </form>\
+                                       </div>';
+                                   
+                                   
+                                   var newCartItem = '<div class="cart-item row no-gutters pb-4 mb-4 border-bottom" data-product-id="' + currOption + '">\
+                                           <div class="item-info no-gutters mb-3 row col-12">\
+                                               <div class="item-image-holder row col-6">\
+                                                   <div class="item-image-current col-10 m-md-auto">\
+                                                       <a class="item-image" href="/product/' + currProductURL + '" title="View ' + currProductName + '"><img src="' + currProductImg + '" class="img-responsive current-image"></a>\
+                                                   </div>\
+                                                   <div class="item_images"><img src="https://assets.bigcartel.com/product_images/219743335/objects-tee_black_.jpg?auto=format&amp;fit=max&amp;w=900"></div>\
+                                                   <div class="swatch-options"><span data-index="1"><input name="objects-tee" data-title="Black" type="radio" id="black" value="black"><label data-item-url="/product/objects-tee" data-slug="objects-tee" data-title="Black" data-tag="Black" for="black"><span data-swatch="Black" class="color-swatch"></span><span class="label-text">Black</span></label>\
+                                                       </span>\
+                                                   </div>\
+                                               </div>\
+                                               <div class="item-text d-flex flex-column justify-content-center col-6">\
+                                                   <div class="item-name h5"><a class="item-product-link" title="View ' + currProductName + '" href="/product/' + currProductURL + '">' + currProductName + '</a></div>\
+                                                   <div class="item-option">' + currProductOpt1 + ' / S</div>\
+                                                   <div class="item-price" data-item-price="' + parseFloat(currProductPrice.replace(storeInfo.currencySign, '')) + '">' + currProductPrice + '</div>\
+                                               </div>\
+                                           </div>\
+                                           <div class="item-values align-items-center row no-gutters col-12 justify-content-center">\
+                                               <div class="item-qty row justify-content-center col-6" data-cart-id="' + currOption + '">\
+                                                   <div class="item-qty_input col-6 align-items-center d-flex row text-center">\
+                                                       <input type="number" name="cart[update][' + currOption + ']" value="1" autocomplete="off" min="1" class="option-quantity form-control text-center"> </div>\
+                                                   <div class="col-6 align-self-center remove-btn-holder">\
+                                                       <button class="btn btn-danger btn-sm item-delete remove-btn" type="button" data-item-id="' + currOption + '"><i class="material-icons">close</i></button>\
+                                                   </div>\
+                                               </div>\
+                                               <div class="item-total text-md-center text-right col-6">\
+                                                   <div class="item-total_price h5">' + currProductPrice + '</div>\
+                                               </div>\
+                                           </div>\
+                                       </div>';
+                                   
+                                   if (currentCartCount  > 0) {								
+                                       $('.cart-body-in-modal').append(newCartItem);
+                                   } else {
+                                       $('.cart-modal-holder').html(flyoutCartBeginAlt + newCartItem + flyoutCartEndAlt);
+                                   }
+                                   
+                                   
+                                   
+   
+                               });
+                               
+                                flyoutCartInputUpdate();
+                                flyoutCartItemDelete();
+                               
+                           });
+                           
+                           var currentProductSlug = document.querySelector('div[data-template=product]').getAttribute('data-current-product-slug');
+                           var currSelectedOption = $('select[name*="cart[add][id]")').val();
+                           
+                           
+                               // Identify current product
+                               Product.find(currentProductSlug, function(product) {
+                                 for (var i = 0; i < product.options.length; i++){
+                                     if (product.options[i].id == currSelectedOption) {
+                                        // console.log("I've added " + product.name + ' : ' + product.options[i].name + '(' + product.options[i].id + ')' + "to the cart!");
+                                        // Add item to the cart
+                                        Cart.addItem(product.options[i].id, 1, function(cart) {
+                                           
+                                           
+                                           
+                                           // Refresh the cart
+                                           Cart.refresh(function(cart) {
+                                             
+                                           });
+                                             
+                                        });
+                                        
+                                     }
+                                 }
+        
+                           });
+                           
+                           
+   
+                   }); */
+                       
+                       
+   
+               });
+               
+               
+       });
+       
+       // Check if user exists (if Big Cartel Shop has been registered)
+       if (snapshot.exists()){
+           console.log('License Key is registered!')
+            loadTheme;
+       } else {
+           
+           console.log('License Key is not registered. Create new user');
+       
+           firebase.database().ref().limitToLast(1).once('child_added', function(childSnapshot) {
+                   
+                   // Previous user ID method: parseInt(childSnapshot.key) + 1;
+                   console.log('Registered user ' + newUserID);
+                   
+
+                    // Update data for user
+                     
+                     
+                      firebase.database().ref(newUserID).update(presets._userInfo);
+                      firebase.database().ref(newUserID).update(presets.street.install);
+                      firebase.database().ref(newUserID).update(presets.street.demoContent);
+                           
+                           $(document).ready(function() {
+                           
+                              $("body").prepend(
+                                 '<header class="fixed-top">\
+                             <div class="container-fluid py-4 d-flex justify-content-between align-items-center border-bottom">\
+                                 <div class="col-md-2 col-4"><img src="https://themefiend.com/wp-content/uploads/theme-fiend-logo.svg"></div>\
+                             </div>\
+                         </header>\
+                         <div class="page-wrap d-flex flex-row align-items-center" style="min-height: 100vh">\
+                                 <div class="container">\
+                                     <div class="row justify-content-center text-center">\
+                                         <div class="col-md-12 text-left">\
+                                             <h1 class="d-block font-weight-bold mt-3 mb-4" style="font-size: 50px">Theme Updated</h1>\
+                                             <div><button class="d-flex text-uppercase btn btn-lg installer-btn" onclick="window.top.location.reload()">Continue</button></div>\
+                                         </div>\
+                                     </div>\
+                                 </div>\
+                             </div>\
+                             <style type="text/css">body {padding-top: 0 !important}.installer-btn {background-color: rgb(109, 171, 60);box-shadow: none;font-weight: 400; display:flex;color: rgb(255, 255, 255);padding: 15px 30px;border-radius: 30px !important}</style>'
+                              );
+                              $(".loading_wrap").remove();
+
+                           });
+                      
+                      
+                           window.top.onbeforeunload = null;
+                             window.top.location.pathname = 'admin/design';
+  
+                      
+               });
+   
+           
+       }
+       
+   });
+       
+   
+}
