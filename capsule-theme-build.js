@@ -1381,11 +1381,24 @@ function loadjscssfile(filename, filetype){
                                    }
                                    if ( typeof Cart != "undefined" ) {
                                        Cart.updateFromForm("cart-form", function(e) {
-                                            //console.log(e);
+                                            console.log(e);
                                            if ( e.total !== 0 ){
                                                
-                                                /*var total = e.total.split("."), totalPrice = e.total,
-                                                price = o.price.split("."), itemPrice = o.price;
+                                                var etotal = e.total.toString(),
+                                                total = e.total.split("."), 
+                                                totalPrice = e.total,
+                                                etotal = o.price.toString(),
+                                                price = o.price.split("."), 
+                                                itemPrice = o.price;
+
+                                                if ( total[1].length == 1 ){
+                                                    totalPrice = total[0] + '.' + total[1] + '0';
+                                                }
+                                                if ( price[1].length == 1 ){
+                                                    itemPrice = price[0] + '.' + price[1] + '0';
+                                                }
+
+                                               /* var total = c.split("."), totalPrice = c, price = e.split("."), itemPrice = e;
                                                 if ( total[1].length == 1 ){
                                                     totalPrice = total[0] + '.' + total[1] + '0';
                                                 }
@@ -1395,13 +1408,13 @@ function loadjscssfile(filename, filetype){
                                                 console.log('working');
                                                 /*console.log(e.total);
                                                 console.log(total);*/
-                                               $("#cart-form .subtotal-row .h4").text("$" + e.total);
+                                               $("#cart-form .subtotal-row .h4").text("$" + totalPrice);
                                                $("#cart-form .cart-body .cart-item").each(function() {
                                                      var t = $(this).data("product-id"),a = $(this);
                                                      if ( e.items !== 0 ) {
                                                          $.each(e.items, function(e, o) {
                                                              if ( 0 !== o.id && t == o.id && 0 !== o.price ) {
-                                                                 a.find(".item-total_price").text("$" + o.price);
+                                                                 a.find(".item-total_price").text("$" + itemPrice);
                                                              }
                                                           });
                                                      }
