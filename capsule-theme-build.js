@@ -1375,12 +1375,13 @@ function loadjscssfile(filename, filetype){
                                });
                                
                                $("input.option-quantity").on("change", function() {
-                                   console.log(Cart);
+                                   
                                    if( $(this).val() <= 0 ){
                                        $(this).closest("form").submit();
                                    }
                                    if ( typeof Cart != "undefined" ) {
                                        Cart.updateFromForm("cart-form", function(e) {
+                                            console.log(e);
                                            if ( e.total !== 0 ){
                                                $("#cart-form .subtotal-row .h4").text("$" + e.total);
                                                $("#cart-form .cart-body .cart-item").each(function() {
