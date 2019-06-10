@@ -1385,7 +1385,7 @@ function loadjscssfile(filename, filetype){
                                            if ( e.total !== 0 ){
                                                
                                                 var total = e.total.split("."), totalPrice = e.total,
-                                                price = o.price.split("."), itemPrice = o.price
+                                                price = o.price.split("."), itemPrice = o.price;
                                                 if ( total[1].length == 1 ){
                                                     totalPrice = total[0] + '.' + total[1] + '0';
                                                 }
