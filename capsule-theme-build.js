@@ -1382,6 +1382,7 @@ function loadjscssfile(filename, filetype){
                                    if ( typeof Cart != "undefined" ) {
                                        Cart.updateFromForm("cart-form", function(e) {
                                            if ( e.total !== 0 ){
+                                               
                                                 var total = e.total.split("."), totalPrice = e.total,
                                                 price = o.price.split("."), itemPrice = o.price
                                                 if ( total[1].length == 1 ){
@@ -1390,7 +1391,7 @@ function loadjscssfile(filename, filetype){
                                                 if ( price[1].length == 1 ){
                                                     itemPrice = price[0] + '.' + price[1] + '0';
                                                 }
-
+                                                console.log(total);
                                                $("#cart-form .subtotal-row .h4").text("$" + totalPrice);
                                                $("#cart-form .cart-body .cart-item").each(function() {
                                                      var t = $(this).data("product-id"),a = $(this);
