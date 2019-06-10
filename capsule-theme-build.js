@@ -1387,7 +1387,7 @@ function loadjscssfile(filename, filetype){
                                                 var etotal = e.total.toString(),
                                                 total = e.total.split("."), 
                                                 totalPrice = e.total,
-                                                etotal = o.price.toString(),
+                                                eprice = o.price.toString(),
                                                 price = o.price.split("."), 
                                                 itemPrice = o.price;
 
