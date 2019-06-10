@@ -1375,9 +1375,9 @@ function loadjscssfile(filename, filetype){
                                });
    
                                
-                               $("input.option-quantity").on('change', function(){
+                               /*$("input.option-quantity").on('change', function(){
                                    $(this).closest("form").submit();
-                               });
+                               });*/
                                $("input.option-quantity").on("change", function() {
                                    if ( typeof Cart != "undefined" ) {
                                        Cart.updateFromForm("cart-form", function(e) {
