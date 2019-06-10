@@ -1373,12 +1373,12 @@ function loadjscssfile(filename, filetype){
                                $(".item-delete").click(function(){
                                    $(this).closest("div.cart-item").find("input.option-quantity").val(0).closest("form").submit();
                                });
-   
                                
-                               /*$("input.option-quantity").on('change', function(){
-                                   $(this).closest("form").submit();
-                               });*/
                                $("input.option-quantity").on("change", function() {
+                                   console.log(Cart);
+                                   if( $(this).val() <= 0 ){
+                                       $(this).closest("form").submit();
+                                   }
                                    if ( typeof Cart != "undefined" ) {
                                        Cart.updateFromForm("cart-form", function(e) {
                                            if ( e.total !== 0 ){
