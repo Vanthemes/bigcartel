@@ -1381,6 +1381,7 @@ function loadjscssfile(filename, filetype){
                                    }
                                    if ( typeof Cart != "undefined" ) {
                                        Cart.updateFromForm("cart-form", function(e) {
+                                            console.log(e);
                                            if ( e.total !== 0 ){
                                                
                                                 var total = e.total.split("."), totalPrice = e.total,
@@ -1391,7 +1392,7 @@ function loadjscssfile(filename, filetype){
                                                 if ( price[1].length == 1 ){
                                                     itemPrice = price[0] + '.' + price[1] + '0';
                                                 }
-                                                console.log(e);
+                                                //console.log(e);
                                                 console.log(e.total);
                                                 console.log(total);
                                                $("#cart-form .subtotal-row .h4").text("$" + totalPrice);
