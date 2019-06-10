@@ -1388,7 +1388,7 @@ function loadjscssfile(filename, filetype){
                                                      if ( e.items !== 0 ) {
                                                          $.each(e.items, function(e, o) {
                                                              if ( 0 !== o.id && t == o.id && 0 !== o.price ) {
-                                                                 a.find(".item-total_price").text("$" + o.price):
+                                                                 a.find(".item-total_price").text("$" + o.price);
                                                              }
                                                           });
                                                      }
