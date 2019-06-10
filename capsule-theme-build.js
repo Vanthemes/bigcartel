@@ -1391,6 +1391,8 @@ function loadjscssfile(filename, filetype){
                                                 if ( price[1].length == 1 ){
                                                     itemPrice = price[0] + '.' + price[1] + '0';
                                                 }
+                                                console.log(e);
+                                                console.log(e.total);
                                                 console.log(total);
                                                $("#cart-form .subtotal-row .h4").text("$" + totalPrice);
                                                $("#cart-form .cart-body .cart-item").each(function() {
